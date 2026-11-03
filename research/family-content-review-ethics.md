@@ -1,0 +1,61 @@
+# Independent native-content and generator review
+
+Reviewed 2026-11-02 by the ethics/content reviewer, independently of the two native-unit authors. Scope: all twelve production units, all four lessons in each unit, 359 authored items; the inherited lesson/review generators; and the six branching labs. The original research and source registry informed the review. This is a review of teachability and conditional answer quality, not a claim that ethical judgment has a universally correct answer.
+
+**Disposition: no known blocking content or generator finding remains after the corrections below.** The final checks pass. Browser behavior remains the parent agent's separate review responsibility.
+
+## What was checked
+
+Every native unit was read for its rule explanations, worked examples, inline checks, scenario keys, wrong-answer explanations, deciding-fact phrases, transfer prerequisites, terms and aliases, sorting/matching distinctions, routines, numerical assumptions and source/status labels. Generated exercises were also sampled because an accurately authored card can produce an inaccurate exercise when the engine supplies the wrong alternatives.
+
+| Units | Main semantic checks and result |
+| --- | --- |
+| u01–u02: discovery and value | Questions seek the actual problem before pitching; relevance, authority and disclosed uncertainty constrain claims. Evidence is distinguished from an extrapolation or guarantee. Scope/fit questions do not authorize invasive collection. Conditional keys were checked against the stated buyer's facts. |
+| u03–u04: resistance and commitment | Refusal and constraints are treated as information, not barriers to defeat. Follow-up permission is explicit. Commitments are specific undertakings; authority and feasibility are checks on making them responsibly, not prerequisites for something to count as a promise. A written summary supports understanding without establishing universal legal sufficiency. |
+| u05–u06: preparation and offers | BATNA, reservation value, overlap and packages use explicit assumptions. MESOs are a set of simultaneous equivalent offers, rather than one offer. Salary and contribution calculations separate the stipulated model from real-world valuation. A negotiator's private valuation does not establish the other party's feasibility. |
+| u07–u08: power and agreements | Facts, interpretations and requests are separated. Third-party effects and meaningful refusal matter. Conditional agreements identify triggers and responsibilities. Neither good process nor a negotiator's preferred criterion guarantees a fair or successful outcome. |
+| u09–u10: persuasion and stakeholders | Emotion, framing and social proof are evaluated by relevance, disclosure and autonomy. Ethics is not defined as an absence of emotion. Stakeholder/lens questions are taught before testing and seek missing information or a defensible process; they do not pretend the lenses always produce one ranking. Accessibility is separated from automatically waiving every substantive requirement. |
+| u11–u12: AI and integration | Useful automation does not establish the truth of its claims, authorize a new use of private information or transfer accountability away from people. Correction and remedy are distinguished from notification alone. Integrated scenarios permit revision when facts change; repair is not conditioned on praise or a further purchase. |
+
+All 48 lessons now use the native family schema. Transfer cases link to a rule earlier in the same lesson and are withheld from the first guess and teaching phase. Earlier sittings may supply the prerequisite; later sittings cannot. Every unit roundup includes an actual marked boundary scenario or diagnosis, rather than counting a marked definition as an over-application check.
+
+## Findings corrected and verified
+
+| Severity | Item or function | Verified problem | Final correction |
+| --- | --- | --- | --- |
+| Serious | `qBuild`; e.g. `u01-r-l1`, seed 3; `u09-r-1`, seed 1 | The inherited generator borrowed neighboring rules' true elements as wrong tiles. It could reject respecting a refusal, asking relevant information or disclosing a relationship. This would actively teach a false distinction. | Only authored `distractorElements` may supply wrong tiles. The validator requires them; a 40-seed regression covers every rule. |
+| Serious | `qSpot` | Cross-course trap repairs produced unrelated alternatives, including salary or contribution figures in confidentiality/AI cases. Other borrowed repairs could also be valid. | All twelve authored traps now supply two scenario-specific `fixDistractors`; with the card's own wrong/right statement these produce four reviewed alternatives. A 40-seed regression checks the exact set. |
+| Moderate | `qIssue`; `u12-l3-decision3`, seed 2 | Both “facts priorities and revision” and the same-rule “a reason to reconsider” described the audit-requirement case. Excluding same-rule siblings still allowed cross-rule “essential outcome and feasible offer”, which also applied. Being unscored does not make inaccurate feedback useful. | No neighboring issue labels are manufactured as wrong. Optional three authored `issueDistractors` support issue identification; otherwise the opener uses the reviewed scenario choices with `guess:true`, no penalty and no timer. The family pretest mechanism and cold-transfer order remain intact. The regression includes the cross-rule example. |
+| Moderate | `qTermMeaning`, `qTermReverse`; Repair/Remedy | An accepted alias or overlapping synonym could reappear as an allegedly wrong term/definition. | Both generators exclude terms sharing accepted names. Repair names the broader process; Remedy names a specific corrective action. Both accept “redress”, preventing reciprocal distractors. Typed recall accepts authored aliases. |
+| Serious | `normNum`, `sameAnswer` | Inherited normalization could strip a negative sign and accept `-84000` for `$84,000`; a text fallback could erase meaningful unit differences. | Sign, decimal magnitude and units are preserved. Hyphenated number words remain accepted. Unitless responses require an authored alias. Regressions reject negative, wrong-magnitude, percent/unitless and mismatched-currency answers. |
+| Moderate | u01/u03/u05 converted stems and calls | Splitting at a period inside quoted speech misplaced facts in the question or duplicated text. Some deciding-fact phrases no longer lived in the stem. | Author repaired the original stem/call boundaries and deciding phrases. Structural validation and the independent reading confirm the repaired text. |
+| Moderate | `u05-l1-2`, `u07-l2-sort2` | Sorting rows added an unstated price conclusion or pickup record; the supplied stem did not justify the classification. | Rows now ask about a clearly untested price explanation or an explicit overgeneralization from one late handoff. |
+| Moderate | `u04-t-l1`, `u06-t-l3` | Commitment excluded unauthorized promises; MESO was defined as one offer. | Definitions now separate a commitment from its authority check and define the MESO set accurately. |
+| Moderate | `u05-tr-l4`, `u06-x-l4` | The salary model omitted its simplifications; a call attributed candidate feasibility to employer valuation. | Salary-minus-commuting-cost assumptions explicitly exclude tax/other deductions. The package question names both employer valuation and candidate constraints. |
+| Moderate | `u10-r-1` | Care-lens retrieval preceded actual instruction about the lenses. A generic invitation to consider several lenses was not sufficient teaching. | Compact examples explicitly teach Rights/Justice and Consequences/Care before the quiz and later matching. The renderer displays all supplied examples. |
+| Moderate | `u10-l3-decision1` | “Must decide today” conflicted with an option seeking decision flexibility. | The stem now says the buyer “has been asked to decide today”, making the requested flexibility consistent with the facts. |
+| Minor | u08 numerical wording; duplicate `u03-p-l1`; `u04-r-l4` | Missing spaces impaired reading; one matching card repeated the same mapping; a legal-limit check needed prior teaching. | Wording normalized, duplicate removed, and the written-summary limitation appears before its check. |
+
+The three generator changes are necessary domain adaptations, not replacement learning methods: broad ethical principles and repairs are not mutually exclusive merely because they belong to different cards. Authored alternatives retain the family tile, diagnosis and pretest interactions while making their answer keys defensible.
+
+## Numerical and ethical checks
+
+The five native numerical cards were checked under their stated models: 60 minutes, a 500-wide overlap, 2,000 contribution, 3,000 pilot cost, and four places. The 84,000 salary trap and 2,000-versus-1,500 contribution trap disclose their simplifying assumptions. No answer is presented as an actual guarantee about income, conversion, trust or negotiation success.
+
+The scenario review found no remaining key that relies on an unstated universal ethical ranking. Practical constraints make the scored choices answerable; broader priorities and reasonable disagreement belong in the branching labs and reflection. Source/status fields distinguish evidence, practice, ethics and fictional applications. A cited method is not treated as evidence that a constructed outcome must happen. The 29-source registry is valid for all referenced IDs.
+
+The answer-length scan did not find an obvious systematic longest-option key across the scenario set. This is a cue check, not a psychometric validation. Distinct concepts with overlapping everyday language were also reviewed; accepted-name overlap is excluded from generated wrong alternatives.
+
+## Final verification and limits
+
+Final run after all corrections: **52 tests passed, 0 failed**. The validator reports **0 errors**, with **26 nonblocking advisories** across 13 units/376 items including the 17-item example fixture. Production contains **12 units, 48 lessons, 359 items**. The advisories are smaller matching/sorting sets and two short but explicit conditional stems (`u06-l2-2`, `u09-l1-decision4`); they were reviewed rather than padded to silence a count heuristic.
+
+Tests generate every lesson sitting and roundup across 40 seeds, verify transfer prerequisites and phase ordering, guarantee actual boundary practice, validate authored distractor pools, exercise sibling review and typed retrieval, exclude ethical scenarios from speed scoring, and check safe progress import, dates, streaks and numerical normalization. The six labs contain **50 reachable nodes, 18 endings and 159 finite completion paths**, with no dangling targets or cycles. Lab choices include consequences/reflection and endings have no moral-person score.
+
+These checks establish consistency of the authored curriculum and implemented generators. They do not establish learning gains, real-world transfer, a unique ethical philosophy or a universally optimal negotiation strategy. Live user testing and the parent's separate browser checks remain distinct evidence.
+
+## Final bounded answer-cue verification
+
+Independently verified all twelve wrong-option trims recorded in `answer-cue-refinement.md` against the native u01/u04/u05/u06 files. Each recorded replacement matches the file, remains a distinct non-key option, and retains an explanation and trap category. Read each complete stem, question and four-option set: the unique best key and the explanation for the shortened wrong option remain sound in all twelve cases.
+
+The trims preserve, respectively, premature demonstration; invented family blame; bypassing required review; premature purchase approval; two unsupported release promises; ignoring newly verified evidence; treating a midpoint as compulsory; ignoring changed scope; dismissing an essential deadline; premature invoicing; and mistaking explicit acceptance for browsing. In particular, the two permission-shaped asks (purchase approval and invoicing) remain worse than the keyed next step because the question asks what fits the unresolved decision or best investigates the tradeoff. No new correctness issue or further edit was needed. This closes the bounded refinement; the parent agent runs the final integrated checks/build.

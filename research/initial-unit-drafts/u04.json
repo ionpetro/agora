@@ -1,0 +1,290 @@
+{
+  "id": "u04",
+  "title": "Earn the next yes",
+  "subtitle": "Clear commitments. Respectful follow-through.",
+  "icon": "handshake",
+  "color": "gold",
+  "skill": "commitments",
+  "description": "Practice asking for a decision, following up, and keeping promises in fictional sales and workplace situations. A signature begins responsibilities; it does not erase them.",
+  "lessons": [
+    {
+      "id": "u04l1",
+      "title": "Ask for a clear decision",
+      "objective": "Propose a proportionate next step with the material terms visible.",
+      "takeaway": "Ask clearly for the commitment you mean, with the information needed to accept or decline it.",
+      "fieldwork": "Write a short next-step request for a real or fictional proposal. Include the action, the commitment it creates, and any important unanswered question.",
+      "items": [
+        {
+          "id": "u04l1-1",
+          "kind": "choice",
+          "title": "Ask for the next step that fits",
+          "teach": "A clear ask names the decision you want someone to make. Make that commitment proportional to what is known: interest in a pilot is not yet agreement to a full purchase.",
+          "say": "Ask for the next useful commitment, and say what it means.",
+          "ethics": "Are you treating interest as permission for a larger commitment?",
+          "sourceIds": ["S4", "S6"],
+          "prompt": "Amara's team wants to examine a pilot, but price, staff effort, and evaluation are not agreed. They have time for a planning meeting. Which ask fits their current decision?",
+          "options": [
+            "Can I mark the full purchase as approved based on your interest?",
+            "Shall we meet to define the pilot and its terms?",
+            "Should I send the invoice now so we can work out details afterward?"
+          ],
+          "answer": 1,
+          "why": [
+            "Interest in exploring a pilot does not authorize a full purchase.",
+            "This proposes the available next step and names what must be resolved before a commitment to run the pilot.",
+            "An invoice does not resolve the missing agreement and may imply a commitment that has not been made."
+          ],
+          "transfer": false
+        },
+        {
+          "id": "u04l1-2",
+          "kind": "match",
+          "title": "Make the agreement usable",
+          "teach": "A usable agreement makes the work and its conditions understandable. Recording what will happen, who owns it, what it costs, and how it will be reviewed helps both sides notice gaps before relying on the promise.",
+          "say": "Turn a general yes into a shared understanding of the work.",
+          "ethics": "Could both sides explain the same obligations after reading the summary?",
+          "sourceIds": ["S4", "S9"],
+          "prompt": "Match each part of a fictional pilot summary to the question it answers.",
+          "pairs": [
+            ["Defined deliverables and exclusions", "What work is included?"],
+            ["Named setup owners and dates", "Who must do what, and when?"],
+            ["Total price and any renewal conditions", "What financial commitment is being made?"],
+            ["Review date, measures, and next-step choices", "How will we assess what happens afterward?"]
+          ],
+          "explain": "This is a practical summary structure, not a substitute for every term a particular agreement may require. Its purpose is to surface commitments before either side relies on them.",
+          "transfer": false
+        },
+        {
+          "id": "u04l1-3",
+          "kind": "choice",
+          "title": "Clear enough to choose",
+          "teach": "A confident recommendation can still preserve choice. Explain the proposed action, bring material conditions into view, and ask directly without making refusal seem like a personal failure.",
+          "say": "Be clear about the offer and leave room for a real answer.",
+          "ethics": "Does your invitation let the buyer say no without shame or hidden consequences?",
+          "sourceIds": ["S4", "S6"],
+          "prompt": "The buyer has reviewed a clearly priced, optional pilot with no automatic renewal. You believe it fits the agreed need. Which closing question is direct without introducing pressure or new terms?",
+          "options": [
+            "Would you like to proceed on these pilot terms?",
+            "You're serious about your students, so you'll approve this, right?",
+            "I'll start the annual subscription unless you object today."
+          ],
+          "answer": 0,
+          "why": [
+            "This clearly requests a decision about the actual offer. The buyer can accept, decline, or raise an unresolved point.",
+            "This ties agreement to the buyer's moral identity rather than the offer's merits.",
+            "This changes an optional pilot into an annual purchase and treats silence as permission."
+          ],
+          "transfer": false
+        },
+        {
+          "id": "u04l1-4",
+          "kind": "choice",
+          "title": "A yes to what?",
+          "teach": "Agreement has a scope. Before acting, distinguish permission to explore a possibility from approval to spend money, begin work, or commit someone else's time.",
+          "say": "Check the scope of the yes before acting on it.",
+          "ethics": "Are you using a small permission to justify a larger action?",
+          "sourceIds": ["S4"],
+          "prompt": "Your manager says, 'Yes, explore a team retreat and bring me options.' A venue asks for a nonrefundable deposit. No budget or booking authority has been approved. What should you do?",
+          "options": [
+            "Pay the deposit because the manager supported the retreat idea.",
+            "Tell the venue that the company has already approved the booking.",
+            "Seek approval for the options and deposit terms first."
+          ],
+          "answer": 2,
+          "why": [
+            "Permission to explore options does not include an unapproved financial commitment.",
+            "That statement would misrepresent the actual scope of the manager's approval.",
+            "This keeps the commitment within the permission given and makes the material deposit condition visible."
+          ],
+          "transfer": true
+        }
+      ]
+    },
+    {
+      "id": "u04l2",
+      "title": "Follow up with permission",
+      "objective": "Agree a relevant follow-up and honor changes to that permission.",
+      "takeaway": "Follow-up should serve an agreed decision, and it should stop when permission is withdrawn.",
+      "fieldwork": "For a conversation where follow-up is welcome, agree a useful time and purpose instead of assuming a generic reminder schedule.",
+      "items": [
+        {
+          "id": "u04l2-1",
+          "kind": "choice",
+          "title": "Make the follow-up useful",
+          "teach": "A useful follow-up connects to the other person's decision process. Agree the purpose and timing when possible instead of assuming that frequent reminders create value.",
+          "say": "Follow up for a reason the other person can recognize.",
+          "ethics": "Is this message helping their decision, or merely trying to wear down silence?",
+          "sourceIds": ["S3", "S4"],
+          "prompt": "Sam says the team will review your proposal Tuesday and asks for an email Wednesday about the decision. Nothing urgent changes before then. Which plan best follows that agreement?",
+          "options": [
+            "Send a reminder every morning so the proposal stays visible.",
+            "Call Sam's manager Monday to encourage a quick decision.",
+            "Email Wednesday about the agreed decision."
+          ],
+          "answer": 2,
+          "why": [
+            "Daily reminders add contact without a new purpose and ignore the timing Sam gave you.",
+            "Sam did not invite you to escalate around the agreed review process.",
+            "This matches the requested timing and keeps the content connected to the decision."
+          ],
+          "transfer": false
+        },
+        {
+          "id": "u04l2-2",
+          "kind": "order",
+          "title": "Plan a respectful follow-up",
+          "teach": "One useful sequence is to learn the decision timing, propose a relevant follow-up, agree the channel and date, then act on that agreement. If circumstances or permission change, revise the plan instead of blindly continuing it.",
+          "say": "Agree the purpose before adding another reminder.",
+          "ethics": "Does the plan allow the other person to change their mind about contact?",
+          "sourceIds": ["S3", "S4"],
+          "prompt": "Arrange the follow-up planning sequence just taught. This is one useful sequence, not a rule for all conversations.",
+          "parts": [
+            "Learn when the other person expects to decide",
+            "Suggest a follow-up that serves that decision",
+            "Agree a welcome channel and date",
+            "Follow the agreement unless permission or circumstances change"
+          ],
+          "explain": "Understanding the decision gives the follow-up a purpose. Agreeing the form of contact makes the expectation clearer, but later withdrawal overrides the old plan.",
+          "transfer": false
+        },
+        {
+          "id": "u04l2-3",
+          "kind": "choice",
+          "title": "Stop means stop",
+          "teach": "A scheduled sequence does not override a person's request to stop sales contact. Acknowledge the request briefly if needed and make sure the sales follow-up actually ends rather than leaving automation to continue.",
+          "say": "Respecting a stop request includes the messages already queued.",
+          "ethics": "Will the person continue receiving the contact they explicitly declined?",
+          "sourceIds": ["S4", "S7"],
+          "prompt": "Sam writes, 'We've decided not to proceed. Please stop following up.' Three sales reminders are queued in your system. What is the appropriate action?",
+          "options": [
+            "Send one last objection-handling message before stopping.",
+            "Acknowledge the request and cancel queued sales reminders.",
+            "Stop personal emails but leave the scheduled sequence running."
+          ],
+          "answer": 1,
+          "why": [
+            "A final sales pitch still ignores the explicit request to stop.",
+            "This turns respect for the request into an actual change in contact, including automation.",
+            "From Sam's perspective, the unwanted contact continues regardless of who or what sends it."
+          ],
+          "transfer": false
+        },
+        {
+          "id": "u04l2-4",
+          "kind": "choice",
+          "title": "A welcome channel",
+          "teach": "Permission is specific to the purpose and form of contact. A request for one update does not automatically invite contact through unrelated personal channels.",
+          "say": "Use the contact they welcomed for the purpose they agreed.",
+          "ethics": "Are you expanding the channel or audience without a reason they accepted?",
+          "sourceIds": ["S4"],
+          "prompt": "A recruiter asks you to email a portfolio link Friday and says hiring updates will follow the next week. You have no urgent new information. Which action respects that arrangement?",
+          "options": [
+            "Send the portfolio link by email Friday, as agreed.",
+            "Message the recruiter's personal social account Thursday to stand out.",
+            "Send the portfolio to several unrelated coworkers to create pressure."
+          ],
+          "answer": 0,
+          "why": [
+            "This supplies the requested material through the agreed channel at the agreed time.",
+            "Finding another contact route does not mean it was invited for this purpose.",
+            "Broadening the audience to pressure a decision is different from completing the requested follow-up."
+          ],
+          "transfer": true
+        }
+      ]
+    },
+    {
+      "id": "u04l3",
+      "title": "Deliver and repair",
+      "objective": "Track commitments and correct a mistaken promise while meaningful choices remain.",
+      "takeaway": "When a promise becomes inaccurate, surface the impact promptly and offer only remedies you can actually support.",
+      "fieldwork": "Choose a small commitment you own. Write the owner, date, success check, and who you would contact if it became unlikely to happen.",
+      "items": [
+        {
+          "id": "u04l3-1",
+          "kind": "choice",
+          "title": "The mistake they haven't noticed",
+          "teach": "A promise can become a problem before the other person notices it. Correct a material error promptly, explain its effect, and discuss feasible next steps while the person still has meaningful choices.",
+          "say": "Do not wait for a complaint to correct a promise you know is wrong.",
+          "ethics": "Is your silence causing someone to rely on information you now know is inaccurate?",
+          "sourceIds": ["S4", "S9"],
+          "prompt": "You promised a Friday data export. On Monday, engineering confirms it will not be ready. The customer plans to use it for a Friday event and has not discovered the issue. What should you do next?",
+          "options": [
+            "Tell the customer promptly, explain the impact, and discuss verified alternatives.",
+            "Wait until Thursday in case engineering finds an unexpected fix.",
+            "Remove the promise from your presentation and say nothing unless asked."
+          ],
+          "answer": 0,
+          "why": [
+            "The customer needs time to decide how to handle Friday's event. This restores usable information without inventing a remedy.",
+            "Hoping for an unverified fix does not justify withholding a known risk that affects the customer's plan.",
+            "Editing your materials does not correct the customer's existing understanding or reliance."
+          ],
+          "transfer": false
+        },
+        {
+          "id": "u04l3-2",
+          "kind": "order",
+          "title": "Make repair concrete",
+          "teach": "One useful repair sequence is to correct the inaccurate promise, understand the affected plan, present feasible remedies, and record the agreed next step. You may need to revisit these stages as new facts emerge; do not delay warning someone while perfecting every remedy.",
+          "say": "Correct the record, understand the impact, and agree a feasible repair.",
+          "ethics": "Does the repair restore choice rather than merely protect your image?",
+          "sourceIds": ["S4", "S9"],
+          "prompt": "Put the repair sequence just taught in order. The material error is confirmed and the customer needs an early warning.",
+          "parts": [
+            "Correct the inaccurate promise and disclose what is known",
+            "Ask how the change affects the customer's plan",
+            "Discuss feasible remedies and unresolved limits",
+            "Record the chosen next step, owner, and update date"
+          ],
+          "explain": "Early correction prevents continued reliance on false information. Understanding the impact helps make the remedy relevant; recording the next step turns it into a usable commitment.",
+          "transfer": false
+        },
+        {
+          "id": "u04l3-3",
+          "kind": "choice",
+          "title": "Don't repair with another unsupported promise",
+          "teach": "A remedy must be as honest as the original offer should have been. Distinguish what is approved, what needs checking, and what you cannot promise; an appealing but unauthorized guarantee can create a second failure.",
+          "say": "Offer the remedy you can support, not the reassurance you wish were true.",
+          "ethics": "Do you have authority and a workable basis for the commitment you are offering?",
+          "sourceIds": ["S4", "S5", "S9"],
+          "prompt": "After a delay, you can confirm a supported workaround today. A refund needs a manager's decision tomorrow; no one has approved a new release date. Which update is accurate?",
+          "options": [
+            "Promise a refund now because the manager will probably agree.",
+            "Promise the feature next week to make the customer feel secure.",
+            "Explain the workaround; promise a status update tomorrow."
+          ],
+          "answer": 2,
+          "why": [
+            "A likely approval is not an authorized refund commitment.",
+            "No release date is approved. The reassurance would create another unsupported expectation.",
+            "You can explain the verified workaround and report tomorrow's status. Share the manager's refund decision if it is available; you cannot guarantee that approval."
+          ],
+          "transfer": false
+        },
+        {
+          "id": "u04l3-4",
+          "kind": "choice",
+          "title": "Repair in your own team",
+          "teach": "The duty to correct a known mistake also applies to internal commitments. Give affected people the information early enough to revise their plans, and distinguish a feasible alternative from an unverified hope.",
+          "say": "People inside your team need honest promises too.",
+          "ethics": "Who is relying on your original commitment, and what do they need to know now?",
+          "sourceIds": ["S4", "S9"],
+          "prompt": "You told a colleague a complete report would be ready Thursday. You now know it will be ready Monday, but a verified summary can be ready Thursday. Their presentation is Friday. What is the most useful response?",
+          "options": [
+            "Send the summary Thursday without mentioning that it replaces the full report.",
+            "Explain the change now and ask whether Thursday's summary can serve the presentation.",
+            "Wait until Thursday so you do not distract them with an early problem."
+          ],
+          "answer": 1,
+          "why": [
+            "An undisclosed substitution may cause them to rely on a document that lacks what they expected.",
+            "This corrects the promise while there is time to adapt and checks whether the feasible alternative actually helps.",
+            "The known change affects Friday's plan. Delaying the information reduces their options."
+          ],
+          "transfer": true
+        }
+      ]
+    }
+  ]
+}

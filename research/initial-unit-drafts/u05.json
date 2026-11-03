@@ -1,0 +1,217 @@
+{
+  "id": "u05",
+  "title": "Before you bargain",
+  "subtitle": "Know the problem, your options, and your limits.",
+  "icon": "compass",
+  "color": "blue",
+  "skill": "preparation",
+  "description": "Prepare for a negotiation by checking interests, evaluating real alternatives, and finding whether acceptable terms might overlap.",
+  "lessons": [
+    {
+      "id": "u05l1",
+      "title": "Behind the request",
+      "objective": "Separate stated positions from interests you have checked.",
+      "takeaway": "Treat your explanation of someone else's request as a hypothesis until you check it.",
+      "fieldwork": "For a low-stakes request, ask what the requested change would make possible, then summarize the answer.",
+      "items": [
+        {
+          "id": "u05l1-1",
+          "kind": "choice",
+          "title": "The request and the reason",
+          "teach": "A position is a requested term; an interest is the concern behind it. Several terms may address the same concern, but you need to check what matters rather than guess a motive.",
+          "say": "Before changing the offer, learn what the change needs to achieve.",
+          "ethics": "Whose concern have you actually heard, and whose are you assuming?",
+          "sourceIds": ["N1", "N9"],
+          "prompt": "In this fictional college partnership, a buyer asks for a lower workshop price. You can change price or scope, but do not yet know the reason for the request. What best helps you choose a useful response?",
+          "options": ["Offer a small discount now.", "Ask about the price concern.", "Explain all the workshop features again."],
+          "answer": 1,
+          "why": ["A discount might help, but it commits a concession before you know the problem.", "This checks the underlying concern before choosing a change to the offer.", "Features may be relevant later; repeating them does not clarify this request."],
+          "transfer": false
+        },
+        {
+          "id": "u05l1-2",
+          "kind": "sort",
+          "title": "Known or guessed?",
+          "teach": "Separate the requested term, the reason someone has stated, and your untested explanation. A plausible interpretation can guide a question without becoming a fact.",
+          "say": "A plausible story about their motive is still a story.",
+          "ethics": "Do not assign a motive to someone merely because it fits your sales story.",
+          "sourceIds": ["N1", "N9"],
+          "prompt": "In this fictional exchange, the buyer asks for monthly billing and says annual payment would exhaust this quarter's available budget. Sort the statements by what the exchange establishes.",
+          "buckets": ["Requested term", "Stated interest", "Untested explanation"],
+          "entries": [
+            {"text": "The buyer wants monthly billing.", "bucket": 0, "why": "This is the payment arrangement explicitly requested."},
+            {"text": "The buyer wants to preserve this quarter's available budget.", "bucket": 1, "why": "The buyer directly gave this reason."},
+            {"text": "The buyer doubts the provider will survive a year.", "bucket": 2, "why": "That concern could exist, but nothing in the exchange establishes it."}
+          ],
+          "explain": "Classify what was said separately from what you inferred. You can check an inference with a respectful question.",
+          "transfer": false
+        },
+        {
+          "id": "u05l1-3",
+          "kind": "choice",
+          "title": "Check the shared picture",
+          "teach": "Summarizing lets the other person correct your understanding before you design options. Listening does not require agreeing to the requested term or accepting an explanation without question.",
+          "say": "Check your understanding before building the solution.",
+          "ethics": "Can the other person correct your summary without losing the opportunity?",
+          "sourceIds": ["N9"],
+          "prompt": "A fictional client says, 'A Friday launch would be useful, but the essential thing is having the signup form ready for Monday's event.' Which summary best checks the priority before you offer a schedule?",
+          "options": ["You need every feature live by Friday.", "The event matters, so timing is flexible.", "The form for Monday is essential; Friday is preferred. Right?"],
+          "answer": 2,
+          "why": ["This turns a preference into a requirement and expands the essential scope.", "It drops the actual Monday deadline and may produce an unusable schedule.", "It preserves both the essential deadline and the preference, while inviting correction."],
+          "transfer": false
+        },
+        {
+          "id": "u05l1-4",
+          "kind": "choice",
+          "title": "A different kind of request",
+          "teach": "A requested arrangement can conceal several possible concerns. Check the purpose before treating the arrangement as the only solution.",
+          "say": "Find the purpose before choosing the term.",
+          "ethics": "Ask about the work need without demanding private personal details.",
+          "sourceIds": ["N1", "N9"],
+          "prompt": "In a fictional team, Lee requests a permanently earlier meeting. You can change meeting time or offer an asynchronous update, but you do not know what is difficult about the current arrangement. What should you do first?",
+          "options": ["Ask what an earlier meeting would solve.", "Move every meeting thirty minutes earlier.", "Explain why the current time suits most people."],
+          "answer": 0,
+          "why": ["It checks the need and leaves room for several workable arrangements, without requiring personal disclosure.", "This may help, but you have not established that it solves the problem or works for others.", "That context may matter later; it does not yet help you understand Lee's request."],
+          "transfer": true
+        }
+      ]
+    },
+    {
+      "id": "u05l2",
+      "title": "Your real plan B",
+      "objective": "Distinguish an available alternative, a target, and a reservation point.",
+      "takeaway": "Compare the complete proposed deal with what you can realistically do without it.",
+      "fieldwork": "Privately write one feasible alternative to an upcoming agreement and one fact you need to check about it.",
+      "items": [
+        {
+          "id": "u05l2-1",
+          "kind": "choice",
+          "title": "An action, not a number",
+          "teach": "Your BATNA is your best feasible course of action if this agreement does not happen. Your target is what you aim for here; your reservation point marks the least attractive complete deal you would accept instead of that alternative.",
+          "say": "Your plan B is something you can do, not a number you demand.",
+          "ethics": "A hoped-for alternative cannot honestly be presented as a confirmed offer.",
+          "sourceIds": ["N2", "N3"],
+          "prompt": "In this hypothetical salary negotiation, Rowan can accept a confirmed role elsewhere. For the new role, Rowan aims for $86,000 and has evaluated $80,000 as the minimum with the other terms fixed. Which is Rowan's BATNA?",
+          "options": ["Request $86,000 from this employer.", "Accept the other job.", "Require at least $80,000 here."],
+          "answer": 1,
+          "why": ["That is the target in the current negotiation, not the action if it ends.", "This is the feasible action Rowan can take without the current agreement.", "That describes the reservation point under the stated terms, not the alternative action."],
+          "transfer": false
+        },
+        {
+          "id": "u05l2-2",
+          "kind": "match",
+          "title": "Three different jobs",
+          "teach": "Alternatives, limits, and aspirations answer different questions. Keeping them separate helps you avoid accepting a poor deal just to agree, or confusing an ambitious target with a necessary condition.",
+          "say": "What you can do, what you can accept, and what you hope for are different.",
+          "ethics": "You can keep a private limit private without misrepresenting it.",
+          "sourceIds": ["N2", "N3"],
+          "prompt": "Match each preparation concept to the question it answers.",
+          "pairs": [
+            ["BATNA", "What will I do without this agreement?"],
+            ["Reservation point", "Where does this complete deal stop being preferable to my alternative?"],
+            ["Target", "What outcome am I aiming for here?"]
+          ],
+          "explain": "The alternative informs your limit; your target can be more ambitious. None requires inventing leverage or disclosing private details.",
+          "transfer": false
+        },
+        {
+          "id": "u05l2-3",
+          "kind": "choice",
+          "title": "Make the comparison honest",
+          "teach": "An alternative's headline price is only part of its value. Check feasibility, timing, scope, and risk before deciding what you could accept in the current negotiation.",
+          "say": "Compare complete options, not attractive headlines.",
+          "ethics": "Do not call an unverified lead a firm fallback.",
+          "sourceIds": ["N2", "N9"],
+          "prompt": "A fictional freelancer has one confirmed four-week project and an informal lead promising higher pay with no dates or scope. Before treating the lead as the better fallback, what is most useful?",
+          "options": ["Count the higher amount as available income.", "Tell the current client the other work is booked.", "Check scope, availability, timing, and payment."],
+          "answer": 2,
+          "why": ["The amount does not establish that work is available or comparable.", "This would present an uncertain lead as a confirmed commitment.", "These facts determine whether the lead is feasible and genuinely more attractive."],
+          "transfer": false
+        },
+        {
+          "id": "u05l2-4",
+          "kind": "choice",
+          "title": "The other venue",
+          "teach": "A feasible alternative must meet the needs that make the agreement worthwhile. A cheaper option that fails an essential requirement may not be an adequate fallback.",
+          "say": "An alternative must work for the people who will use it.",
+          "ethics": "Do not remove an attendee's essential access need to make the price comparison look better.",
+          "sourceIds": ["N2", "E1"],
+          "prompt": "In a fictional event negotiation, your attendees require step-free entry. A cheaper backup venue has confirmed that it cannot provide it. Your team can instead hold an accessible online event. What is the sound preparation move?",
+          "options": ["Evaluate the online event as the feasible fallback.", "Use the cheaper venue's price as your complete fallback value.", "Assume the preferred venue must match the cheaper quote."],
+          "answer": 0,
+          "why": ["It is an available action that meets the stated access requirement; evaluate its other tradeoffs too.", "That venue fails an essential requirement, so its price alone misstates your alternative.", "The quotes cover meaningfully different options and do not establish an obligation to match."],
+          "transfer": true
+        }
+      ]
+    },
+    {
+      "id": "u05l3",
+      "title": "Room for a deal?",
+      "objective": "Find an agreement range when limits are known and acknowledge uncertainty when they are not.",
+      "takeaway": "An overlap means agreement is possible under those terms; it does not prove the deal is fair.",
+      "fieldwork": "For an upcoming discussion, separate known constraints from estimates and list one useful question about the unknowns.",
+      "items": [
+        {
+          "id": "u05l3-1",
+          "kind": "choice",
+          "title": "Find the overlap",
+          "teach": "A zone of possible agreement, or ZOPA, contains deals acceptable to both sides. A simple price interval assumes every other term is fixed; it does not select one uniquely fair price.",
+          "say": "Find the overlap, then discuss how to choose within it.",
+          "ethics": "A price being acceptable does not settle whether the process or distribution is fair.",
+          "sourceIds": ["N2", "E1"],
+          "prompt": "In this hypothetical fixed-term contract, a provider will accept $4,500 or more and a buyer will pay $5,000 or less. Both accept their boundary price. What is the ZOPA?",
+          "options": ["$4,750 only.", "$4,500–$5,000.", "Every price below $5,000."],
+          "answer": 1,
+          "why": ["The midpoint is one possible price, not the whole range or automatically the fairest choice.", "Every price in this interval, including both endpoints, satisfies the stated limits with the terms fixed.", "Prices below $4,500 fail the provider's stated minimum."],
+          "transfer": false
+        },
+        {
+          "id": "u05l3-2",
+          "kind": "choice",
+          "title": "The missing boundary",
+          "teach": "In real discussions, you often know your own limit better than the other party's. Their opening offer is not reliable proof of their maximum or minimum, so label your estimate as an estimate.",
+          "say": "An opening offer is not a map of every acceptable deal.",
+          "ethics": "Gather information without pretending to know the other person's private limit.",
+          "sourceIds": ["N2", "N3"],
+          "prompt": "A fictional employer opens at $78,000. You need at least $80,000 under the proposed terms, but know nothing about its approved range. Which conclusion is justified?",
+          "options": ["There is definitely no possible agreement.", "The employer can definitely reach $80,000.", "You do not yet know whether the limits overlap."],
+          "answer": 2,
+          "why": ["The opening offer does not establish the employer's maximum.", "You have no evidence that the employer can meet your minimum.", "Your limit is known; the employer's is not. A question about flexibility could clarify the situation."],
+          "transfer": false
+        },
+        {
+          "id": "u05l3-3",
+          "kind": "sort",
+          "title": "Possible, impossible, or unknown",
+          "teach": "With fixed terms, compatible stated limits establish an overlap. Incompatible limits mean no overlap under those terms; missing information leaves the answer uncertain.",
+          "say": "Do not confuse no overlap with not knowing yet.",
+          "ethics": "A no-deal diagnosis is allowed; it need not be repaired by pressuring someone past their limit.",
+          "sourceIds": ["N2"],
+          "prompt": "For these hypothetical contracts, all non-price terms are fixed and each party accepts at its stated limit. Sort the evidence.",
+          "buckets": ["Overlap exists", "No overlap", "Not enough information"],
+          "entries": [
+            {"text": "Seller minimum $2,000; buyer maximum $2,400.", "bucket": 0, "why": "Prices from $2,000 to $2,400 meet both limits."},
+            {"text": "Seller minimum $3,200; buyer maximum $3,000.", "bucket": 1, "why": "No single price meets both limits under the fixed terms."},
+            {"text": "Seller asks $3,500; buyer's maximum is $3,000; seller's minimum is unknown.", "bucket": 2, "why": "The seller's opening request does not establish its minimum."}
+          ],
+          "explain": "The calculation depends on acceptable limits, not just opening positions. Changed scope would require a new comparison.",
+          "transfer": false
+        },
+        {
+          "id": "u05l3-4",
+          "kind": "choice",
+          "title": "When the numbers do not meet",
+          "teach": "Changing scope can create a different agreement range, but only if the new deliverables remain useful and feasible. Splitting a gap does not solve incompatible limits.",
+          "say": "A smaller price may need a different deal.",
+          "ethics": "Make removed work visible; do not imply the buyer is receiving the original package.",
+          "sourceIds": ["N2", "N4"],
+          "prompt": "In a fictional service contract, full scope requires at least $6,000; the client can pay at most $5,000. Both limits are firm. A smaller scope might meet the client's core need but has not been checked. What best explores a feasible agreement?",
+          "options": ["Agree at the midpoint, $5,500.", "Check a reduced scope and price it separately.", "Keep full scope but label $5,000 a trial."],
+          "answer": 1,
+          "why": ["The midpoint violates both stated limits.", "This examines a genuinely different deal without assuming it satisfies either party yet.", "Renaming the payment does not make the full scope feasible at that price."],
+          "transfer": true
+        }
+      ]
+    }
+  ]
+}

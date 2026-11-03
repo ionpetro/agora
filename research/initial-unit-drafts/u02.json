@@ -1,0 +1,289 @@
+{
+  "id": "u02",
+  "title": "Make value credible",
+  "subtitle": "Useful promises. Visible evidence.",
+  "icon": "compass",
+  "color": "blue",
+  "skill": "value",
+  "description": "Turn capabilities into relevant, supportable explanations. Practice with fictional offers, limited evidence, uncertain outcomes, and comparisons that leave the buyer able to choose.",
+  "lessons": [
+    {
+      "id": "u02l1",
+      "title": "Connect feature to outcome",
+      "objective": "Explain how a capability might help a stated need without inventing a result.",
+      "takeaway": "Connect the stated need to a real capability, then keep the expected benefit within the evidence.",
+      "fieldwork": "Choose one feature of something you offer or use. Write the problem it addresses, how it helps, and one outcome you cannot yet claim.",
+      "items": [
+        {
+          "id": "u02l1-1",
+          "kind": "choice",
+          "title": "Complete the connection",
+          "teach": "A feature says what something does; value explains why that capability matters for this person's need. Keep the link specific and distinguish a plausible benefit from an outcome you have actually measured.",
+          "say": "Name the need, show the useful capability, and preserve uncertainty.",
+          "ethics": "Are you presenting a plausible benefit as though it were a guaranteed result?",
+          "sourceIds": ["S4", "S5"],
+          "prompt": "Priya's students miss calls during work shifts. Your tool supports scheduled messages, but placement effects have not been measured. Which explanation best connects value to the evidence available?",
+          "options": [
+            "Our scheduled messaging feature is modern and easy to use.",
+            "Scheduled messages will get more of your students hired.",
+            "Scheduled messages might help; let's test reply rates."
+          ],
+          "answer": 2,
+          "why": [
+            "This names qualities without connecting them clearly to Priya's communication problem.",
+            "The product capability does not establish a hiring result. That promise exceeds the facts.",
+            "This links the capability to the stated obstacle while proposing a way to investigate the uncertain benefit."
+          ],
+          "transfer": false
+        },
+        {
+          "id": "u02l1-2",
+          "kind": "match",
+          "title": "Keep the steps distinct",
+          "teach": "A clear value explanation separates the problem, the capability, and the benefit to investigate. Keeping those steps distinct helps you notice when a promised outcome has no supporting link.",
+          "say": "A feature is a capability, not proof of an outcome.",
+          "ethics": "Which part is known, and which part still needs checking?",
+          "sourceIds": ["S5", "S4"],
+          "prompt": "Match each statement in this fictional reminder-tool example to its role.",
+          "pairs": [
+            ["Staff say they repeatedly miss students by phone.", "Stated problem"],
+            ["The tool can send messages at selected times.", "Available capability"],
+            ["A trial could check whether more students reply.", "Potential benefit to investigate"]
+          ],
+          "explain": "The capability is real within this example; better reply rates remain a question. Neither statement establishes employment outcomes.",
+          "transfer": false
+        },
+        {
+          "id": "u02l1-3",
+          "kind": "choice",
+          "title": "Calculate without pretending",
+          "teach": "A calculation can clarify a proposal when its inputs and assumptions are visible. Label a scenario estimate as an estimate, and do not turn possible time savings into cash savings unless that further claim is justified.",
+          "say": "Useful arithmetic still needs honest assumptions.",
+          "ethics": "Could the buyer mistake an illustrative estimate for a measured saving?",
+          "sourceIds": ["S5", "S6"],
+          "prompt": "In a fictional example, a team estimates ten reminders each taking six minutes. No trial has tested your automation, and saved staff time would not reduce wages. Which statement is supported?",
+          "options": [
+            "That estimates an hour of work; savings still need testing.",
+            "Automation will cut one paid hour from the team's costs each week.",
+            "The product saves one hour, because the arithmetic is exact."
+          ],
+          "answer": 0,
+          "why": [
+            "Ten times six minutes is one hour of estimated current work. This preserves the distinction between that calculation and actual savings.",
+            "The example says wages would not decrease. Available staff time and reduced spending are different benefits.",
+            "Correct arithmetic cannot prove the inputs or how much work the tool would actually remove."
+          ],
+          "transfer": false
+        },
+        {
+          "id": "u02l1-4",
+          "kind": "choice",
+          "title": "Value outside software",
+          "teach": "The same discipline applies to a service proposal. Connect your deliverable to the client's stated problem and avoid claiming downstream results you do not control or have evidence for.",
+          "say": "Explain the useful change you can make, not every outcome someone hopes for.",
+          "ethics": "Does your promise stay within what the work and evidence can support?",
+          "sourceIds": ["S4", "S5"],
+          "prompt": "A freelancer can simplify a café's confusing menu. Customers currently ask what dishes contain, but no research has measured the effect on revenue. Which pitch best connects the work to this need?",
+          "options": [
+            "A more attractive menu always increases sales.",
+            "Let's clarify ingredients and check whether questions decrease.",
+            "I can create a premium visual identity with refined typography."
+          ],
+          "answer": 1,
+          "why": [
+            "This converts an unmeasured downstream outcome into a universal promise.",
+            "This addresses the observed confusion and names a relevant result that could be checked.",
+            "The style may have value, but this explanation does not address the specific information problem the café raised."
+          ],
+          "transfer": true
+        }
+      ]
+    },
+    {
+      "id": "u02l2",
+      "title": "Say what the evidence supports",
+      "objective": "Separate observations, estimates, and unsupported claims.",
+      "takeaway": "A claim should not be broader, more causal, or more certain than its evidence.",
+      "fieldwork": "Find one claim in a proposal you control. Identify its evidence and rewrite it if the wording implies more than you know.",
+      "items": [
+        {
+          "id": "u02l2-1",
+          "kind": "choice",
+          "title": "The small pilot",
+          "teach": "Evidence supports what was actually observed, with its limits. A small satisfaction pilot does not establish typical results or show that a product caused a different outcome.",
+          "say": "Keep the claim inside what was measured.",
+          "ethics": "Have you changed the outcome, population, or certainty while retelling the result?",
+          "sourceIds": ["S5", "S6"],
+          "prompt": "In this fictional pilot, four of five volunteers said a reminder was useful. There was no comparison group and no employment tracking. Which statement can you support?",
+          "options": [
+            "The reminders improve placement rates for most students.",
+            "Four of five volunteers in this pilot reported that the reminder was useful.",
+            "The reminder caused a strong improvement in student engagement."
+          ],
+          "answer": 1,
+          "why": [
+            "Placement was not measured, and this small volunteer group does not establish typical student outcomes.",
+            "This reports the observed response with its sample and context, without adding a causal claim.",
+            "A usefulness response does not establish a change in engagement or what caused it."
+          ],
+          "transfer": false
+        },
+        {
+          "id": "u02l2-2",
+          "kind": "sort",
+          "title": "What kind of claim?",
+          "teach": "An observation reports something recorded; an estimate depends on stated assumptions; an unsupported claim goes beyond the available basis. These distinctions help you explain what a buyer can reasonably rely on.",
+          "say": "Mark the difference between what happened, what might happen, and what you cannot support.",
+          "ethics": "Is the uncertainty visible where the claim is made?",
+          "sourceIds": ["S5", "S6"],
+          "prompt": "In this fictional example, a trial recorded six completed replies. No comparison group or hiring data exists. Sort the statements by their evidential status.",
+          "buckets": ["Recorded observation", "Explicit estimate", "Unsupported conclusion"],
+          "entries": [
+            {"text": "The trial log contains six completed replies.", "bucket": 0, "why": "This stays within the stated record."},
+            {"text": "If each reply saves five minutes, six replies would save thirty minutes; that assumption is untested.", "bucket": 1, "why": "The arithmetic is conditional and its untested assumption is explicit."},
+            {"text": "The trial proves our tool creates more jobs.", "bucket": 2, "why": "There are no hiring data or causal comparison to support that conclusion."},
+            {"text": "Every customer will get six replies.", "bucket": 2, "why": "One trial record cannot guarantee the same result for every customer."}
+          ],
+          "explain": "An explicit estimate can be useful without becoming evidence of actual savings. A recorded observation still has limits on generalization.",
+          "transfer": false
+        },
+        {
+          "id": "u02l2-3",
+          "kind": "choice",
+          "title": "Repair the main message",
+          "teach": "A small disclaimer does not make an unsupported main message accurate. Revise the central claim so the reader's likely understanding matches the evidence, with important qualifications nearby and clear.",
+          "say": "Fix the claim itself; do not ask fine print to undo it.",
+          "ethics": "What will a reasonable reader take away before looking for qualifications?",
+          "sourceIds": ["S6", "S5"],
+          "prompt": "A draft says, 'Guaranteed jobs after graduation.' You have no evidence or program that guarantees employment. The team wants to keep the headline with 'results vary' below it. What should you do?",
+          "options": [
+            "Keep the headline and make the disclaimer slightly larger.",
+            "Keep it if one graduate agrees to provide a testimonial.",
+            "Replace it with supported claims about the program."
+          ],
+          "answer": 2,
+          "why": [
+            "A clearer contradiction is still a contradiction. The unsupported guarantee remains the main message.",
+            "One graduate's experience cannot establish a universal employment guarantee.",
+            "This removes the unsupported promise and gives prospective learners information they can actually use."
+          ],
+          "transfer": false
+        },
+        {
+          "id": "u02l2-4",
+          "kind": "choice",
+          "title": "Don't upgrade your story",
+          "teach": "Honest self-presentation separates your contribution from a result you cannot attribute. You can describe strong work without claiming it caused every favorable change that followed.",
+          "say": "Describe your contribution accurately, including what you cannot attribute.",
+          "ethics": "Does the story invite someone to credit you with an effect you have not established?",
+          "sourceIds": ["S4", "S5"],
+          "prompt": "In a fictional interview example, you redesigned an onboarding checklist. Three teammates later said it was clearer, but no time-to-productivity data were collected. Which description is best supported?",
+          "options": [
+            "I redesigned it; three teammates reported greater clarity.",
+            "My redesign made new employees productive much faster.",
+            "The feedback proves the new checklist works better for everyone."
+          ],
+          "answer": 0,
+          "why": [
+            "This gives a concrete contribution and a bounded observation without inventing an outcome.",
+            "Time to productivity was not measured, so the claimed improvement is unsupported.",
+            "Feedback from three teammates is not proof of a universal result."
+          ],
+          "transfer": true
+        }
+      ]
+    },
+    {
+      "id": "u02l3",
+      "title": "Make the comparison fair",
+      "objective": "Disclose material tradeoffs and compare options on relevant facts.",
+      "takeaway": "A useful comparison lets the buyer see where each option fits and where it does not.",
+      "fieldwork": "Compare two realistic options for a small decision. Include one limitation of your preferred option and one strength of the other.",
+      "items": [
+        {
+          "id": "u02l3-1",
+          "kind": "choice",
+          "title": "Name the limitation",
+          "teach": "Material limitations belong in the decision, even when they weaken your offer. If another option meets a requirement yours cannot, say what you know without pretending to know everything about that alternative.",
+          "say": "Make the tradeoff visible while the person can still choose.",
+          "ethics": "Are you hiding a limitation that matters to this buyer's actual use?",
+          "sourceIds": ["S4", "S6"],
+          "prompt": "Nia needs compatibility with specific assistive technology now. Your tool fails that requirement. A competitor has verified compatibility, but you have not assessed its other features. What is the most accurate comparison?",
+          "options": [
+            "Ours cannot meet this need; evaluate the alternative's fit.",
+            "Ours has better reporting, which should offset the compatibility issue.",
+            "The competitor is definitely the best product for your organization."
+          ],
+          "answer": 0,
+          "why": [
+            "This makes the known limitation and the boundary of your knowledge explicit.",
+            "A different strength does not remove a requirement Nia says is necessary.",
+            "You know one important strength of the competitor, not its overall fit."
+          ],
+          "transfer": false
+        },
+        {
+          "id": "u02l3-2",
+          "kind": "match",
+          "title": "Compare like with like",
+          "teach": "A useful comparison makes relevant differences understandable. Check the full cost, the work each option requires, and any missing capability rather than selecting only the feature on which your favorite wins.",
+          "say": "Compare the decision people face, not only the number you like.",
+          "ethics": "Does the comparison quietly exclude a cost or limitation that would change the choice?",
+          "sourceIds": ["S4", "S6"],
+          "prompt": "Match each comparison check to the question it answers.",
+          "pairs": [
+            ["Price plus mandatory setup and recurring charges", "What will the buyer actually pay?"],
+            ["Required staff training and ongoing administration", "What work must the buyer contribute?"],
+            ["Support for a necessary system or accessibility requirement", "Can the option perform the needed job?"]
+          ],
+          "explain": "These checks reveal different dimensions of fit. A lower listed price need not mean lower total cost or a workable choice.",
+          "transfer": false
+        },
+        {
+          "id": "u02l3-3",
+          "kind": "choice",
+          "title": "An option is to wait",
+          "teach": "A purchase is not the only possible next step. When the current approach adequately meets the stated need and a new tool adds no established benefit, continuing the current approach can be a reasonable choice.",
+          "say": "The comparison includes doing what already works.",
+          "ethics": "Are you inventing a deficiency because you prefer a sale?",
+          "sourceIds": ["S4", "S5"],
+          "prompt": "A tiny volunteer team reliably manages its few monthly inquiries with a shared sheet. They report no current problem, and your paid platform would add setup work without a demonstrated benefit. What recommendation fits these facts?",
+          "options": [
+            "Buy now so the team feels ready for possible growth.",
+            "Keep the sheet for now; revisit if the workload or needs change.",
+            "Switch immediately because manual tools are inherently unprofessional."
+          ],
+          "answer": 1,
+          "why": [
+            "Possible future growth alone does not establish that today's cost and setup are worthwhile.",
+            "This respects the current fit while leaving a reason to reassess when the facts change.",
+            "A status judgment is not evidence that the present approach fails the team's needs."
+          ],
+          "transfer": false
+        },
+        {
+          "id": "u02l3-4",
+          "kind": "choice",
+          "title": "The cheaper workshop",
+          "teach": "A fair comparison includes mandatory charges and necessary features. Disclose those differences before asking someone to choose, so a lower headline price does not create a misleading impression.",
+          "say": "Put the real terms side by side before recommending.",
+          "ethics": "Can the decision-maker see the full cost without having to uncover it?",
+          "sourceIds": ["S4", "S6"],
+          "prompt": "In this fictional workplace example, Workshop A lists $600 plus a mandatory $200 materials fee. Workshop B costs $750 including materials. Both meet the team's needs. Your manager asks which has the lower total price. What should you say?",
+          "options": [
+            "A is cheaper because its listed workshop price is $600.",
+            "They are roughly the same, so price does not matter.",
+            "B is lower: $750 total compared with A's $800 total."
+          ],
+          "answer": 2,
+          "why": [
+            "This omits a mandatory cost and answers a different question from total price.",
+            "The difference is known, and the manager asked for it. You can discuss other tradeoffs after reporting it accurately.",
+            "Including mandatory materials gives the relevant comparison. It does not claim B is superior on every dimension."
+          ],
+          "transfer": true
+        }
+      ]
+    }
+  ]
+}

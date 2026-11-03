@@ -1,0 +1,353 @@
+{
+  "id": "u11",
+  "title": "Keep humans accountable",
+  "subtitle": "Use the tools. Own the consequences.",
+  "icon": "shield",
+  "color": "blue",
+  "skill": "accountability",
+  "description": "Check AI-assisted claims, respect information boundaries, and make correction possible. Every scenario and number is fictional.",
+  "lessons": [
+    {
+      "title": "A draft is not evidence",
+      "objective": "Verify AI-assisted claims and preserve accountable human review.",
+      "takeaway": "AI can suggest the wording; someone still has to support the claim.",
+      "fieldwork": "Review a fictional AI-written pitch. Underline every claim that would need outside evidence before you would send it.",
+      "items": [
+        {
+          "kind": "choice",
+          "title": "Check before polishing",
+          "teach": "Fluent wording does not establish accuracy or feasibility. Review consequential claims against reliable evidence and the people responsible for delivery before treating a draft as ready.",
+          "say": "A polished promise still needs a real basis.",
+          "ethics": "Who has verified what the customer may rely on?",
+          "sourceIds": [
+            "E5",
+            "E6"
+          ],
+          "prompt": "An AI draft promises a two-week integration. Your delivery lead estimates four weeks, and the buyer has not yet seen the draft. What is the strongest next step before sending?",
+          "transfer": false,
+          "options": [
+            "Replace “two weeks” with “rapid” and send it.",
+            "Confirm a feasible scope and revise the promise accordingly.",
+            "Keep two weeks because the draft cites industry practice."
+          ],
+          "answer": 1,
+          "why": [
+            "Vague wording can preserve the same misleading expectation.",
+            "This grounds the promise in the team’s actual ability to deliver.",
+            "A generic claim does not override the known delivery constraint."
+          ],
+          "id": "u11l1-1"
+        },
+        {
+          "kind": "order",
+          "title": "A claim review routine",
+          "teach": "For a draft that has not been sent, use this review routine: identify consequential claims, check them against evidence and delivery authority, revise unsupported wording, then approve the final version. It is a practical routine, not a universal sequence for every incident.",
+          "say": "Find the claims. Check the basis. Fix the draft. Own the release.",
+          "ethics": "Can the final reviewer explain what supports each important promise?",
+          "sourceIds": [
+            "E5",
+            "E6"
+          ],
+          "prompt": "Put the just-taught routine in order for an unsent proposal.",
+          "transfer": false,
+          "parts": [
+            "Identify consequential claims",
+            "Check evidence and delivery authority",
+            "Revise unsupported wording",
+            "Approve the corrected version"
+          ],
+          "explain": "Checking before approval helps prevent others from relying on unsupported claims. A discovered live error may require immediate notification rather than this drafting sequence.",
+          "id": "u11l1-2"
+        },
+        {
+          "kind": "choice",
+          "title": "Make the interaction understandable",
+          "teach": "Transparency should help people understand consequential AI involvement and reach an accountable human. A disclosure is useful when it changes how someone can evaluate, question, or act on the interaction.",
+          "say": "Explain the tool where it affects the person’s choice.",
+          "ethics": "Can the customer tell what the system can decide and how to question it?",
+          "sourceIds": [
+            "E5",
+            "E6"
+          ],
+          "prompt": "A fictional sales chatbot can explain plan features but cannot approve exceptions. Customers keep mistaking its replies for a manager’s binding approval. Which change best addresses that problem?",
+          "transfer": false,
+          "options": [
+            "Add a long generic AI notice to an unrelated page.",
+            "Tell customers every reply is unofficial even when features are accurate.",
+            "Explain its limits and route exceptions to a human."
+          ],
+          "answer": 2,
+          "why": [
+            "The notice is unlikely to correct the consequential misunderstanding.",
+            "A blanket dismissal obscures useful information and still leaves the approval process unclear.",
+            "This explains the specific limit and provides a way to obtain an accountable decision."
+          ],
+          "id": "u11l1-3"
+        },
+        {
+          "kind": "choice",
+          "title": "The generated shortlist",
+          "teach": "AI-generated assessments can contain unsupported inferences as well as false facts. Check the evidence relevant to the decision rather than treating confidence or ranking as proof.",
+          "say": "An AI ranking is a proposal to inspect.",
+          "ethics": "Is an unverified inference deciding who gets an opportunity?",
+          "sourceIds": [
+            "E5",
+            "E6"
+          ],
+          "prompt": "A fictional vendor-selection assistant ranks a small supplier last for “likely unreliability,” but gives no supporting evidence. The committee wants a defensible shortlist. What should it do?",
+          "transfer": true,
+          "options": [
+            "Check delivery evidence against consistent criteria.",
+            "Accept the ranking because the explanation sounds confident.",
+            "Move the supplier to first place to offset the possible error."
+          ],
+          "answer": 0,
+          "why": [
+            "This tests the consequential inference without assuming the supplier is reliable or unreliable.",
+            "Confidence is not evidence for the assessment.",
+            "Reversing an unsupported ranking without investigation creates another unsupported judgment."
+          ],
+          "id": "u11l1-4"
+        }
+      ],
+      "id": "u11l1"
+    },
+    {
+      "title": "Personal without intrusive",
+      "objective": "Use relevant information for an understood purpose without exploiting sensitive inferences.",
+      "takeaway": "Useful personalization follows a real need, not a private vulnerability.",
+      "fieldwork": "Write two fictional outreach lines: one based on a stated business need and one based on an intrusive inference. Explain why you would send only the first.",
+      "items": [
+        {
+          "kind": "choice",
+          "title": "Available is not appropriate",
+          "teach": "Information being visible does not settle whether it is appropriate to use for a new purpose. Consider relevance, the person’s expectations, sensitivity, and possible harm before personalizing a pitch.",
+          "say": "Access to a fact is not a reason to exploit it.",
+          "ethics": "Does this detail help the request or target a vulnerability?",
+          "sourceIds": [
+            "E5",
+            "E6"
+          ],
+          "prompt": "A prospect publicly asked for accessible booking software. An AI tool also infers a family health crisis from unrelated posts. To tailor a respectful business message, what should you use?",
+          "transfer": false,
+          "options": [
+            "The health inference, framed as sympathy.",
+            "The stated booking requirement, without the health inference.",
+            "Both details, because both came from public material."
+          ],
+          "answer": 1,
+          "why": [
+            "The inference is sensitive, uncertain, and unnecessary to the business request.",
+            "The stated requirement is relevant to the person’s expressed need.",
+            "Public availability does not remove the sensitivity or purpose mismatch."
+          ],
+          "id": "u11l2-1"
+        },
+        {
+          "kind": "sort",
+          "title": "Needed for this request?",
+          "teach": "Collecting only relevant information reduces unnecessary exposure and focuses the conversation. A field being interesting to a seller does not make it needed for the customer’s stated request.",
+          "say": "Ask for what the task needs.",
+          "ethics": "Could the same request be handled without this detail?",
+          "sourceIds": [
+            "E5",
+            "E6"
+          ],
+          "prompt": "A fictional buyer requests a delivery quote for office furniture. Classify the details for calculating delivery cost; no other service is being requested.",
+          "transfer": false,
+          "buckets": [
+            "Relevant to the delivery quote",
+            "Unnecessary for this request"
+          ],
+          "entries": [
+            {
+              "text": "Delivery destination and required date",
+              "bucket": 0,
+              "why": "Distance and timing affect this delivery estimate."
+            },
+            {
+              "text": "Access details such as stairs or a freight lift",
+              "bucket": 0,
+              "why": "These affect the work and equipment needed."
+            },
+            {
+              "text": "The buyer’s unrelated medical history",
+              "bucket": 1,
+              "why": "It is not needed to calculate this office delivery."
+            },
+            {
+              "text": "A guessed political affiliation",
+              "bucket": 1,
+              "why": "It is unrelated to the requested quote."
+            }
+          ],
+          "explain": "This is a purpose-specific judgment. Information relevant to a different service would need its own justification.",
+          "id": "u11l2-2"
+        },
+        {
+          "kind": "choice",
+          "title": "A new audience is a new decision",
+          "teach": "Information shared for one conversation should not casually become a lead for another organization. Check the intended purpose and obtain appropriate permission before making a new disclosure.",
+          "say": "An introduction should not surprise the person being introduced.",
+          "ethics": "Did they agree to this information reaching this audience?",
+          "sourceIds": [
+            "E4",
+            "E5"
+          ],
+          "prompt": "A buyer gives you an email address to receive your quote. A partner asks for it to pitch a separate service, and the buyer has not agreed to that. What best preserves the buyer’s control?",
+          "transfer": false,
+          "options": [
+            "Forward it and let them unsubscribe if uninterested.",
+            "Add the buyer to the partner’s contact list, asking the partner not to call yet.",
+            "Ask whether they want the specific introduction before sharing."
+          ],
+          "answer": 2,
+          "why": [
+            "The buyer is exposed to a new use before having a choice about it.",
+            "Delaying the call does not undo the disclosure: the partner already has the address for a purpose the buyer did not accept.",
+            "This lets the buyer decide about the new purpose and audience."
+          ],
+          "id": "u11l2-3"
+        },
+        {
+          "kind": "choice",
+          "title": "The helpful introduction",
+          "teach": "A person can welcome help without agreeing to every possible disclosure. Define what would be shared, with whom, and for what purpose before acting on their behalf.",
+          "say": "Make the proposed help specific enough to accept or decline.",
+          "ethics": "What exactly is the person agreeing to share?",
+          "sourceIds": [
+            "E5"
+          ],
+          "prompt": "A fictional workshop participant mentions a transport difficulty. You know a volunteer coordinator who may help, but the participant has not asked you to share their details. What should happen first?",
+          "transfer": true,
+          "options": [
+            "Ask permission for a specific, limited introduction.",
+            "Send the coordinator the participant’s full message immediately.",
+            "Assume privacy means you cannot mention the possible help."
+          ],
+          "answer": 0,
+          "why": [
+            "The participant can choose whether the help and disclosure suit them.",
+            "The full message may reveal more than needed, without agreement.",
+            "You can describe an option without sharing the person’s information."
+          ],
+          "id": "u11l2-4"
+        }
+      ],
+      "id": "u11l2"
+    },
+    {
+      "title": "Build a route to correction",
+      "objective": "Connect incentives, decision ownership, and repair rather than relying on individual good intentions.",
+      "takeaway": "Accountability needs an owner, a route to raise concerns, and a way to correct the result.",
+      "fieldwork": "For a fictional promise, write who owns delivery, who can authorize a change, and how the buyer can report a problem.",
+      "items": [
+        {
+          "kind": "choice",
+          "title": "What the dashboard rewards",
+          "teach": "Metrics can make some actions easier to justify and others harder to pursue. Evaluate what a target encourages and whether complaints, fit, and delivery failures can still influence decisions.",
+          "say": "A target teaches people what the organization will notice.",
+          "ethics": "Which harms disappear if this is the only number watched?",
+          "sourceIds": [
+            "E9"
+          ],
+          "prompt": "A fictional team rewards signed contracts only. Agents are discouraged from recording poor-fit customers, and avoidable cancellations are rising. Which change most directly addresses that incentive problem?",
+          "transfer": false,
+          "options": [
+            "Tell agents to care more while leaving the process unchanged.",
+            "Track fit and delivery; let staff report concerns.",
+            "Stop collecting any performance information."
+          ],
+          "answer": 1,
+          "why": [
+            "Good intentions alone do not change the incentive or reporting barrier.",
+            "This makes the neglected outcomes visible and gives staff a concrete way to act.",
+            "Removing all information makes it harder to identify improvement or harm."
+          ],
+          "id": "u11l3-1"
+        },
+        {
+          "kind": "match",
+          "title": "Who owns which step?",
+          "teach": "A title alone does not establish authority for every decision. Identify the person who can validate a promise, authorize a remedy, and communicate the agreed action.",
+          "say": "Ownership means knowing who can do what.",
+          "ethics": "Are you promising a remedy you cannot authorize?",
+          "sourceIds": [
+            "E1",
+            "E9"
+          ],
+          "prompt": "In this fictional team, match each explicit responsibility to its owner.",
+          "transfer": false,
+          "pairs": [
+            [
+              "Checks whether the promised work can be delivered",
+              "Delivery lead"
+            ],
+            [
+              "Approves a refund under the team’s policy",
+              "Authorized refund manager"
+            ],
+            [
+              "Keeps the customer informed about the agreed next step",
+              "Named customer contact"
+            ]
+          ],
+          "explain": "One person may hold several roles, but the responsibilities still need to be clear. The exercise uses this team’s stated arrangement, not a universal organization chart.",
+          "id": "u11l3-2"
+        },
+        {
+          "kind": "choice",
+          "title": "Raise a concern that can be acted on",
+          "teach": "A useful escalation identifies the claim, the evidence, the affected decision, and the action needed. Organizational barriers are real; a concrete route and accountable recipient make follow-through more possible.",
+          "say": "Make the concern specific enough to resolve.",
+          "ethics": "Will someone with authority receive the facts in time to prevent reliance?",
+          "sourceIds": [
+            "E9",
+            "E1"
+          ],
+          "prompt": "You discover a proposal still promises a feature the delivery lead says is unavailable. Your manager can pause sending, and the proposal has not left the company. Which message is most actionable?",
+          "transfer": false,
+          "options": [
+            "“Something about this deal feels off.”",
+            "“I disagree with the sales culture in general.”",
+            "“This feature is unavailable; please pause this proposal while we correct the scope.”"
+          ],
+          "answer": 2,
+          "why": [
+            "It signals concern but does not identify the issue or needed action.",
+            "The broad critique does not resolve the immediate unsupported promise.",
+            "It connects a checkable problem to an authorized, timely action."
+          ],
+          "id": "u11l3-3"
+        },
+        {
+          "kind": "choice",
+          "title": "An error with a route out",
+          "teach": "Correction requires more than admitting that a system or person made a mistake. Give affected people an understandable account and a practical way to obtain a reviewed decision.",
+          "say": "Make the correction reachable, not merely announced.",
+          "ethics": "Can the affected person get a consequential error reconsidered?",
+          "sourceIds": [
+            "E5",
+            "E6",
+            "E9"
+          ],
+          "prompt": "A fictional booking system wrongly labels a customer ineligible for a discount. Staff can review eligibility, but the customer only sees “computer says no.” What change best provides accountability?",
+          "transfer": true,
+          "options": [
+            "Explain the relevant rule and offer a staffed review route.",
+            "Add “AI may be wrong” beneath the same final rejection.",
+            "Automatically give every customer every discount."
+          ],
+          "answer": 0,
+          "why": [
+            "This makes the basis understandable and allows correction of a specific error.",
+            "The warning acknowledges uncertainty without giving the person recourse.",
+            "That bypasses the eligibility question instead of creating a review process."
+          ],
+          "id": "u11l3-4"
+        }
+      ],
+      "id": "u11l3"
+    }
+  ]
+}

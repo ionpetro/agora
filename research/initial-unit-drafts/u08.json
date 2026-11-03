@@ -1,0 +1,218 @@
+{
+  "id": "u08",
+  "title": "Make agreements work",
+  "subtitle": "Plan for uncertainty, delivery, and a useful no.",
+  "icon": "handshake",
+  "color": "sage",
+  "skill": "follow-through",
+  "description": "Design clear future-dependent terms, make promises executable, and recognize when a revised offer or no agreement is the sound outcome.",
+  "lessons": [
+    {
+      "id": "u08l1",
+      "title": "Agree about uncertainty",
+      "objective": "Recognize a clear contingent term and check the measurement, risk, and incentives it creates.",
+      "takeaway": "A future-dependent promise needs a defined trigger, a way to check it, and a feasible response.",
+      "fieldwork": "Choose a low-stakes future uncertainty and describe what you would check and do under two possible outcomes.",
+      "items": [
+        {
+          "id": "u08l1-1",
+          "kind": "choice",
+          "title": "If this, then that",
+          "teach": "A contingent term ties an agreed action or payment to a future event. It can let parties proceed despite different forecasts, but vague triggers merely postpone the disagreement.",
+          "say": "Agree on what happens under each outcome, not only on the forecast.",
+          "ethics": "Can both parties understand and afford the consequence if the less favorable outcome occurs?",
+          "sourceIds": ["N8"],
+          "prompt": "In a fictional workshop pilot, the parties disagree about enrollment. Capacity for a second session is reserved. Which proposed term gives the clearest future trigger and response for further review?",
+          "options": ["If interest is strong, we will expand at a fair price.", "We will make the pilot successful and discuss costs later.", "If at least 35 people register by May 1, add one session for $1,000."],
+          "answer": 2,
+          "why": ["'Strong' and 'fair' leave both the trigger and payment unresolved.", "This does not specify what happens under different enrollment outcomes.", "It names a threshold, date, action, and price. Registration, approval, and capacity details still need defining."],
+          "transfer": false
+        },
+        {
+          "id": "u08l1-2",
+          "kind": "match",
+          "title": "Three parts of the condition",
+          "teach": "Separate the event that activates a term, the evidence used to establish it, and the response owed. All three need to be understandable to the people who will implement the agreement.",
+          "say": "What triggers it, how do we know, and what happens next?",
+          "ethics": "Use a measure that does not reward pressuring people into participation.",
+          "sourceIds": ["N8"],
+          "prompt": "A fictional pilot counts voluntary, confirmed registrations in a shared roster at noon on May 1. If the count is at least 35, the provider adds an agreed second session for $1,000. Match the parts.",
+          "pairs": [
+            ["Trigger", "At least 35 confirmed registrations by the cutoff"],
+            ["Measurement", "The agreed shared roster at noon on May 1"],
+            ["Response", "Add the second session at the agreed $1,000 price"]
+          ],
+          "explain": "The count, record, and response serve different functions. The final agreement also needs owners, capacity, and rules for cancellations or disputed counts.",
+          "transfer": false
+        },
+        {
+          "id": "u08l1-3",
+          "kind": "choice",
+          "title": "Refusing a bet is not proof",
+          "teach": "A person may believe an outcome is likely yet be unable to absorb the downside of a contingent payment. Cash needs, measurement problems, and lack of control can matter alongside confidence.",
+          "say": "Confidence in an outcome is not unlimited capacity to carry its risk.",
+          "ethics": "Do not treat refusal of a risky term as proof of dishonesty.",
+          "sourceIds": ["N8", "E1"],
+          "prompt": "A fictional trainer expects a good workshop but declines payment based entirely on later job placements. Employers make hiring decisions, and the trainer needs to pay staff regardless. Which conclusion is justified?",
+          "options": ["The trainer knows the workshop has no value.", "The trainer cannot control hiring decisions.", "The buyer must pay any requested fee in advance."],
+          "answer": 1,
+          "why": ["The refusal alone does not establish the trainer's belief or the workshop's value.", "Employers make the hiring decisions. That lack of control, along with the trainer's staff costs, helps explain the refusal without proving dishonesty.", "Rejecting one payment design does not establish that every alternative price or schedule is appropriate."],
+          "transfer": false
+        },
+        {
+          "id": "u08l1-4",
+          "kind": "choice",
+          "title": "The outdoor event",
+          "teach": "A contingency needs an operational trigger and a specific response. A weather label or other vague event can be interpreted differently unless the parties agree on the evidence and timing.",
+          "say": "Make the condition clear enough for someone else to apply.",
+          "ethics": "Do not promise a backup you have neither reserved nor authority to provide.",
+          "sourceIds": ["N8", "N9"],
+          "prompt": "In a fictional event agreement, an indoor room is already reserved. The draft says, 'If the weather looks bad, we will move indoors.' The organizer and venue want to avoid a last-minute dispute. What needs clarification most?",
+          "options": ["Weather trigger, timing, and decision owner.", "A promise that the weather will probably be fine.", "A larger outdoor-event discount without changing the clause."],
+          "answer": 0,
+          "why": ["Agree the weather source and threshold, when the decision happens, and who acts. That makes the condition checkable and the response owned.", "Optimism does not resolve how the condition will be interpreted.", "Price may matter, but it does not define when or how the reserved backup is used."],
+          "transfer": true
+        }
+      ]
+    },
+    {
+      "id": "u08l2",
+      "title": "A yes you can deliver",
+      "objective": "Turn an apparent agreement into clear responsibilities within each person's authority.",
+      "takeaway": "Check scope, owner, timing, acceptance, dependencies, and authority before relying on a promise.",
+      "fieldwork": "Improve one ordinary commitment by naming who will do what, by when, and how you will check it is done.",
+      "items": [
+        {
+          "id": "u08l2-1",
+          "kind": "choice",
+          "title": "Interest is not approval",
+          "teach": "Someone may support a proposal without having authority to commit money or delivery resources. Confirm what has actually been agreed and which approval remains before treating interest as a final commitment.",
+          "say": "Find out who can turn support into a commitment.",
+          "ethics": "Do not describe an interested contact as an authorized buyer before checking.",
+          "sourceIds": ["N1", "N9"],
+          "prompt": "In a fictional college discussion, a coordinator says, 'This looks useful; the director approves spending.' You want to plan responsibly. What is the best next step?",
+          "options": ["Start delivery and send the college an invoice.", "Check the director's approval process.", "Announce the college as a signed customer."],
+          "answer": 1,
+          "why": ["The coordinator's support does not establish authorization for spending or delivery.", "It distinguishes interest from commitment and identifies the next responsible step.", "That would overstate the status of the relationship before approval is established."],
+          "transfer": false
+        },
+        {
+          "id": "u08l2-2",
+          "kind": "match",
+          "title": "Give the promise a shape",
+          "teach": "An executable commitment identifies the work, a responsible owner, a time, and a way to check completion. Important dependencies and changes also need an agreed process; a friendly summary alone does not settle every contractual issue.",
+          "say": "Who does what, by when, and how will we know?",
+          "ethics": "Do not hide a dependency that could prevent the promised result.",
+          "sourceIds": ["N9", "N1"],
+          "prompt": "Match each element of a fictional workshop agreement to the question it answers.",
+          "pairs": [
+            ["Two live sessions and one workbook", "What is included?"],
+            ["Morgan, delivery lead", "Who is responsible?"],
+            ["Both sessions completed by June 12", "When is delivery due?"],
+            ["Shared attendance and delivery checklist", "How will completion be checked?"]
+          ],
+          "explain": "These elements make delivery easier to coordinate. They do not by themselves determine whether a document satisfies every legal or organizational requirement.",
+          "transfer": false
+        },
+        {
+          "id": "u08l2-3",
+          "kind": "choice",
+          "title": "The dependency belongs in the deal",
+          "teach": "A deadline may depend on material the other party must supply. Make that dependency and the response to delay explicit before relying on the date; do not leave it as a surprise exception.",
+          "say": "If the promise depends on something, say what and when.",
+          "ethics": "A hidden condition makes the buyer's understanding of the deadline unreliable.",
+          "sourceIds": ["N9"],
+          "prompt": "A fictional agency can launch by June 30 only if the client supplies approved text by June 10. The buyer has not heard this requirement. What should the agency do before confirming the date?",
+          "options": ["Confirm June 30 and mention the text later.", "Avoid any deadline even if the client can meet the dependency.", "Explain the dependency and plan for delays."],
+          "answer": 2,
+          "why": ["The buyer would rely on a date without knowing a condition essential to meeting it.", "The dependency does not necessarily prevent a workable commitment; it needs discussion.", "It gives both parties a realistic basis for the timeline and a way to handle change."],
+          "transfer": false
+        },
+        {
+          "id": "u08l2-4",
+          "kind": "choice",
+          "title": "The promised flexibility",
+          "teach": "A commitment is stronger when the authorized person confirms its details and relevant conditions. An informal expectation can leave both parties with different understandings.",
+          "say": "Turn a useful expectation into a clear, authorized arrangement.",
+          "ethics": "Do not pressure someone to rely on flexibility the speaker cannot authorize.",
+          "sourceIds": ["N1", "N9"],
+          "prompt": "In a fictional job offer, a recruiter says one remote day 'should be fine,' but says the hiring manager decides. The day matters to your decision. What best reduces uncertainty before acceptance?",
+          "options": ["Ask the manager to confirm scheduling.", "Assume the recruiter's wording makes it permanent.", "Accept first and treat the manager's approval as automatic."],
+          "answer": 0,
+          "why": ["Ask the person with authority to confirm the remote day and any conditions. That makes the essential arrangement clear before you rely on it.", "The recruiter explicitly identified someone else as the decision-maker and used uncertain wording.", "Acceptance does not supply the missing approval or establish the conditions."],
+          "transfer": true
+        }
+      ]
+    },
+    {
+      "id": "u08l3",
+      "title": "The useful no",
+      "objective": "Recognize when to revise, pause, or leave a negotiation and evaluate the process separately from the outcome.",
+      "takeaway": "A sound negotiation can end with a feasible agreement, a clear pause, or an informed no.",
+      "fieldwork": "After a low-stakes discussion, note one thing you learned, one promise to keep, and one preparation change for next time.",
+      "items": [
+        {
+          "id": "u08l3-1",
+          "kind": "choice",
+          "title": "Agreement is not the only goal",
+          "teach": "An agreement can be worse than a feasible alternative or fail an essential need. Recognizing that is part of negotiation, not evidence that you should push harder until someone says yes.",
+          "say": "The goal is a workable decision, not a signature at any cost.",
+          "ethics": "Do not sell a known mismatch merely because the buyer might accept it.",
+          "sourceIds": ["N2", "E1"],
+          "prompt": "In a fictional software service, a buyer needs the full integration in two weeks. Your verified earliest date is four weeks, and no partial scope meets the need. What is the most responsible next move?",
+          "options": ["Promise two weeks and ask delivery to find a way.", "Explain the mismatch and allow the buyer to seek another option.", "Call four weeks 'phase two' without changing the actual delivery."],
+          "answer": 1,
+          "why": ["That creates a promise you already know you cannot support.", "It gives the buyer the information needed to choose a feasible alternative; this deal may not fit.", "Renaming the schedule does not make the buyer's required integration available sooner."],
+          "transfer": false
+        },
+        {
+          "id": "u08l3-2",
+          "kind": "choice",
+          "title": "New facts, new comparison",
+          "teach": "A previously acceptable proposal can become unsuitable when material facts change. Revisit the complete package and alternatives instead of treating earlier enthusiasm as a commitment to ignore new information.",
+          "say": "You are allowed to update when the deal changes.",
+          "ethics": "Give the other party a chance to reconsider when a material term changes.",
+          "sourceIds": ["N2", "E2"],
+          "prompt": "In a fictional purchase, you preferred a supplier's offer until it disclosed a mandatory setup fee that exceeds your approved total budget. You have not committed, and the supplier can discuss smaller scope. What best uses the new information?",
+          "options": ["Accept because you already said the offer looked good.", "Ignore the setup fee when comparing prices.", "Recalculate the total and explore scope or an alternative."],
+          "answer": 2,
+          "why": ["Earlier interest does not make the changed total workable or authorized.", "A mandatory fee is part of the real commitment and belongs in the comparison.", "This updates the evaluation using the material fact and checks whether another feasible package exists."],
+          "transfer": false
+        },
+        {
+          "id": "u08l3-3",
+          "kind": "sort",
+          "title": "Review the process, not only the result",
+          "teach": "A signed deal does not prove a sound process, and a lost deal does not prove poor judgment. Review the evidence used, promises made, choices preserved, and lessons for the next discussion.",
+          "say": "Ask what you did well and what needs repair, even when the deal closed.",
+          "ethics": "Do not let revenue erase an unsupported claim or a respected refusal count as failure.",
+          "sourceIds": ["N9", "E1", "E2"],
+          "prompt": "Sort these fictional debrief notes by what the stated facts support.",
+          "buckets": ["Sound action under the facts", "Action needs correction", "Outcome alone is insufficient"],
+          "entries": [
+            {"text": "We disclosed the known delay before signature so the buyer could reconsider.", "bucket": 0, "why": "The action preserves a decision based on the material delivery fact."},
+            {"text": "We claimed a capability we knew was missing, and the buyer signed.", "bucket": 1, "why": "The signature does not repair the false capability claim."},
+            {"text": "The buyer declined; we know nothing else about the discussion.", "bucket": 2, "why": "A no by itself does not tell us whether the process was skillful or fair."},
+            {"text": "We signed a contract; no other facts about it are given.", "bucket": 2, "why": "Agreement alone does not establish feasibility, fit, or informed choice."}
+          ],
+          "explain": "Review observable actions using the known facts. Do not turn a single outcome into a verdict on the negotiator's character or skill.",
+          "transfer": false
+        },
+        {
+          "id": "u08l3-4",
+          "kind": "choice",
+          "title": "A smaller partnership is still too much",
+          "teach": "Changing scope can help only when the revised agreement actually meets the parties' constraints. After checking that no feasible option remains, a clear no can preserve resources and expectations.",
+          "say": "Do not keep shrinking a deal until the essential purpose disappears.",
+          "ethics": "Respect a real capacity limit instead of turning participation into a test of commitment.",
+          "sourceIds": ["N2", "N9", "E1"],
+          "prompt": "In a fictional college partnership, every useful pilot needs adviser time this month. Advisers have confirmed no available capacity, and postponement is possible but not yet approved. Both parties have checked smaller scopes. What is the strongest next step?",
+          "options": ["Pause this month's plan and explore a later approved date.", "Sign the smallest scope despite its unmet staffing need.", "Ask advisers to volunteer time so the agreement can close."],
+          "answer": 0,
+          "why": ["It respects the confirmed constraint and explores a genuinely different timeline without promising approval.", "The smaller scope still needs resources that the scenario says are unavailable.", "This shifts the unmet commitment onto staff instead of resolving feasibility through an authorized plan."],
+          "transfer": true
+        }
+      ]
+    }
+  ]
+}

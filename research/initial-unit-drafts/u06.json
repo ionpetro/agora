@@ -1,0 +1,213 @@
+{
+  "id": "u06",
+  "title": "Build a better offer",
+  "subtitle": "Trade across priorities and make choices meaningful.",
+  "icon": "scales",
+  "color": "gold",
+  "skill": "offer design",
+  "description": "Explore useful trades, make supported opening offers, and evaluate packages from both sides of the table.",
+  "lessons": [
+    {
+      "id": "u06l1",
+      "title": "Beyond one number",
+      "objective": "Identify trades that meet different priorities without hiding costs or promising impossible work.",
+      "takeaway": "Look for differences in priorities, then verify that the proposed trade works for both sides.",
+      "fieldwork": "Before your next low-stakes negotiation, list two terms besides price and check which one matters most to the other person.",
+      "items": [
+        {
+          "id": "u06l1-1",
+          "kind": "choice",
+          "title": "Different priorities",
+          "teach": "Some bargaining divides existing value, such as a fixed price difference. Other bargaining finds trades across issues that people value differently. Creating a better package still leaves decisions about who receives the benefits.",
+          "say": "Different priorities can create room for a useful trade.",
+          "ethics": "A trade is only workable if the people doing the work can deliver it.",
+          "sourceIds": ["N4", "N1"],
+          "prompt": "In a fictional design project, the client needs a lower fee and can wait six weeks. The studio prefers six weeks to a rushed three-week schedule and can profitably offer a lower fee for that timing. What is worth exploring?",
+          "options": ["Lower the fee while keeping the rush deadline.", "Keep discussing price without mentioning timing.", "Explore a cheaper six-week schedule."],
+          "answer": 2,
+          "why": ["This gives up price without using the stated scheduling opportunity.", "It overlooks the difference in priorities that could improve the package.", "The timing difference creates a candidate trade; both parties should confirm the specific terms."],
+          "transfer": false
+        },
+        {
+          "id": "u06l1-2",
+          "kind": "match",
+          "title": "Two parts of bargaining",
+          "teach": "Creating value and claiming value can appear in the same conversation. Finding a better option does not remove the need to agree on its distribution, and neither step establishes fairness by itself.",
+          "say": "Improve the options, then decide how to share the benefits.",
+          "ethics": "Do not call a package fair merely because its total value increased.",
+          "sourceIds": ["N4", "N6"],
+          "prompt": "Match each move to what it primarily does in the stated situation.",
+          "pairs": [
+            ["Negotiate price with all other terms fixed", "Decide how existing value is divided"],
+            ["Find a timing change both sides prefer", "Improve the available package"],
+            ["Check whether delivery staff can support a proposed rush", "Test whether an option is feasible"]
+          ],
+          "explain": "These functions can overlap. The distinctions help you notice whether you are dividing value, improving an option, or checking a promise.",
+          "transfer": false
+        },
+        {
+          "id": "u06l1-3",
+          "kind": "choice",
+          "title": "A hidden third party",
+          "teach": "A deal between two people can move costs onto someone else. Before presenting a trade as a mutual gain, check who must supply the time, money, or flexibility it requires.",
+          "say": "A bargain is not free just because someone else bears its cost.",
+          "ethics": "Have the people carrying the extra work been included in the feasibility check?",
+          "sourceIds": ["N1", "E1"],
+          "prompt": "A fictional account manager offers free weekend support to preserve the price. The support team has no weekend coverage, and the manager cannot authorize it. What should happen before this becomes an offer?",
+          "options": ["Check an authorized, staffed support option.", "Offer it now and arrange coverage after signing.", "Describe weekend support as a relationship benefit."],
+          "answer": 0,
+          "why": ["This tests delivery and authority before the buyer relies on the promise.", "The buyer would be deciding on a service the team has not established it can provide.", "Friendly framing does not create staffing or permission."],
+          "transfer": false
+        },
+        {
+          "id": "u06l1-4",
+          "kind": "choice",
+          "title": "A schedule exchange",
+          "teach": "A useful trade follows a real difference in priorities. It must still meet each party's constraints and make any change in responsibilities explicit.",
+          "say": "Trade what is flexible without quietly giving away what is essential.",
+          "ethics": "Do not make another teammate's unpaid extra work the hidden price of flexibility.",
+          "sourceIds": ["N4", "N9"],
+          "prompt": "In a fictional team, Sam needs Wednesday mornings free and can cover late Tuesdays. The team needs late-Tuesday coverage, and Wednesday work can move without burdening others. Both schedules are permitted. Which proposal uses the stated priorities?",
+          "options": ["Reduce Sam's pay to buy Wednesday freedom.", "Offer late Tuesdays for Wednesday mornings off.", "Promise unrestricted availability on every other day."],
+          "answer": 1,
+          "why": ["A pay change is not needed to address the stated coverage opportunity.", "This exchanges two compatible scheduling preferences without inventing extra obligations.", "An unlimited promise exceeds the specific flexibility established in the scenario."],
+          "transfer": true
+        }
+      ]
+    },
+    {
+      "id": "u06l2",
+      "title": "Give the number a reason",
+      "objective": "Choose when an opening offer is supported and respond to an anchor using relevant evidence.",
+      "takeaway": "Base an offer on relevant information, and do not mistake the first number for the right number.",
+      "fieldwork": "For a real proposal, find one comparable reference and note one difference that limits the comparison.",
+      "items": [
+        {
+          "id": "u06l2-1",
+          "kind": "choice",
+          "title": "First is not always best",
+          "teach": "A first offer can anchor later judgments, but opening without useful information can also misprice the deal. Whether to go first depends partly on what you know about scope, alternatives, and the likely bargaining range.",
+          "say": "Preparation matters more than a rule about who speaks first.",
+          "ethics": "Do not invent a benchmark to make an unsupported opening sound informed.",
+          "sourceIds": ["N3"],
+          "prompt": "A fictional buyer asks you to quote an unfamiliar integration. You know neither the required systems nor the data volume, and those drive the cost. Your goal is a feasible initial proposal. What is the strongest next move?",
+          "options": ["Quote very high to establish a strong anchor.", "Clarify the scope before naming a supported range.", "Use the price of your most recent unrelated project."],
+          "answer": 1,
+          "why": ["A high guess still lacks a basis and may not represent a deliverable offer.", "The missing information is decisive for feasibility and price; gathering it supports a useful opening.", "An unrelated project is not a reliable comparison without matching the relevant work."],
+          "transfer": false
+        },
+        {
+          "id": "u06l2-2",
+          "kind": "choice",
+          "title": "Comparable to what?",
+          "teach": "An external standard can support a proposal when the comparison is relevant and open to examination. A convenient number is not objective just because it comes from another transaction.",
+          "say": "A benchmark earns its place by being comparable.",
+          "ethics": "Apply a standard consistently and acknowledge differences that weaken your case.",
+          "sourceIds": ["N1", "N3"],
+          "prompt": "You are preparing a hypothetical quote for a custom six-week service with training included. Which reference is most relevant to investigate first?",
+          "options": ["A basic product subscription with no service.", "The largest fee anyone in your network remembers.", "Recent quotes for similar scope, timing, and training."],
+          "answer": 2,
+          "why": ["The work and responsibility differ substantially from the proposed service.", "A memorable high fee lacks a defined comparison and may invite cherry-picking.", "These references match important cost and value dimensions; remaining differences still need checking."],
+          "transfer": false
+        },
+        {
+          "id": "u06l2-3",
+          "kind": "order",
+          "title": "Reset after a surprising offer",
+          "teach": "One useful response to a surprising opening is to pause, revisit your own criteria, ask what supports the offer, and make a reasoned response. This is a preparation aid, not a mandatory script for every conversation.",
+          "say": "Pause long enough to choose your reference point.",
+          "ethics": "Counter with reasons instead of a fabricated competing offer.",
+          "sourceIds": ["N3"],
+          "prompt": "A fictional vendor gives a surprisingly high opening price. You have time to review. Arrange the response sequence just taught.",
+          "parts": ["Pause before countering", "Revisit your scope, criteria, and alternative", "Ask what supports the proposed price", "Respond with a supported proposal or question"],
+          "explain": "This sequence helps you avoid reacting only to the anchor. In a real exchange you may loop back, ask for time, or stop when information is insufficient.",
+          "transfer": false
+        },
+        {
+          "id": "u06l2-4",
+          "kind": "choice",
+          "title": "The salary anchor",
+          "teach": "An opening salary can influence your expectations without showing the role's value or the employer's full range. Compare relevant evidence and the complete package before responding.",
+          "say": "Treat the first number as a proposal, not a verdict on your value.",
+          "ethics": "Use accurate experience and comparable evidence; do not fabricate another offer.",
+          "sourceIds": ["N3", "N2"],
+          "prompt": "In a hypothetical offer, a recruiter opens at $74,000. You have checked comparable roles supporting $78,000–$84,000, with similar duties and benefits. You want to explore pay flexibility and have no competing offer. Which response fits?",
+          "options": ["Ask about flexibility using those comparisons.", "Claim another employer offered $84,000.", "Accept $74,000 because the first number defines the range."],
+          "answer": 0,
+          "why": ["It uses relevant evidence to explore a supported request without pretending the employer must agree.", "The stated competing offer would be false.", "The opening offer does not establish either the full range or whether this package meets your needs."],
+          "transfer": true
+        }
+      ]
+    },
+    {
+      "id": "u06l3",
+      "title": "A real choice of packages",
+      "objective": "Construct genuinely acceptable packages and evaluate a menu against the recipient's own needs.",
+      "takeaway": "Several offers can reveal priorities, but a menu is not proof that any offer is fair or suitable.",
+      "fieldwork": "Sketch two offers you could genuinely deliver, then list what you would need to learn about the recipient before recommending either.",
+      "items": [
+        {
+          "id": "u06l3-1",
+          "kind": "choice",
+          "title": "Equivalent for whom?",
+          "teach": "Multiple equivalent simultaneous offers are packages presented together that the proposer values equally. They can vary in price, timing, or scope; the recipient may value them differently or reject all of them.",
+          "say": "Equal value to you does not mean equal value to them.",
+          "ethics": "Every offered package must be genuine; do not create a decoy you would refuse to deliver.",
+          "sourceIds": ["N5", "N6"],
+          "prompt": "In a hypothetical studio model, only revenue minus stated delivery cost matters, and capacity is equal. A costs the buyer $6,000 and costs the studio $4,000. B costs the buyer $6,600 and costs the studio $4,600. How do they compare for the studio?",
+          "options": ["B is worth $600 more because its price is higher.", "Both provide $2,000 under this simplified model.", "A is necessarily better for both parties."],
+          "answer": 1,
+          "why": ["B also has $600 more delivery cost, so the stated contribution is unchanged.", "Subtracting the costs gives $2,000 for each; equivalence is limited to the stated model.", "The buyer's preferences are not given, and the studio's modeled value is equal."],
+          "transfer": false
+        },
+        {
+          "id": "u06l3-2",
+          "kind": "choice",
+          "title": "Read the response carefully",
+          "teach": "A reaction to packages can suggest which issue deserves a question. It does not reveal a person's complete preferences, private limit, or willingness to accept the package unchanged.",
+          "say": "Use a preferred package to start a question, not end the negotiation.",
+          "ethics": "Do not convert 'closest fit' into consent to buy.",
+          "sourceIds": ["N5", "N9"],
+          "prompt": "A fictional client reviews a slower, cheaper package and a faster, dearer one. They say, 'The faster one is closer, but I need to think about the fee.' What is the best next question for understanding the tradeoff?",
+          "options": ["Shall I send the invoice for the faster package?", "Why did you ask for options if price matters?", "What deadline makes the faster option useful?"],
+          "answer": 2,
+          "why": ["A preference and a concern do not constitute acceptance.", "This frames the client's consideration as inconsistency rather than exploring the tradeoff.", "It checks the value of the timing difference and can guide a revised package."],
+          "transfer": false
+        },
+        {
+          "id": "u06l3-3",
+          "kind": "sort",
+          "title": "Real menu, incomplete menu",
+          "teach": "A menu supports choice when terms are understandable and each option is deliverable. More than one option can still exclude a better alternative or obscure a material cost.",
+          "say": "Count genuine choices, not just boxes on a pricing page.",
+          "ethics": "Can the recipient understand the commitment and decline every package?",
+          "sourceIds": ["N6", "E4"],
+          "prompt": "Sort these fictional package-design choices by whether they support informed comparison or need repair before presentation.",
+          "buckets": ["Supports informed comparison", "Needs repair"],
+          "entries": [
+            {"text": "Both deliverable packages show price, scope, deadline, and exclusions.", "bucket": 0, "why": "The buyer can compare the material terms of genuine options."},
+            {"text": "The cheaper package omits a mandatory setup fee from the displayed total.", "bucket": 1, "why": "The apparent cost hides part of the required commitment."},
+            {"text": "A package is shown only as a decoy; the seller would refuse to supply it.", "bucket": 1, "why": "It is not a genuine offer the buyer can select."},
+            {"text": "The seller invites a counterproposal or a no if neither package fits.", "bucket": 0, "why": "The menu does not claim to exhaust the buyer's choices."}
+          ],
+          "explain": "Clear, genuine options can help comparison. They do not establish suitability or fairness without examining the recipient's needs and alternatives.",
+          "transfer": false
+        },
+        {
+          "id": "u06l3-4",
+          "kind": "choice",
+          "title": "Three offers, one missing need",
+          "teach": "A recipient should compare a menu with their own essential requirements and alternatives. The best-looking option in a menu can still be unsuitable.",
+          "say": "The best of these options may still be the wrong option.",
+          "ethics": "A selection screen must not replace a meaningful chance to refuse.",
+          "sourceIds": ["N6", "E1"],
+          "prompt": "In a fictional job negotiation, three packages vary in salary and bonus. You need an agreed remote day for a continuing commitment, but none mentions scheduling. Before selecting a package, what is most useful?",
+          "options": ["Clarify whether any package can meet the scheduling need.", "Choose the largest bonus because three choices show flexibility.", "Treat the middle package as the fairest compromise."],
+          "answer": 0,
+          "why": ["The missing essential term determines whether any package is workable for you.", "A varied menu does not establish flexibility on the term you need.", "Position in a menu is not a fairness criterion and does not resolve the missing requirement."],
+          "transfer": true
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,292 @@
+{
+  "id": "u03",
+  "title": "Work through resistance",
+  "subtitle": "Clarify concerns. Make room for choice.",
+  "icon": "chat",
+  "color": "clay",
+  "skill": "objections",
+  "description": "Practice fictional conversations about price, uncertainty, scope, and timing. Learn to explore a concern without treating every refusal as an obstacle to overcome.",
+  "lessons": [
+    {
+      "id": "u03l1",
+      "title": "Understand the objection",
+      "objective": "Clarify a concern and distinguish it from a decision to decline.",
+      "takeaway": "Respond to the concern the person actually has, and accept a clear no.",
+      "fieldwork": "Think of a recent proposal that met resistance. Write two different concerns the same words could express, then one respectful question that could distinguish them.",
+      "items": [
+        {
+          "id": "u03l1-1",
+          "kind": "choice",
+          "title": "The words aren't the diagnosis",
+          "teach": "The same objection can have different meanings. 'Expensive' might describe an unavailable budget, an unclear benefit, or a comparison with another scope; clarify before choosing a response.",
+          "say": "Find out what the concern means before trying to answer it.",
+          "ethics": "Can the buyer decline to explain without facing more pressure?",
+          "sourceIds": ["S3", "S8", "S4"],
+          "prompt": "Devon says, 'This is expensive.' He has not explained further or declined the offer. You want to understand the concern before changing your proposal. Which response is most useful?",
+          "options": [
+            "What concerns you most about the price?",
+            "What discount would make you sign today?",
+            "Which feature should I explain again?"
+          ],
+          "answer": 0,
+          "why": [
+            "This leaves Devon room to describe the actual concern without assuming that price or explanation is the solution.",
+            "This moves directly to a concession and commitment before you understand the issue.",
+            "More explanation could help if value is unclear, but that has not yet been established."
+          ],
+          "transfer": false
+        },
+        {
+          "id": "u03l1-2",
+          "kind": "match",
+          "title": "Different concerns, different next steps",
+          "teach": "Once the concern is clear, choose a response that addresses it. A relevant next step might be a smaller scope, better evidence, a later date, or accepting that the person has decided not to proceed.",
+          "say": "Do not use the same rebuttal for different problems.",
+          "ethics": "Does your next step address their concern rather than merely prolong the sale?",
+          "sourceIds": ["S3", "S4", "S8"],
+          "prompt": "Match each explicit statement to the next step that most directly addresses it.",
+          "pairs": [
+            ["This scope exceeds our fixed budget, but a smaller project may work.", "Explore a feasible smaller scope"],
+            ["We can afford it, but the claimed benefit is unclear.", "Examine the relevant evidence and uncertainty"],
+            ["We want to proceed later; our team cannot start this month.", "Check a workable later start"],
+            ["We have decided against it and do not want further discussion.", "Accept the decision and stop the pitch"]
+          ],
+          "explain": "The explicit facts make these matches useful. Real conversations may involve several concerns; ask rather than assume when the meaning is unclear.",
+          "transfer": false
+        },
+        {
+          "id": "u03l1-3",
+          "kind": "choice",
+          "title": "The answer changed the task",
+          "teach": "Clarification matters only if you use what you learn. If a buyer has the budget but doubts a promised result, a discount does not supply the missing evidence.",
+          "say": "Let the clarified concern change your response.",
+          "ethics": "Are you substituting a tempting price for an honest answer about uncertainty?",
+          "sourceIds": ["S3", "S5", "S8"],
+          "prompt": "Devon explains, 'We have the money. I don't know whether your tool reduces missed appointments.' You have a small pilot, not proof of a general effect. What best addresses his stated concern?",
+          "options": [
+            "Offer a discount if he decides before the end of the call.",
+            "Explain that other respected organizations bought the tool.",
+            "Review the pilot's limits and explore a bounded trial."
+          ],
+          "answer": 2,
+          "why": [
+            "A discount changes price but leaves the uncertainty unresolved and adds pressure.",
+            "Other purchases do not establish the outcome Devon asked about.",
+            "This addresses the actual evidence gap without pretending it has already been resolved. Devon can still decline a trial."
+          ],
+          "transfer": false
+        },
+        {
+          "id": "u03l1-4",
+          "kind": "choice",
+          "title": "A refusal is information too",
+          "teach": "An explicit decision to decline is different from an invitation to solve an objection. Respecting it does not require agreement with the decision or a final attempt to change it.",
+          "say": "A clear no is a decision, not a puzzle you must defeat.",
+          "ethics": "Are you respecting the boundary they stated?",
+          "sourceIds": ["S4", "S3"],
+          "prompt": "You invite a coworker to a voluntary weekend event. They say, 'No thanks. I've decided not to come, and I'd rather not discuss why.' What response fits the boundary they set?",
+          "options": [
+            "Ask whether transport or cost is the real problem.",
+            "Say 'Understood' and leave the invitation there.",
+            "Explain once more why attending would benefit their career."
+          ],
+          "answer": 1,
+          "why": [
+            "They have explicitly declined further discussion. Diagnosing a hidden objection ignores that boundary.",
+            "This accepts the stated decision without demanding personal justification.",
+            "The benefit argument reopens a conversation they asked to end."
+          ],
+          "transfer": true
+        }
+      ]
+    },
+    {
+      "id": "u03l2",
+      "title": "Trade terms thoughtfully",
+      "objective": "Offer viable changes to scope, timing, or support with their consequences visible.",
+      "takeaway": "When terms change, make the whole exchange clear and keep it sustainable for both sides.",
+      "fieldwork": "For a fictional service you could offer, write a full-scope option and a smaller option. State exactly what changes and what stays included.",
+      "items": [
+        {
+          "id": "u03l2-1",
+          "kind": "choice",
+          "title": "Change the exchange",
+          "teach": "Price is only one part of an offer. A lower price can work with a clear, feasible change in scope or timing, but quietly removing promised work leaves the other person deciding on false terms.",
+          "say": "If the exchange changes, make the changed terms visible.",
+          "ethics": "Can both sides describe what is included at the new price?",
+          "sourceIds": ["S4", "S6"],
+          "prompt": "In this fictional freelance example, Ren quotes $1,200 for three deliverables. The client can spend $800 and is open to less work. Ren can sustainably supply two deliverables for $800. What is the clearest offer?",
+          "options": [
+            "Accept $800 and quietly reduce the revision time later.",
+            "Offer two named deliverables for $800, with the remaining terms stated.",
+            "Keep three deliverables at $800 and hope the work takes less time."
+          ],
+          "answer": 1,
+          "why": [
+            "The client cannot evaluate a reduction that has not been disclosed.",
+            "This offers a known feasible option and makes the tradeoff available for the client to accept or reject.",
+            "The example establishes a viable smaller scope, not the viability of the original workload at that price."
+          ],
+          "transfer": false
+        },
+        {
+          "id": "u03l2-2",
+          "kind": "sort",
+          "title": "Visible or hidden?",
+          "teach": "A concession is not automatically generous, and a firm price is not automatically unfair. What matters here is whether the offer is feasible and its material conditions are clear before agreement.",
+          "say": "Visible tradeoffs let people choose; hidden tradeoffs choose for them.",
+          "ethics": "Would a reasonable buyer discover a different exchange after signing?",
+          "sourceIds": ["S4", "S6"],
+          "prompt": "Sort these fictional revised offers. In each case, the seller knows the stated facts are true.",
+          "buckets": ["Tradeoff disclosed before agreement", "Material tradeoff concealed"],
+          "entries": [
+            {"text": "The lower quote lists two designs instead of three, and the buyer sees this before choosing.", "bucket": 0, "why": "The reduced scope is part of the visible offer."},
+            {"text": "The seller accepts the original scope but plans to skip the promised training without saying so.", "bucket": 1, "why": "The buyer is agreeing to training that the seller intends not to provide."},
+            {"text": "A later delivery date enables a lower price, and both dates and prices appear together.", "bucket": 0, "why": "The buyer can assess the timing-price tradeoff before accepting."},
+            {"text": "The new price looks lower because a known mandatory setup charge is left out until invoicing.", "bucket": 1, "why": "The total required price is withheld at the decision point."}
+          ],
+          "explain": "These categories concern what the buyer can know at agreement. A fully disclosed offer can still be unsuitable; either party may decline it.",
+          "transfer": false
+        },
+        {
+          "id": "u03l2-3",
+          "kind": "choice",
+          "title": "Protect a real boundary",
+          "teach": "Respectful negotiation does not require accepting work you cannot deliver sustainably. Explain the relevant limit and any feasible alternative; if none fits, a clear decline can be the most responsible outcome.",
+          "say": "You can be respectful and still say that the terms do not work.",
+          "ethics": "Are you making a promise that depends on ignoring your actual capacity?",
+          "sourceIds": ["S4"],
+          "prompt": "A client requires the full scope by Friday at a fixed price. You have verified that you cannot deliver it at those terms, and the client rejects smaller scope or a later date. What is the sound next step?",
+          "options": [
+            "Decline the project clearly because no workable option remains.",
+            "Accept to preserve the relationship, then request more time on Thursday.",
+            "Agree now and rely on the client not noticing the reduced work."
+          ],
+          "answer": 0,
+          "why": [
+            "This protects both parties from a promise you already know you cannot keep. It does not imply the client is wrong to have different needs.",
+            "The delay is already foreseeable. Waiting to reveal it deprives the client of a timely choice.",
+            "Concealing reduced work substitutes a different exchange for the one the client accepted."
+          ],
+          "transfer": false
+        },
+        {
+          "id": "u03l2-4",
+          "kind": "choice",
+          "title": "Trade time, not a hidden cost",
+          "teach": "At work, scope and timing are terms too. A useful alternative makes the consequence of a deadline clear instead of accepting a commitment and concealing which work will be dropped.",
+          "say": "Show the feasible alternatives before someone relies on the promise.",
+          "ethics": "Who bears the hidden cost if you agree without explaining what must change?",
+          "sourceIds": ["S4", "S9"],
+          "prompt": "Your manager asks for a full report tomorrow. You can deliver a verified summary tomorrow or the complete analysis on Monday, and the manager can choose either. What is the best response?",
+          "options": [
+            "Promise the full report tomorrow and decide later what to omit.",
+            "Say the request is impossible without mentioning the available summary.",
+            "Offer tomorrow's summary or Monday's full analysis."
+          ],
+          "answer": 2,
+          "why": [
+            "This conceals a foreseeable scope change from the person relying on the report.",
+            "The exact request is infeasible, but the manager has a genuine choice between useful alternatives.",
+            "This makes the available scope-time tradeoff clear and lets the manager select what serves the need."
+          ],
+          "transfer": true
+        }
+      ]
+    },
+    {
+      "id": "u03l3",
+      "title": "Make urgency honest",
+      "objective": "Communicate a real constraint without manufacturing pressure.",
+      "takeaway": "State the real deadline, the reason, and what actually changes afterward.",
+      "fieldwork": "Review a deadline you plan to communicate. Write what makes it real and what happens if the other person does not act by then.",
+      "items": [
+        {
+          "id": "u03l3-1",
+          "kind": "choice",
+          "title": "The actual consequence",
+          "teach": "A genuine deadline can be useful decision information. State what expires and what remains available, so a limited scheduling opportunity does not become a misleading claim that the whole offer disappears.",
+          "say": "Explain the real constraint and its real consequence.",
+          "ethics": "Does your deadline message exaggerate what the buyer will lose?",
+          "sourceIds": ["S4", "S7"],
+          "prompt": "Your team can hold next week's onboarding slot until Friday. Later slots will remain available at the same price. Which message accurately explains the urgency?",
+          "options": [
+            "Friday is your last chance to use our service.",
+            "You need to sign now to avoid losing this price.",
+            "We can hold next week's start until Friday; afterward, we'd check a later date."
+          ],
+          "answer": 2,
+          "why": [
+            "The service remains available. This turns a scheduling deadline into a false final opportunity.",
+            "The price does not change in the stated facts, so this invents a financial consequence.",
+            "This describes exactly what is time-limited and preserves the buyer's understanding of later options."
+          ],
+          "transfer": false
+        },
+        {
+          "id": "u03l3-2",
+          "kind": "sort",
+          "title": "Real, unknown, or invented?",
+          "teach": "Separate a verified constraint from an unverified claim and a known fabrication. When you do not know whether a deadline is real, check it before using it to influence a decision.",
+          "say": "Verify urgency before you pass it on.",
+          "ethics": "Are you borrowing someone else's urgency claim without knowing whether it is true?",
+          "sourceIds": ["S4", "S7"],
+          "prompt": "Sort each fictional deadline claim using the facts stated in the card.",
+          "buckets": ["Verified constraint", "Needs verification", "Known fabrication"],
+          "entries": [
+            {"text": "The venue's signed terms confirm the room hold expires Tuesday.", "bucket": 0, "why": "There is a specific verified deadline tied to an actual reservation."},
+            {"text": "A colleague says the discount ends tonight, but no one has checked the offer terms.", "bucket": 1, "why": "The claim might be true, but the evidence stated does not establish it."},
+            {"text": "A countdown resets for every visitor while claiming the same public offer permanently ends in ten minutes.", "bucket": 2, "why": "The stated behavior contradicts the claimed permanent deadline."},
+            {"text": "The instructor has confirmed there are two remaining seats in a class capped at its stated capacity.", "bucket": 0, "why": "The capacity limit and current availability are verified in this example."}
+          ],
+          "explain": "A true constraint can still be communicated aggressively. Verification is necessary for an honest claim; it is not permission to pressure someone beyond the actual consequence.",
+          "transfer": false
+        },
+        {
+          "id": "u03l3-3",
+          "kind": "choice",
+          "title": "A real deadline doesn't decide for them",
+          "teach": "Honest urgency informs the choice; it does not remove it. If someone cannot complete a needed review in time, explain available alternatives and accept that the time-limited option may not work.",
+          "say": "A deadline explains the options; the person still chooses.",
+          "ethics": "Are you asking someone to skip a necessary check just because your deadline is real?",
+          "sourceIds": ["S4", "S7"],
+          "prompt": "A genuine early-start deadline is Friday. The buyer's required accessibility review finishes Monday, and later starts remain available. What is the most appropriate next step?",
+          "options": [
+            "Ask for a signature Friday and promise the review can happen afterward.",
+            "Explain later start options and let the buyer complete the review.",
+            "Suggest the buyer mark the review complete to preserve the slot."
+          ],
+          "answer": 1,
+          "why": [
+            "This places the commitment before a review the buyer says is required.",
+            "The actual tradeoff is timing. This keeps it visible without turning the deadline into a reason to bypass evaluation.",
+            "This asks the buyer to misrepresent an unfinished review. A true deadline does not justify it."
+          ],
+          "transfer": false
+        },
+        {
+          "id": "u03l3-4",
+          "kind": "choice",
+          "title": "The offer decision",
+          "teach": "When you receive a deadline, clarify the actual terms before assuming its reason or consequence. You may request more time without pretending you have an alternative offer or demanding that the other side can always extend.",
+          "say": "Ask about a real deadline without inventing your own leverage.",
+          "ethics": "Is your request truthful about the decision time you need?",
+          "sourceIds": ["S4", "S8"],
+          "prompt": "A recruiter asks you to accept an offer by tomorrow. You need two more days to review the written terms, and do not know whether an extension is possible. Which response best checks the real options?",
+          "options": [
+            "Ask for two more days to review the terms.",
+            "Claim you have another offer to make the recruiter wait.",
+            "Assume the deadline is fake and ignore it without replying."
+          ],
+          "answer": 0,
+          "why": [
+            "This states the actual need and checks flexibility without assuming it exists. You can decide with better information.",
+            "Inventing an offer uses a false fact to influence the decision.",
+            "You do not yet know the constraint. Ignoring it could lose a real option without resolving the uncertainty."
+          ],
+          "transfer": true
+        }
+      ]
+    }
+  ]
+}

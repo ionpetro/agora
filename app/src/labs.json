@@ -1,0 +1,876 @@
+[
+  {
+    "id": "pilot",
+    "title": "The promising pilot",
+    "tag": "Discovery · Evidence",
+    "role": "You are the program adviser",
+    "description": "A college is interested. Your evidence is promising, your capacity is limited, and the decision is not just about price.",
+    "context": "Fictional case: you sell a $4,000 career workshop pilot. One earlier group of 12 volunteers reported feeling more prepared. You have no comparison group or job-placement data. This college wants better employment outcomes.",
+    "icon": "ear",
+    "sourceIds": [
+      "S3",
+      "S5",
+      "S6",
+      "N1"
+    ],
+    "start": "start",
+    "nodes": {
+      "start": {
+        "speaker": "Morgan · college program lead",
+        "text": "Can this get our students into jobs? We need something we can defend to the dean.",
+        "choices": [
+          {
+            "text": "Participants in our small pilot reported feeling more prepared; we have not measured job outcomes. What evidence would support your decision?",
+            "next": "evidence",
+            "feedback": "You distinguish what was measured from the outcome the buyer actually cares about."
+          },
+          {
+            "text": "A dozen people felt more prepared, so you can expect a meaningful placement improvement.",
+            "next": "repair",
+            "feedback": "That inference goes beyond the pilot. Positive self-reports do not establish placement effects."
+          },
+          {
+            "text": "I cannot support a placement claim. If that is essential, we may not be the right program.",
+            "next": "fit",
+            "feedback": "You set an honest limit. It is still useful to check whether a narrower goal could serve them."
+          }
+        ],
+        "context": "",
+        "prompt": "What do you say next?"
+      },
+      "repair": {
+        "speaker": "Morgan",
+        "text": "I was about to describe it as a placement program. Is that what the evidence says?",
+        "choices": [
+          {
+            "text": "I overstated it. We measured self-reported preparation, not placement. Please do not rely on the stronger claim.",
+            "next": "evidence",
+            "feedback": "A direct correction gives Morgan a chance to revise the decision. It may also cost credibility."
+          },
+          {
+            "text": "Let’s put the details in an appendix and keep the headline simple.",
+            "next": "strained",
+            "feedback": "A quieter qualification leaves the misleading headline doing the selling."
+          }
+        ],
+        "context": "",
+        "prompt": "What do you say next?"
+      },
+      "fit": {
+        "speaker": "Morgan",
+        "text": "Placement is the long-term goal. For now, a small preparation pilot could help us learn.",
+        "choices": [
+          {
+            "text": "Then let’s define a preparation outcome and decide what evidence a pilot can realistically collect.",
+            "next": "evidence",
+            "feedback": "You explore an honest smaller purpose instead of pretending to have the final outcome."
+          },
+          {
+            "text": "We still may be too early for you. Let’s pause until you can evaluate that option.",
+            "next": "pause",
+            "feedback": "A pause protects both parties from a commitment neither is ready to justify."
+          }
+        ],
+        "context": "",
+        "prompt": "What do you say next?"
+      },
+      "evidence": {
+        "speaker": "Morgan",
+        "text": "A preparation pilot might work. What would our staff need to do?",
+        "choices": [
+          {
+            "text": "Your coordinator would need about six hours a week. Is that feasible before we discuss dates?",
+            "next": "capacity",
+            "feedback": "The staffing need materially affects fit, so you surface it while the buyer can still choose."
+          },
+          {
+            "text": "It is a light lift. We can sort out the staffing after approval.",
+            "next": "strained",
+            "feedback": "“Light” hides a known six-hour weekly demand. Approval without that information is fragile."
+          }
+        ],
+        "context": "Your delivery team requires six coordinator hours each week for the proposed pilot.",
+        "prompt": "What do you say next?"
+      },
+      "capacity": {
+        "speaker": "Morgan",
+        "text": "We only have two hours a week. Could you shrink the pilot, with no promise of placement results?",
+        "choices": [
+          {
+            "text": "I can ask delivery to scope a smaller pilot and return with the workload, price, and evaluation plan before you commit.",
+            "next": "pilot-end",
+            "feedback": "You do not promise the smaller design until its owner confirms feasibility."
+          },
+          {
+            "text": "Our current delivery model cannot work with two hours. Let’s pause and share the constraints clearly.",
+            "next": "pause",
+            "feedback": "An honest no-fit is useful information. It does not make either party a failure."
+          },
+          {
+            "text": "I can keep the full program and ask the coordinator to make up the other hours informally.",
+            "next": "strained",
+            "feedback": "The missing work has been shifted onto someone who has not agreed to it."
+          }
+        ],
+        "context": "",
+        "prompt": "What do you say next?"
+      },
+      "pilot-end": {
+        "ending": "A smaller, testable next step.",
+        "text": "Morgan agrees to review a revised proposal after your delivery lead confirms it. Nothing is signed yet. The next conversation has a clearer purpose.",
+        "lesson": "A proposal can be ambitious about learning while modest about what its evidence establishes.",
+        "reflection": "What would you measure in a preparation pilot—and what would that still not tell you?"
+      },
+      "pause": {
+        "ending": "A useful pause.",
+        "text": "You summarize the evidence and capacity limits. Morgan can reconsider later or investigate another program. No sale happens today.",
+        "lesson": "Not every good discovery conversation should become a sale.",
+        "reflection": "Which fact made pausing reasonable? What new information could change that decision?"
+      },
+      "strained": {
+        "ending": "A commitment that needs repair.",
+        "text": "Morgan’s approval is based on an overstated outcome or understated workload. The next responsible step is to correct the record and reopen the choice before delivery depends on it.",
+        "lesson": "A signature does not repair misleading information.",
+        "reflection": "What exact sentence would you correct, who needs to hear it, and what options should they regain?"
+      }
+    }
+  },
+  {
+    "id": "offer",
+    "title": "The offer expires Friday",
+    "tag": "Negotiation · Alternatives",
+    "role": "You are the candidate",
+    "description": "A real deadline, a fixed salary range, and priorities that might be negotiable.",
+    "context": "Fictional case: you have an $82,000 offer and no competing offer. Your evaluated minimum for these terms is $80,000. A later start and one remote day matter more to you than another $1,000. The employer has a real Friday staffing decision.",
+    "icon": "compass",
+    "sourceIds": [
+      "N1",
+      "N2",
+      "N3",
+      "E1"
+    ],
+    "start": "start",
+    "nodes": {
+      "start": {
+        "speaker": "Alex · recruiter",
+        "text": "We would love you to join. Can you give us an answer by Friday?",
+        "choices": [
+          {
+            "text": "Thank you. Could we discuss the start date and working arrangement before I decide?",
+            "next": "terms",
+            "feedback": "You name relevant interests without inventing leverage."
+          },
+          {
+            "text": "I have another offer at $88,000, so you will need to match that.",
+            "next": "bluff",
+            "feedback": "In this case there is no competing offer. A false alternative is different from keeping your minimum private."
+          },
+          {
+            "text": "I need more time. Could you extend the decision to Tuesday so I can review the full terms?",
+            "next": "deadline",
+            "feedback": "A specific request is reasonable; a genuine staffing constraint may still prevent an extension."
+          }
+        ],
+        "context": "",
+        "prompt": "What do you say next?"
+      },
+      "bluff": {
+        "speaker": "Alex",
+        "text": "That is above our approved range. Should I take you out of consideration?",
+        "choices": [
+          {
+            "text": "I need to correct something: I do not have another offer. My request was a preference, not an alternative.",
+            "next": "terms",
+            "feedback": "You restore the facts. The recruiter may reasonably be less confident in your statements."
+          },
+          {
+            "text": "Yes. I am not willing to continue this conversation.",
+            "next": "withdraw-unrepaired",
+            "feedback": "You may decline. Leaving does not make the false claim accurate; it remains something to own."
+          }
+        ],
+        "context": "",
+        "prompt": "What do you say next?"
+      },
+      "deadline": {
+        "speaker": "Alex",
+        "text": "I can request an extension, but the team needs an answer Friday and may choose another candidate.",
+        "choices": [
+          {
+            "text": "Please ask. Meanwhile, I would like to understand whether the start date or remote day can change.",
+            "next": "terms",
+            "feedback": "You keep gathering information without assuming the extension is granted."
+          },
+          {
+            "text": "I understand. I cannot decide on that schedule, so I will withdraw.",
+            "next": "no-deal",
+            "feedback": "You accept the possible cost of a real boundary instead of pretending time is unlimited."
+          }
+        ],
+        "context": "",
+        "prompt": "What do you say next?"
+      },
+      "terms": {
+        "speaker": "Alex",
+        "text": "Salary is fixed at $82,000. I can seek approval for a later start and one remote day, but I cannot promise them yet.",
+        "choices": [
+          {
+            "text": "Please seek approval for both, and send the complete terms. I will evaluate the package when those are clear.",
+            "next": "approval",
+            "feedback": "You distinguish a possible concession from an approved commitment."
+          },
+          {
+            "text": "Those changes could make this work. Please seek approval; I will decide after reviewing the complete written package.",
+            "next": "approval",
+            "feedback": "You express interest while making clear that you have not yet accepted. Approval and your final decision remain separate steps."
+          },
+          {
+            "text": "That uncertainty does not work for me. Thank you, but I will decline.",
+            "next": "no-deal",
+            "feedback": "You are entitled to reject a package even above your minimum if the complete terms no longer fit."
+          }
+        ],
+        "context": "",
+        "prompt": "What do you say next?"
+      },
+      "approval": {
+        "speaker": "Alex",
+        "text": "Both changes are approved in writing. The Friday deadline remains. The pay and other terms are unchanged.",
+        "choices": [
+          {
+            "text": "This package meets my needs. I accept the written offer.",
+            "next": "yes",
+            "feedback": "You can now accept a complete package supported by actual authority."
+          },
+          {
+            "text": "I appreciate the changes, but after reviewing everything, I do not want the role. I decline.",
+            "next": "no-deal",
+            "feedback": "A negotiated concession does not obligate acceptance. A clear answer helps both sides move on."
+          }
+        ],
+        "context": "",
+        "prompt": "What do you say next?"
+      },
+      "yes": {
+        "ending": "A package that fits.",
+        "text": "You accept after reviewing the approved terms. The agreement reflects priorities beyond salary. It does not prove that every request or employer will be this flexible.",
+        "lesson": "Negotiate with real options and real approvals; keep private limits private without fabricating facts.",
+        "reflection": "Which part of the package mattered most, and what was your actual alternative if talks failed?"
+      },
+      "no-deal": {
+        "ending": "A clear, respectful no.",
+        "text": "The opportunity closes. You preserve your decision boundary and must now pursue another real option; there is no imaginary fallback salary.",
+        "lesson": "Walking away has costs. Considering them honestly is part of preparation.",
+        "reflection": "What practical action would make your next alternative more feasible?"
+      },
+      "withdraw-unrepaired": {
+        "ending": "You withdraw. A correction remains.",
+        "text": "The opportunity closes. You may decline, but the recruiter still has the false claim about a competing offer. Correcting that statement remains your responsibility.",
+        "lesson": "A decision to walk away does not erase an earlier false statement.",
+        "reflection": "How would you correct the claim clearly, without reopening a negotiation you have chosen to leave?"
+      }
+    }
+  },
+  {
+    "id": "scope",
+    "title": "More than one number",
+    "tag": "Value trades · Scope",
+    "role": "You are the freelance designer",
+    "description": "The client’s budget is below your limit. Is there a different deal worth making?",
+    "context": "Fictional case: the requested project requires $6,000 to be acceptable to you. The client can pay at most $5,000. All original terms are fixed unless both sides change them. A reduced scope could be acceptable to you at $4,500.",
+    "icon": "bridge",
+    "sourceIds": [
+      "N2",
+      "N4",
+      "N5",
+      "N6"
+    ],
+    "start": "start",
+    "nodes": {
+      "start": {
+        "speaker": "Sam · client",
+        "text": "We have $5,000. Can we meet in the middle at $5,500?",
+        "choices": [
+          {
+            "text": "At the original scope, $5,500 is above your budget and below my limit. Could we explore a smaller scope?",
+            "next": "scope",
+            "feedback": "Splitting a gap does not create an acceptable deal. A scope change could change the limits."
+          },
+          {
+            "text": "I can do the full scope for $5,000 and figure out the missing time later.",
+            "next": "overpromise",
+            "feedback": "That offer crosses your stated minimum for the full package. Before offering it, you would need a reasoned change to that boundary."
+          },
+          {
+            "text": "The current package does not fit our limits. I am happy to end here if the scope is essential.",
+            "next": "essential",
+            "feedback": "You acknowledge no overlap without assuming the client wants a reduced service."
+          }
+        ],
+        "context": "",
+        "prompt": "What do you say next?"
+      },
+      "essential": {
+        "speaker": "Sam",
+        "text": "The launch page is essential; the brand guide and additional page are optional.",
+        "choices": [
+          {
+            "text": "Then we may have room for a different package. Let’s write out the smaller scope.",
+            "next": "scope",
+            "feedback": "A confirmed priority difference creates an opening. It is not a license to silently remove work."
+          },
+          {
+            "text": "I cannot take on a smaller project this month. Let’s leave it here.",
+            "next": "no-deal",
+            "feedback": "Capacity and business preferences can make even a hypothetical overlap unattractive."
+          }
+        ],
+        "context": "",
+        "prompt": "What do you say next?"
+      },
+      "overpromise": {
+        "speaker": "Sam",
+        "text": "Great. Please confirm all three deliverables and the original deadline.",
+        "choices": [
+          {
+            "text": "I offered terms below the minimum I can responsibly accept. Before you rely on that, I need to revise or withdraw the offer.",
+            "next": "scope",
+            "feedback": "An early explicit correction is better than silently dropping deliverables later."
+          },
+          {
+            "text": "I will confirm, but leave out the extra page in the final handoff.",
+            "next": "broken",
+            "feedback": "The buyer cannot consent to a scope reduction they have not been told about."
+          }
+        ],
+        "context": "",
+        "prompt": "What do you say next?"
+      },
+      "scope": {
+        "speaker": "Sam",
+        "text": "Show me the options. I need to compare the total cost and what I will receive.",
+        "choices": [
+          {
+            "text": "A: one launch page in four weeks, $4,500, one revision. B: that page plus a training handoff in five weeks, $5,000. Both are feasible for me.",
+            "next": "compare",
+            "feedback": "Both packages are genuine proposals. Neither is automatically right for the client."
+          },
+          {
+            "text": "The premium package is $6,000. I will label a $5,000 package “most popular” even though no one has bought it.",
+            "next": "broken",
+            "feedback": "A fabricated popularity cue does not become acceptable just because the price fits."
+          },
+          {
+            "text": "Before I suggest packages, which deliverable and deadline would make a smaller project useful?",
+            "next": "compare",
+            "feedback": "You ask the client to evaluate priorities. A package is useful only if it solves enough of their problem."
+          }
+        ],
+        "context": "",
+        "prompt": "What do you say next?"
+      },
+      "compare": {
+        "speaker": "Sam",
+        "text": "For the smaller package, a four-week launch page with one revision would work. I can provide approved copy by Monday. Could you confirm the price and write the terms down?",
+        "choices": [
+          {
+            "text": "I can offer that at $4,500. Let’s document the scope, copy deadline, review owner, and what happens if the copy arrives late, then both confirm.",
+            "next": "yes",
+            "feedback": "Implementation details protect the bargain from becoming a different project in practice."
+          },
+          {
+            "text": "A verbal yes is enough. We can decide revision limits once the design starts.",
+            "next": "broken",
+            "feedback": "The apparent agreement still leaves a material term open to competing expectations."
+          },
+          {
+            "text": "After checking my schedule, I cannot make four weeks. I need to withdraw or offer a later date for you to evaluate.",
+            "next": "no-deal",
+            "feedback": "A feasibility correction may end the deal; that is preferable to a knowingly impossible promise."
+          }
+        ],
+        "context": "",
+        "prompt": "What do you say next?"
+      },
+      "yes": {
+        "ending": "A different agreement, made explicit.",
+        "text": "You both confirm the smaller package and its dependencies. The original project still had no price overlap; the revised scope made a different deal possible.",
+        "lesson": "Changing scope changes the bargain. It must be visible and useful to both sides.",
+        "reflection": "Which interests created the trade, and which implementation detail could still derail it?"
+      },
+      "no-deal": {
+        "ending": "No workable package today.",
+        "text": "You do not proceed. The client keeps their budget boundary, and you avoid promising work you cannot support.",
+        "lesson": "Not every difference can be traded away.",
+        "reflection": "What would need to change for a future proposal to be genuinely feasible?"
+      },
+      "broken": {
+        "ending": "The attractive offer hides a problem.",
+        "text": "The route you chose creates a misleading impression or an unresolved obligation. Before relying on acceptance, make the real terms clear and invite a new decision.",
+        "lesson": "A low headline price does not make an offer fair or deliverable.",
+        "reflection": "What does the client currently believe that you would need to correct?"
+      }
+    }
+  },
+  {
+    "id": "follow-up",
+    "title": "A follow-up, not a chase",
+    "tag": "Consent · Honest urgency",
+    "role": "You are the workshop adviser",
+    "description": "Two seats remain. A prospective learner has asked for time. Attention is not the same as permission.",
+    "context": "Fictional case: a person requested workshop details, then said, “Please email next Monday; I cannot decide this week.” Two seats remain in this cohort and another cohort opens next month. You have no permission to share their contact details.",
+    "icon": "chat",
+    "sourceIds": [
+      "S4",
+      "S7",
+      "E3",
+      "E4"
+    ],
+    "start": "start",
+    "nodes": {
+      "start": {
+        "speaker": "Your teammate",
+        "text": "We should send an urgent message today. There are only two seats left.",
+        "choices": [
+          {
+            "text": "They asked us to wait until Monday. I will respect that and describe the actual options then.",
+            "next": "monday",
+            "feedback": "You honor a clear timing preference, even if a seat may sell first."
+          },
+          {
+            "text": "I will email their manager to explain why they should commit now.",
+            "next": "boundary",
+            "feedback": "The person has not authorized involving their employer. Attention gained that way can violate their boundary."
+          },
+          {
+            "text": "I will send “If you were serious about your future, you would act now.”",
+            "next": "boundary",
+            "feedback": "The message uses shame to make a delay feel like personal failure, rather than helping them evaluate fit."
+          }
+        ],
+        "context": "",
+        "prompt": "What do you say next?"
+      },
+      "boundary": {
+        "speaker": "The prospective learner",
+        "text": "I asked for Monday. Please do not involve other people or pressure me.",
+        "choices": [
+          {
+            "text": "You are right. I crossed the boundary. I will wait unless you want me to stop contact entirely.",
+            "next": "monday",
+            "feedback": "An acknowledgment should come with changed behavior. It does not require them to reassure you."
+          },
+          {
+            "text": "I am only trying to help. You should appreciate the opportunity.",
+            "next": "stop",
+            "feedback": "Good intentions do not cancel their expressed boundary."
+          }
+        ],
+        "context": "",
+        "prompt": "What do you say next?"
+      },
+      "monday": {
+        "speaker": "Jamie · prospective learner",
+        "text": "Thanks for waiting. Is this really my last chance?",
+        "choices": [
+          {
+            "text": "There are two seats in this cohort as of this morning. Another cohort opens next month. Would either timing suit you?",
+            "next": "transport",
+            "feedback": "You state a real constraint and the relevant alternative without turning it into false finality."
+          },
+          {
+            "text": "Yes. Once these seats go, this opportunity is gone for good.",
+            "next": "false-urgency",
+            "feedback": "That is false in the stated facts. The next cohort changes the decision."
+          },
+          {
+            "text": "Would you like to talk about fit first? I can also explain both cohort dates.",
+            "next": "transport",
+            "feedback": "You give the person a way to evaluate suitability rather than react only to scarcity."
+          }
+        ],
+        "context": "",
+        "prompt": "What do you say next?"
+      },
+      "false-urgency": {
+        "speaker": "Jamie",
+        "text": "Your website lists next month. Why did you say this was the last chance?",
+        "choices": [
+          {
+            "text": "I was wrong. Only this cohort is nearly full. You can consider next month or decline.",
+            "next": "transport",
+            "feedback": "The correction needs to restore the choice the false urgency narrowed."
+          },
+          {
+            "text": "Everyone says “last chance.” It is just marketing.",
+            "next": "stop",
+            "feedback": "A familiar tactic can still mislead. Normalizing it does not answer the factual concern."
+          }
+        ],
+        "context": "",
+        "prompt": "What do you say next?"
+      },
+      "transport": {
+        "speaker": "Jamie",
+        "text": "Transport is the problem. Is remote attendance possible?",
+        "choices": [
+          {
+            "text": "This cohort is in person; next month has a remote option. I can send its actual requirements if you want.",
+            "next": "permission",
+            "feedback": "You answer the volunteered concern without guessing their income or circumstances."
+          },
+          {
+            "text": "Next month has a remote option. If you prefer this in-person cohort, may I introduce you to a transport provider using only your name and preferred contact method?",
+            "next": "permission",
+            "feedback": "A specific, optional permission request preserves control over information sharing."
+          },
+          {
+            "text": "I will forward your details to a partner so they can sell you transport.",
+            "next": "stop",
+            "feedback": "A useful possible service does not supply consent to share contact information."
+          }
+        ],
+        "context": "You have checked the program details: this cohort is in person, and next month's cohort has a remote option with published requirements. A transport provider is available for an optional introduction, but no details have been shared.",
+        "prompt": "What do you say next?"
+      },
+      "permission": {
+        "speaker": "Jamie",
+        "text": "Actually, I would prefer to consider the remote cohort. Please email its requirements once next Monday. Do not enroll me yet.",
+        "choices": [
+          {
+            "text": "Understood: one email next Monday, no enrollment. You can decide after reviewing it.",
+            "next": "yes",
+            "feedback": "You confirm the scope, timing, and limits of the permission."
+          },
+          {
+            "text": "I will reserve a paid place automatically so you do not miss out.",
+            "next": "stop",
+            "feedback": "The person explicitly withheld enrollment permission. Convenience is not consent."
+          }
+        ],
+        "context": "",
+        "prompt": "What do you say next?"
+      },
+      "yes": {
+        "ending": "One clear next step.",
+        "text": "You record the agreed single follow-up. There is no enrollment yet, and Jamie retains the choice.",
+        "lesson": "Useful follow-up follows the permission actually given.",
+        "reflection": "What exactly was authorized—and what was not?"
+      },
+      "stop": {
+        "ending": "The conversation stops.",
+        "text": "Jamie says, “Please stop contacting me.” Stop outreach and handle any records according to applicable policy. Do not turn that instruction into another sales objection.",
+        "lesson": "An explicit refusal is a boundary, not a challenge to overcome.",
+        "reflection": "How would you record the preference without adding speculative personal details?"
+      }
+    }
+  },
+  {
+    "id": "ai-promise",
+    "title": "The promise in the draft",
+    "tag": "AI · Accountability",
+    "role": "You are the agency account manager",
+    "description": "An AI-assisted proposal promises two weeks. Your delivery team says four. The quarter ends tomorrow.",
+    "context": "Fictional case: the buyer has a proposal promising full integration in two weeks. Your delivery owner confirms that four weeks is the earliest credible completion. You may change scope, but concessions and refunds require approval.",
+    "icon": "shield",
+    "sourceIds": [
+      "E5",
+      "E6",
+      "E9",
+      "S5",
+      "N8"
+    ],
+    "start": "start",
+    "nodes": {
+      "start": {
+        "speaker": "Taylor · your manager",
+        "text": "The draft looks good. Let’s close this quarter and sort out the timeline internally.",
+        "choices": [
+          {
+            "text": "The buyer must not rely on the two-week claim. I will correct it before signature and ask what their deadline requires.",
+            "next": "need",
+            "feedback": "Human accountability includes preventing reliance on a known unsupported claim, even when AI drafted it."
+          },
+          {
+            "text": "I will change the internal schedule to four weeks but leave the buyer’s proposal as it is.",
+            "next": "after",
+            "feedback": "An internal correction does not correct the buyer’s understanding."
+          },
+          {
+            "text": "I will verify whether a smaller two-week milestone is feasible while telling the buyer the full promise is unsupported.",
+            "next": "need",
+            "feedback": "Verification is useful when it does not leave the buyer relying on the known bad promise."
+          }
+        ],
+        "context": "",
+        "prompt": "What do you say next?"
+      },
+      "need": {
+        "speaker": "Robin · buyer",
+        "text": "We need the full integration for a launch in two weeks. A partial milestone would not solve it.",
+        "choices": [
+          {
+            "text": "Then our current offer does not meet that deadline. We can pause, or I can discuss alternatives you choose to explore.",
+            "next": "no-deal",
+            "feedback": "You let the buyer decide whether a different route is worth investigating."
+          },
+          {
+            "text": "The partial milestone is basically the same. Let’s call it complete for the launch.",
+            "next": "after",
+            "feedback": "Relabeling a partial result does not meet the stated need."
+          },
+          {
+            "text": "Could we verify whether any launch dependency could change? If the full two-week deadline is fixed, we should not proceed on this offer.",
+            "next": "verify",
+            "feedback": "You ask permission to test a constraint while preserving the possibility that the answer remains no."
+          }
+        ],
+        "context": "",
+        "prompt": "What do you say next?"
+      },
+      "verify": {
+        "speaker": "Robin",
+        "text": "I checked. The full deadline is fixed. We need another supplier.",
+        "choices": [
+          {
+            "text": "Understood. I will close this proposal and correct the unsupported timeline in our records.",
+            "next": "no-deal",
+            "feedback": "A clear no-deal is more useful than arguing that the buyer should stop needing what they need."
+          },
+          {
+            "text": "You owe us the deal after all this work.",
+            "next": "strained",
+            "feedback": "Your effort does not create the buyer’s obligation to accept an unsuitable offer."
+          }
+        ],
+        "context": "",
+        "prompt": "What do you say next?"
+      },
+      "after": {
+        "speaker": "Robin",
+        "text": "We signed based on two weeks. Your delivery lead now says four. Our launch plan depends on this.",
+        "choices": [
+          {
+            "text": "We gave you an unsupported promise. I will correct it, assess the impact with you, and bring an authorized owner to discuss remedies today.",
+            "next": "repair",
+            "feedback": "You take responsibility and distinguish options you can offer from remedies needing approval."
+          },
+          {
+            "text": "The AI wrote that line. It was not a human commitment.",
+            "next": "strained",
+            "feedback": "AI authorship does not make the communicated proposal irrelevant or end human responsibility."
+          },
+          {
+            "text": "I guarantee a full refund and replacement supplier tomorrow.",
+            "next": "authority",
+            "feedback": "Those remedies exceed your authority and may create another unsupported promise."
+          }
+        ],
+        "context": "",
+        "prompt": "What do you say next?"
+      },
+      "authority": {
+        "speaker": "Your delivery director",
+        "text": "You cannot authorize that refund, and no replacement supplier is confirmed.",
+        "choices": [
+          {
+            "text": "I will immediately correct the promise and tell the buyer which options are pending approval, with an owner and decision time.",
+            "next": "repair",
+            "feedback": "Accountable repair requires correcting new errors too, not defending them."
+          },
+          {
+            "text": "Let’s wait to tell the buyer until we know whether they complain.",
+            "next": "strained",
+            "feedback": "Silence leaves the buyer relying on another claim you cannot support."
+          }
+        ],
+        "context": "",
+        "prompt": "What do you say next?"
+      },
+      "repair": {
+        "speaker": "Robin",
+        "text": "I need a decision today about cancellation and any handover. I cannot just accept a later date.",
+        "choices": [
+          {
+            "text": "I will bring our authorized director now. We will confirm what can be offered today and document any unresolved issue and owner.",
+            "next": "repair-end",
+            "feedback": "The buyer need not forgive or accept the delay. Escalation makes actual authority available."
+          },
+          {
+            "text": "Four weeks is still a good deal. Let’s focus on the positives.",
+            "next": "strained",
+            "feedback": "That response does not address the buyer’s lost launch or the requested remedy."
+          }
+        ],
+        "context": "",
+        "prompt": "What do you say next?"
+      },
+      "no-deal": {
+        "ending": "An honest mismatch.",
+        "text": "The buyer chooses another route. You lose this deal and prevent a known unsupported promise from becoming its foundation.",
+        "lesson": "Verification and correction belong before commitment whenever possible.",
+        "reflection": "Which incentive pushed toward the false promise, and what review step could catch it next time?"
+      },
+      "repair-end": {
+        "ending": "Repair has an owner.",
+        "text": "The authorized director joins the discussion. A specific remedy still needs agreement; the buyer has not been asked to treat an apology as the remedy itself.",
+        "lesson": "Accountability means accurate facts, real authority, feasible options, and follow-through.",
+        "reflection": "What must be documented now, and who checks whether the agreed remedy happens?"
+      },
+      "strained": {
+        "ending": "The trust problem remains.",
+        "text": "The buyer’s concern has been deflected or a decision pressured. Return to the false promise, its impact, and the options an authorized person can actually honor.",
+        "lesson": "An explanation for an error is not a substitute for addressing its consequences.",
+        "reflection": "How would you acknowledge responsibility without promising a remedy you cannot authorize?"
+      }
+    }
+  },
+  {
+    "id": "venue",
+    "title": "Who is missing from the table?",
+    "tag": "Fairness · Stakeholders",
+    "role": "You are the community event organizer",
+    "description": "The cheapest venue fits the budget. Some people would pay a different kind of cost.",
+    "context": "Fictional case: you must choose a venue for a free career event. Venue A costs $1,200 but its main meeting room is up stairs with no lift. Venue B is step-free and near transit but costs $1,700. You have a $1,500 venue budget and a possible sponsor who has not committed.",
+    "icon": "scales",
+    "sourceIds": [
+      "E1",
+      "E2",
+      "N1",
+      "N4",
+      "N8"
+    ],
+    "start": "start",
+    "nodes": {
+      "start": {
+        "speaker": "Casey · planning partner",
+        "text": "A is under budget. We should book it before it goes.",
+        "choices": [
+          {
+            "text": "Before booking, let’s check who the access barrier excludes and whether a workable alternative or budget change is possible.",
+            "next": "options",
+            "feedback": "Budget is one legitimate constraint. The access barrier is also a material consequence of the choice."
+          },
+          {
+            "text": "Most attendees will probably manage the stairs. Let’s not complicate this.",
+            "next": "absent",
+            "feedback": "An assumption about an average attendee can hide the exclusion of people not present in the discussion."
+          },
+          {
+            "text": "B seems better for access, but the sponsor is unconfirmed. I will not promise the extra money yet.",
+            "next": "options",
+            "feedback": "You recognize access while keeping a hoped-for contribution separate from an actual resource."
+          }
+        ],
+        "context": "",
+        "prompt": "What do you say next?"
+      },
+      "absent": {
+        "speaker": "Rae · volunteer",
+        "text": "Two invited speakers use wheelchairs. They cannot use that meeting room. They were not asked.",
+        "choices": [
+          {
+            "text": "We missed a decisive fact. I will reopen the choice and involve the people affected without asking them to solve our budget problem.",
+            "next": "options",
+            "feedback": "Changing your decision when facts change is responsible, not a loss of consistency."
+          },
+          {
+            "text": "They can join by phone while everyone else attends in person. We will announce that as equivalent.",
+            "next": "exclude",
+            "feedback": "A separate experience is not automatically equivalent. The people affected have not been offered a meaningful choice."
+          }
+        ],
+        "context": "",
+        "prompt": "What do you say next?"
+      },
+      "options": {
+        "speaker": "Casey",
+        "text": "B can offer a smaller step-free room for $1,450, but it holds 45 people rather than 70. A sponsor might fund the bigger room.",
+        "choices": [
+          {
+            "text": "Let’s compare the smaller room, another date, and the larger room if funding is confirmed. We need attendance and access priorities from affected people.",
+            "next": "criteria",
+            "feedback": "You generate alternatives before treating the decision as access versus budget with no other options."
+          },
+          {
+            "text": "Book the $1,700 room and tell the treasurer the sponsor is confirmed.",
+            "next": "funding",
+            "feedback": "A likely sponsor is not a confirmed source of funds. The commitment would rest on a false statement."
+          },
+          {
+            "text": "Ask B to hold the accessible room until a stated deadline while we verify demand and funding. They may refuse.",
+            "next": "criteria",
+            "feedback": "A bounded request preserves the venue’s choice too; an unpaid hold is not something you can assume."
+          }
+        ],
+        "context": "",
+        "prompt": "What do you say next?"
+      },
+      "funding": {
+        "speaker": "The treasurer",
+        "text": "The sponsor has not agreed. We cannot commit money we do not have.",
+        "choices": [
+          {
+            "text": "I overstated the funding. Let’s correct the record and assess the smaller room or another date within authorized resources.",
+            "next": "criteria",
+            "feedback": "You restore the difference between a possible resource and a feasible option."
+          },
+          {
+            "text": "The sponsor will probably come through. Sign anyway.",
+            "next": "overcommit",
+            "feedback": "Optimism does not create spending authority or an actual alternative."
+          }
+        ],
+        "context": "",
+        "prompt": "What do you say next?"
+      },
+      "criteria": {
+        "speaker": "Rae",
+        "text": "We expect 40 people in total, including speakers, organizers, and volunteers. The speakers prefer equal in-person access. The smaller room could work with transparent registration and no overbooking.",
+        "choices": [
+          {
+            "text": "Then propose the $1,450 room for 45, with a published capacity, waitlist, access contact, and an owner for confirming the arrangement.",
+            "next": "agreement",
+            "feedback": "Given these facts, the smaller room meets the budget and expected attendance while improving access. It is still a proposal to confirm."
+          },
+          {
+            "text": "We should postpone to reach more people, after consulting invitees about the cost of waiting.",
+            "next": "postpone",
+            "feedback": "This can be defensible if reach matters enough and affected people can assess the delay. It is not automatically better."
+          },
+          {
+            "text": "Let’s claim it seats 70 so nobody worries about capacity.",
+            "next": "overcommit",
+            "feedback": "A false capacity claim hides risk rather than resolving the tradeoff."
+          }
+        ],
+        "context": "",
+        "prompt": "What do you say next?"
+      },
+      "agreement": {
+        "ending": "A feasible, more inclusive proposal.",
+        "text": "The team seeks final confirmation for the smaller accessible room. Registration has a real capacity, and someone owns the access and booking checks.",
+        "lesson": "Fairness depends on the people affected, not only an equal split of money or a vote among those already present.",
+        "reflection": "What would change your recommendation if expected attendance rose to 65?"
+      },
+      "postpone": {
+        "ending": "A pause that has costs too.",
+        "text": "The team consults invitees about another date before deciding. Delaying might improve reach, but people may lose availability. There is no cost-free answer.",
+        "lesson": "Competing values deserve explicit tradeoffs and affected voices.",
+        "reflection": "Who bears the cost of postponement, and what would make consultation meaningful?"
+      },
+      "exclude": {
+        "ending": "The burden was pushed out of view.",
+        "text": "The proposed arrangement leaves some people with a different experience without checking whether it meets their needs. Reopen the design before announcing a finished decision.",
+        "lesson": "A convenient workaround is not automatically an accessible or acceptable one.",
+        "reflection": "Whose input would change the decision, and what choice can you actually offer them?"
+      },
+      "overcommit": {
+        "ending": "The plan needs firmer ground.",
+        "text": "The budget or capacity commitment is unsupported. Correct the claim and seek an authorized, feasible arrangement before others rely on it.",
+        "lesson": "An attractive purpose does not justify invented resources or hidden limits.",
+        "reflection": "Which promise needs correction first, and who could be harmed by waiting?"
+      }
+    }
+  }
+]

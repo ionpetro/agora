@@ -1,0 +1,290 @@
+{
+  "id": "u01",
+  "title": "Understand before you pitch",
+  "subtitle": "Find the need. Hear the person.",
+  "icon": "ear",
+  "color": "sage",
+  "skill": "listening",
+  "description": "Practice discovery in fictional conversations with buyers, candidates, and teammates. Learn enough to recommend something useful without turning curiosity into pressure.",
+  "lessons": [
+    {
+      "id": "u01l1",
+      "title": "Find the real problem",
+      "objective": "Ask and adapt before recommending a solution.",
+      "takeaway": "Start with the person's problem, then let their answer shape your next question.",
+      "fieldwork": "In a willing conversation, ask someone to describe a frustrating task. Follow one detail they mention before offering an idea.",
+      "items": [
+        {
+          "id": "u01l1-1",
+          "kind": "choice",
+          "title": "Start with their world",
+          "teach": "A broad goal can hide several different problems. An opening question helps you understand the current situation before you connect it to your offer; it does not guarantee that your offer will fit.",
+          "say": "Understand the problem before attaching your product to it.",
+          "ethics": "Are you discovering a need, or steering the person toward a problem your product can claim to solve?",
+          "sourceIds": ["S4", "S8"],
+          "prompt": "Maya, a workforce-college director, says, 'We need more graduate placements.' You sell employer-outreach software, but do not know the bottleneck. Which opening best helps you assess fit?",
+          "options": [
+            "Would you like to see our employer dashboard?",
+            "Where does the placement process get stuck?",
+            "How much could you spend on outreach software?"
+          ],
+          "answer": 1,
+          "why": [
+            "A demonstration may become useful, but it starts with your solution before establishing the problem.",
+            "This explores Maya's actual process. Her answer can reveal whether outreach is relevant at all.",
+            "A budget question may matter later, but it will not identify what is preventing placements."
+          ],
+          "transfer": false
+        },
+        {
+          "id": "u01l1-2",
+          "kind": "choice",
+          "title": "Follow the answer",
+          "teach": "A follow-up should connect to what the person just said. Research on introductory conversations supports the value of responsiveness, but question counts are not a reliable measure of listening or a formula for sales.",
+          "say": "Use the answer you received, not only the next line in your script.",
+          "ethics": "Would this question help clarify their situation, or merely keep them talking?",
+          "sourceIds": ["S1", "S2", "S10", "S11", "S8"],
+          "prompt": "Maya explains that employers offer interviews, but students miss notices sent during work shifts. You want to understand that bottleneck. What is the most relevant follow-up?",
+          "options": [
+            "How do students receive and answer notices?",
+            "How many more employers would you like in your database?",
+            "What is your college's biggest challenge overall?"
+          ],
+          "answer": 0,
+          "why": [
+            "This follows the specific difficulty Maya named and can reveal a practical communication constraint.",
+            "Maya has described missed communication, not a shortage of employers. This shifts toward your preferred feature.",
+            "A broad question can be useful at an opening, but it loses a concrete lead you already have."
+          ],
+          "transfer": false
+        },
+        {
+          "id": "u01l1-3",
+          "kind": "match",
+          "title": "Three useful questions",
+          "teach": "Different questions do different jobs. Start broadly when you need context, follow a detail when it matters, and use a specific factual question when an important requirement needs checking.",
+          "say": "Choose the question for the information you need.",
+          "ethics": "A precise question can clarify a requirement; it does not entitle you to confidential information.",
+          "sourceIds": ["S8", "S4"],
+          "prompt": "Match each question to its main job in a discovery conversation.",
+          "pairs": [
+            ["What happens from application to interview?", "Explore the process"],
+            ["You mentioned missed notices. What happens next?", "Follow a detail"],
+            ["Must the tool support your existing sign-in system?", "Check a specific requirement"]
+          ],
+          "explain": "These are useful distinctions, not a mandatory script. A conversation can move between them as new information appears.",
+          "transfer": false
+        },
+        {
+          "id": "u01l1-4",
+          "kind": "choice",
+          "title": "A different kind of pitch",
+          "teach": "Discovery also helps when proposing a change at work. Ask about the actual failure before assuming that your preferred solution addresses it.",
+          "say": "A familiar complaint still deserves a fresh question.",
+          "ethics": "Can your teammate describe the problem without having to endorse your idea?",
+          "sourceIds": ["S4", "S8"],
+          "prompt": "You want your team to adopt a project board. Noor says, 'Our handoffs are painful.' You have not discussed what goes wrong. Which response best tests whether the board would help?",
+          "options": [
+            "Would you support a trial of my project board?",
+            "Which board layout would make handoffs easier?",
+            "What happened in the last difficult handoff?"
+          ],
+          "answer": 2,
+          "why": [
+            "A trial may be a later step. Asking for support now skips understanding the problem.",
+            "This assumes a board is the solution and limits Noor to choosing its form.",
+            "A concrete recent example can reveal whether the issue is missing information, unclear responsibility, or something a board cannot solve."
+          ],
+          "transfer": true
+        }
+      ]
+    },
+    {
+      "id": "u01l2",
+      "title": "Show that you heard",
+      "objective": "Reflect meaning accurately and update when corrected.",
+      "takeaway": "A useful paraphrase makes your understanding easy to correct.",
+      "fieldwork": "With someone willing to discuss a small decision, summarize their main concern in your own words and ask whether you understood it.",
+      "items": [
+        {
+          "id": "u01l2-1",
+          "kind": "choice",
+          "title": "Reflect the constraint",
+          "teach": "Paraphrasing means checking your understanding in your own words. Stay close to what was said and invite correction; do not replace the person's constraint with a theory about their character.",
+          "say": "Reflect their meaning, then leave room to be wrong.",
+          "ethics": "Are you describing a stated concern, or labeling the person?",
+          "sourceIds": ["S3", "S4"],
+          "prompt": "Luis is considering a course. He says, 'I want to join, but I collect my sister from work when evening class starts.' Which response most accurately checks your understanding?",
+          "options": [
+            "So you are unsure whether the course is worth the effort?",
+            "So, class conflicts with the pickup. Right?",
+            "So your sister's job is preventing your career progress?"
+          ],
+          "answer": 1,
+          "why": [
+            "Luis expressed interest and a scheduling conflict. This substitutes a concern about motivation.",
+            "This reflects the actual constraint and gives Luis an easy way to correct or add to it.",
+            "This adds blame and a judgment about his family that Luis did not express."
+          ],
+          "transfer": false
+        },
+        {
+          "id": "u01l2-2",
+          "kind": "choice",
+          "title": "Acknowledge without promising",
+          "teach": "You can acknowledge someone's frustration without accepting their proposed solution. Separating understanding from agreement lets you be warm and clear about real limits.",
+          "say": "I can hear the concern without promising what I cannot deliver.",
+          "ethics": "Does your reassurance imply a commitment you are not authorized to make?",
+          "sourceIds": ["S3", "S4"],
+          "prompt": "A buyer is frustrated that onboarding takes a week. You cannot shorten it, but you can explain the steps and check available start dates. Which response combines acknowledgment with an accurate boundary?",
+          "options": [
+            "I'm sure we can find a way to do it faster.",
+            "The process takes a week, so there is little to discuss.",
+            "I hear the timing is frustrating. I can explain the week and check start dates."
+          ],
+          "answer": 2,
+          "why": [
+            "This sounds reassuring but implies flexibility you do not have.",
+            "The timing is accurate, but dismissing the concern overlooks useful information and available help.",
+            "This acknowledges the frustration while offering only actions you can actually take."
+          ],
+          "transfer": false
+        },
+        {
+          "id": "u01l2-3",
+          "kind": "order",
+          "title": "Repair a misunderstanding",
+          "teach": "One useful repair sequence is to offer a tentative summary, hear the correction, update your understanding, and check a relevant next step. This is a practice sequence, not a rule that every conversation must follow.",
+          "say": "Let correction change what you do next.",
+          "ethics": "Will you actually change your recommendation when their correction changes the facts?",
+          "sourceIds": ["S3", "S4"],
+          "prompt": "Put the repair sequence just taught in order. In this example, a buyer corrects your initial summary.",
+          "parts": [
+            "Offer a tentative summary of the concern",
+            "Hear the buyer's correction",
+            "Update your summary using the correction",
+            "Check a next step that fits the revised concern"
+          ],
+          "explain": "The correction must inform your understanding before you use that understanding to propose a next step. Other conversational sequences can work; this one makes the update visible.",
+          "transfer": false
+        },
+        {
+          "id": "u01l2-4",
+          "kind": "choice",
+          "title": "Listen past your first guess",
+          "teach": "A corrected interpretation is useful new information. Acknowledge the correction and address the concern the person actually has rather than defending your first guess.",
+          "say": "Being corrected is a chance to become more useful.",
+          "ethics": "Are you accepting the person's account of their own concern?",
+          "sourceIds": ["S3", "S4"],
+          "prompt": "You tell a teammate, 'You think the workshop is too expensive.' They reply, 'No, we have the budget. I'm worried no one can attend during launch week.' What best shows that you heard the correction?",
+          "options": [
+            "I see—timing is the problem. Let's check other weeks.",
+            "Understood. I'll still ask for a lower price to make it easier.",
+            "But you mentioned cost yesterday, so let's settle that first."
+          ],
+          "answer": 0,
+          "why": [
+            "This updates the concern and proposes a relevant next step without assuming a final decision.",
+            "A discount does not address the newly clarified attendance problem.",
+            "Yesterday's topic does not justify ignoring today's explicit correction. You can revisit cost if it becomes relevant."
+          ],
+          "transfer": true
+        }
+      ]
+    },
+    {
+      "id": "u01l3",
+      "title": "Check fit and the decision",
+      "objective": "Discover relevant requirements and decision participants without overreaching.",
+      "takeaway": "A good opportunity must fit the need, the requirements, and the actual decision process.",
+      "fieldwork": "For a small proposal you are preparing, list one requirement you still need to verify and one person whose input matters. Ask only for information relevant to that decision.",
+      "items": [
+        {
+          "id": "u01l3-1",
+          "kind": "choice",
+          "title": "Find the decision process",
+          "teach": "An enthusiastic contact may not be the only person needed for a sound decision. Ask how evaluation works and what others need, rather than treating required review as an obstacle to bypass.",
+          "say": "Help your contact make a good decision with the people who need to be involved.",
+          "ethics": "Does your proposed next step respect the buyer's legitimate review process?",
+          "sourceIds": ["S4", "S8"],
+          "prompt": "A college adviser likes your demo but says purchasing and accessibility staff must review it. You want to support an informed decision. What should you ask next?",
+          "options": [
+            "Can we start with a small payment before those reviews?",
+            "Can you introduce me directly to whoever can override them?",
+            "What will each reviewer need to decide?"
+          ],
+          "answer": 2,
+          "why": [
+            "A smaller commitment does not remove the stated review requirements.",
+            "This assumes the review should be overridden instead of understanding its purpose.",
+            "This supports the adviser and makes relevant evidence available to the people responsible for the decision."
+          ],
+          "transfer": false
+        },
+        {
+          "id": "u01l3-2",
+          "kind": "sort",
+          "title": "Enough information",
+          "teach": "Useful qualification focuses on information needed to assess the offer. A range or requirement can be enough; demanding unrelated personal details or confidential competing bids is not necessary just because it might help you bargain.",
+          "say": "Ask for the information the decision needs, and explain why.",
+          "ethics": "Can the person decline sensitive details while you still explore fit?",
+          "sourceIds": ["S4", "S8"],
+          "prompt": "A team is evaluating software. Sort each question by whether its stated purpose is relevant to fit or asks beyond that purpose.",
+          "buckets": ["Relevant to assessing fit", "Beyond the stated need"],
+          "entries": [
+            {"text": "Which existing systems must it connect to?", "bucket": 0, "why": "Compatibility can determine whether the tool works for this team."},
+            {"text": "If you are comfortable sharing, what budget range should these options fit?", "bucket": 0, "why": "A range can help avoid unsuitable options while leaving room to decline."},
+            {"text": "Send the confidential competitor proposal; I want to know their private price.", "bucket": 1, "why": "Bargaining curiosity does not justify asking the buyer to breach confidentiality."},
+            {"text": "What is your personal household income? We only need the team's software requirements.", "bucket": 1, "why": "The stated organizational decision does not require the employee's household finances."}
+          ],
+          "explain": "Qualification should be proportional to the actual decision. Relevant questions still deserve a reason and a respectful response if the person declines to answer.",
+          "transfer": false
+        },
+        {
+          "id": "u01l3-3",
+          "kind": "choice",
+          "title": "A real blocker",
+          "teach": "A requirement is not satisfied by enthusiasm for unrelated features. When a necessary capability is absent, explain that limit and help the person consider a viable alternative or a later decision.",
+          "say": "A strong feature does not cancel a missing requirement.",
+          "ethics": "Would the buyer still proceed if the limitation were clear before payment?",
+          "sourceIds": ["S4", "S6"],
+          "prompt": "A college must use its existing sign-in system this term. Your tool does not support it, and no release date is approved. What best preserves an informed decision?",
+          "options": [
+            "Show the reporting dashboard first so the limitation feels smaller.",
+            "Explain the incompatibility and offer to revisit after a verified change.",
+            "Say integration is on the roadmap and suggest signing now."
+          ],
+          "answer": 1,
+          "why": [
+            "Other benefits do not satisfy a stated necessary condition. Delaying the disclosure can distort the decision.",
+            "This makes the present limitation clear without inventing a fix date. The college can seek a suitable option now.",
+            "An unapproved roadmap does not meet a current requirement and can imply more certainty than exists."
+          ],
+          "transfer": false
+        },
+        {
+          "id": "u01l3-4",
+          "kind": "choice",
+          "title": "Fit works both ways",
+          "teach": "Qualification applies when you are choosing an opportunity as well as offering one. Verify a material condition before investing further, without requiring unrelated personal disclosure.",
+          "say": "Check the condition that determines whether this can work.",
+          "ethics": "Can you state a practical requirement without being pushed to justify private circumstances?",
+          "sourceIds": ["S4", "S8"],
+          "prompt": "You are a job candidate who can work weekdays but not weekends. The recruiter says the team is flexible, yet the posting mentions rotating weekend shifts. Before a lengthy interview task, what best checks fit?",
+          "options": [
+            "Ask whether weekend shifts are required for this role.",
+            "Assume 'flexible' means weekdays are acceptable.",
+            "Complete the task and raise availability after an offer."
+          ],
+          "answer": 0,
+          "why": [
+            "A specific factual question resolves the material ambiguity. You need not disclose private reasons to ask about the schedule.",
+            "A general description does not resolve the explicit weekend requirement.",
+            "You can choose to proceed, but delaying this necessary check may waste both sides' time."
+          ],
+          "transfer": true
+        }
+      ]
+    }
+  ]
+}

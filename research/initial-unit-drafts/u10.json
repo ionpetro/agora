@@ -1,0 +1,367 @@
+{
+  "id": "u10",
+  "title": "See the whole table",
+  "subtitle": "Notice who gains, who carries risk, and who is missing.",
+  "icon": "scales",
+  "color": "sage",
+  "skill": "fairness",
+  "description": "Practise stakeholder thinking, competing fairness criteria, and meaningful participation. All scenarios and numbers are fictional.",
+  "lessons": [
+    {
+      "title": "Who is not in the room?",
+      "objective": "Identify affected people and test a proposal through more than one ethical lens.",
+      "takeaway": "The people signing are not always the only people affected.",
+      "fieldwork": "For a harmless everyday decision, list one person affected who is not making the choice. Ask what information you would need before speaking for them.",
+      "items": [
+        {
+          "kind": "choice",
+          "title": "Beyond the signatures",
+          "teach": "An agreement can benefit its signatories while imposing costs on others. Identify affected people before deciding whose interests should carry weight; do not assume their interests are already represented.",
+          "say": "Map the effects before judging the deal.",
+          "ethics": "Who experiences the consequence without signing the agreement?",
+          "sourceIds": [
+            "E1"
+          ],
+          "prompt": "A vendor and school agree on a cheap digital system that requires students to use personal phones. Some students lack compatible devices. Before recommending adoption, what gap most needs examination?",
+          "transfer": false,
+          "options": [
+            "Whether another college adopted the system without complaints.",
+            "Whether the vendor has enough sales staff.",
+            "How students without devices could participate."
+          ],
+          "answer": 2,
+          "why": [
+            "Prior adoption may inform procurement, but it does not establish access for this college’s students who lack compatible devices.",
+            "Sales staffing does not resolve the affected students’ access.",
+            "These students bear a direct consequence that the price agreement leaves unresolved."
+          ],
+          "id": "u10l1-1"
+        },
+        {
+          "kind": "match",
+          "title": "Different lenses, different questions",
+          "teach": "Ethical lenses highlight different concerns and can pull in different directions. Use them to expand inquiry rather than assuming one lens automatically settles every case.",
+          "say": "A lens reveals a concern; it does not finish the decision.",
+          "ethics": "Which relevant concern could your preferred lens miss?",
+          "sourceIds": [
+            "E1",
+            "E2"
+          ],
+          "prompt": "Match these lenses to the question they most directly emphasize.",
+          "transfer": false,
+          "pairs": [
+            [
+              "Rights",
+              "What basic claims or freedoms must be respected?"
+            ],
+            [
+              "Justice",
+              "Are benefits and burdens distributed on a defensible basis?"
+            ],
+            [
+              "Consequences",
+              "What benefits and harms may follow for those affected?"
+            ],
+            [
+              "Care",
+              "What responsibilities arise from relationships and vulnerability?"
+            ]
+          ],
+          "explain": "These questions overlap. Matching their emphasis does not make them mutually exclusive or rank one as always superior.",
+          "id": "u10l1-2"
+        },
+        {
+          "kind": "choice",
+          "title": "Do not invent their preference",
+          "teach": "Recognizing an affected group is only the start. Separate what is known about their situation from your assumptions, and seek input where it can materially change the proposal.",
+          "say": "Represent a concern without inventing a voice.",
+          "ethics": "Have you checked what the affected people actually need?",
+          "sourceIds": [
+            "E1",
+            "E2"
+          ],
+          "prompt": "A buyer thinks night-shift workers will welcome a new compulsory training time. Nobody has asked them, and schedule flexibility is still possible. To improve the decision, what should the buyer do next?",
+          "transfer": false,
+          "options": [
+            "Consult the affected shifts before fixing the schedule.",
+            "Assume all workers value the same time slot.",
+            "Cancel the training because any inconvenience makes it unfair."
+          ],
+          "answer": 0,
+          "why": [
+            "Their information can shape a decision that is still adjustable.",
+            "That replaces missing information with an unsupported assumption.",
+            "The inconvenience may be manageable; affected input helps assess it."
+          ],
+          "id": "u10l1-3"
+        },
+        {
+          "kind": "choice",
+          "title": "The quiet delivery team",
+          "teach": "A proposal may transfer burdens to people absent from the negotiation. Check their capacity and constraints before treating the promise as feasible.",
+          "say": "An absent team still carries the workload.",
+          "ethics": "Who has to make this promise real?",
+          "sourceIds": [
+            "E1"
+          ],
+          "prompt": "A community group negotiates free weekend delivery with a sponsor. The sponsor’s warehouse team has not been consulted and would need extra shifts. What best addresses the missing perspective before agreement?",
+          "transfer": true,
+          "options": [
+            "Celebrate the free delivery and let operations solve it later.",
+            "Check staffing, compensation, and feasibility with the responsible team.",
+            "Assume donated goods make any delivery burden acceptable."
+          ],
+          "answer": 1,
+          "why": [
+            "The promise could create an unexamined burden or fail in practice.",
+            "This brings the affected team and real delivery constraints into the decision.",
+            "A beneficial purpose does not erase the costs borne by others."
+          ],
+          "id": "u10l1-4"
+        }
+      ],
+      "id": "u10l1"
+    },
+    {
+      "title": "Fair by which rule?",
+      "objective": "Compare fairness criteria without pretending that fairness always means an equal split.",
+      "takeaway": "Name the fairness rule, then test who benefits and who bears its cost.",
+      "fieldwork": "With a willing partner, compare two ways to allocate a fictional shared resource. Explain one reason for each without trying to label either person fair or unfair.",
+      "items": [
+        {
+          "kind": "choice",
+          "title": "Equality is one criterion",
+          "teach": "Equal shares, greater need, contribution, and relevant costs can support different allocations. State the criterion and its limits instead of treating the result you prefer as self-evidently fair.",
+          "say": "Say what makes the difference relevant.",
+          "ethics": "Is the allocation rule defensible beyond your preferred outcome?",
+          "sourceIds": [
+            "E1",
+            "E2"
+          ],
+          "prompt": "A fictional workshop has agreed to prioritize applicants who otherwise lack access to training. Two equally eligible applicants differ only in access to alternatives. Which factor should guide this decision under that stated rule?",
+          "transfer": false,
+          "options": [
+            "Which applicant registered earliest.",
+            "Which applicant has fewer practical alternatives.",
+            "Which applicant is more persuasive in conversation."
+          ],
+          "answer": 1,
+          "why": [
+            "Arrival order would apply a different allocation rule.",
+            "This directly applies the access criterion the workshop agreed to use.",
+            "Persuasiveness does not establish the stated need."
+          ],
+          "id": "u10l2-1"
+        },
+        {
+          "kind": "match",
+          "title": "Name the criterion",
+          "teach": "Disagreements about fairness often hide different rules for distributing benefits. Naming the rule makes it possible to discuss its relevance and limits.",
+          "say": "Make the rule visible before debating the result.",
+          "ethics": "Could the same criterion be applied consistently to comparable cases?",
+          "sourceIds": [
+            "E1",
+            "E2"
+          ],
+          "prompt": "Match each proposed allocation to the criterion it uses.",
+          "transfer": false,
+          "pairs": [
+            [
+              "Give every eligible group the same amount",
+              "Equal shares"
+            ],
+            [
+              "Give more support to those with fewer alternatives",
+              "Need"
+            ],
+            [
+              "Charge more where delivery costs are demonstrably higher",
+              "Relevant cost"
+            ],
+            [
+              "Reward documented work contributed to the project",
+              "Contribution"
+            ]
+          ],
+          "explain": "Each criterion may fit some situations and fail in others. The matching task identifies the rule; it does not declare the resulting allocation morally final.",
+          "id": "u10l2-2"
+        },
+        {
+          "kind": "choice",
+          "title": "When two reasons compete",
+          "teach": "A conflict between defensible criteria is not necessarily a factual mistake. Make the tradeoff explicit, examine affected interests, and use an agreed decision process where possible.",
+          "say": "Disagreement can reveal a tradeoff rather than an error.",
+          "ethics": "Are you treating a value choice as if it were a missing calculation?",
+          "sourceIds": [
+            "E2"
+          ],
+          "prompt": "Two partners must allocate a grant. One favors equal amounts; the other favors greater need. Both understand the facts, and no rule was agreed. Which next step best makes the disagreement workable?",
+          "transfer": false,
+          "options": [
+            "Tell the other partner that fairness always means equality.",
+            "Add more decimal places to the budget calculation.",
+            "Discuss tradeoffs; agree a decision process."
+          ],
+          "answer": 2,
+          "why": [
+            "That asserts one contested criterion as universally decisive.",
+            "The disagreement concerns priorities, not arithmetic precision.",
+            "This addresses the actual conflict while leaving room for reasoned disagreement."
+          ],
+          "id": "u10l2-3"
+        },
+        {
+          "kind": "choice",
+          "title": "A consistent discount",
+          "teach": "Consistency concerns relevant similarities and differences. A price difference can have a reason, but that reason should be checked rather than invented after the decision.",
+          "say": "A different price needs a relevant reason, not a flattering story.",
+          "ethics": "Would you accept the criterion if a comparable customer asked about it?",
+          "sourceIds": [
+            "E1",
+            "E2"
+          ],
+          "prompt": "A fictional venue offers a published discount when groups handle their own cleanup because that reduces staffing cost. Two groups meet the same conditions. One is a personal friend. Under the stated policy, how should their eligibility be judged?",
+          "transfer": true,
+          "options": [
+            "Apply the same cleanup criterion to both.",
+            "Add a hidden discount only for the friend.",
+            "Deny both because every price difference is unfair."
+          ],
+          "answer": 0,
+          "why": [
+            "This applies the published, relevant condition consistently.",
+            "Friendship is not the stated eligibility criterion.",
+            "The policy connects the difference to a specific service cost; identical prices are not the only possible fair approach."
+          ],
+          "id": "u10l2-4"
+        }
+      ],
+      "id": "u10l2"
+    },
+    {
+      "title": "A real chance to participate",
+      "objective": "Recognize how power, time, information, and access affect meaningful participation.",
+      "takeaway": "A signature shows agreement; it does not answer every question about the process.",
+      "fieldwork": "Rewrite a fictional invitation so that a person can request an accessible format or more explanation without having to disclose private details.",
+      "items": [
+        {
+          "kind": "choice",
+          "title": "The option to wait",
+          "teach": "A choice can be formally voluntary while one party has far less room to wait or absorb failure. Notice that asymmetry and consider practical safeguards without assuming it determines the entire verdict.",
+          "say": "Ask who can wait, leave, or recover.",
+          "ethics": "Which constraint makes this person’s choice harder to evaluate freely?",
+          "sourceIds": [
+            "E1",
+            "E3"
+          ],
+          "prompt": "A supplier must decide today on a complex contract, but the buyer has flexibility and knows the supplier has not seen the cancellation terms. The goal is a considered agreement. Which adjustment best addresses the specific imbalance?",
+          "transfer": false,
+          "options": [
+            "Provide clear terms and a genuine review period.",
+            "Keep the deadline because a signature proves sufficient choice.",
+            "Promise the supplier will never regret accepting."
+          ],
+          "answer": 0,
+          "why": [
+            "Time and clear terms address the stated barriers without promising an outcome.",
+            "Assent alone does not resolve the missing opportunity to understand the commitment.",
+            "No party can guarantee a future reaction or every consequence."
+          ],
+          "id": "u10l3-1"
+        },
+        {
+          "kind": "sort",
+          "title": "A process barrier or a preference?",
+          "teach": "Access concerns obstacles to understanding or participating, not an automatic right to every desired term. Separate a process barrier from a substantive disagreement about the offer.",
+          "say": "Help someone participate without pretending every request must be granted.",
+          "ethics": "Is the obstacle about evaluating the offer or wanting different terms?",
+          "sourceIds": [
+            "E1",
+            "E2"
+          ],
+          "prompt": "Classify each fictional issue using only the stated facts.",
+          "transfer": false,
+          "buckets": [
+            "Barrier to participation",
+            "Disagreement about terms"
+          ],
+          "entries": [
+            {
+              "text": "The contract is image-only and the buyer’s screen reader cannot read it.",
+              "bucket": 0,
+              "why": "The format prevents access to the information."
+            },
+            {
+              "text": "Both sides understand the price but prefer different amounts.",
+              "bucket": 1,
+              "why": "The issue is the substance of the price."
+            },
+            {
+              "text": "The meeting has no captions despite a participant’s stated need for them.",
+              "bucket": 0,
+              "why": "The format blocks meaningful participation."
+            },
+            {
+              "text": "Both sides understand the deadline but want different delivery dates.",
+              "bucket": 1,
+              "why": "The disagreement concerns the proposed commitment."
+            }
+          ],
+          "explain": "Removing an access barrier improves the process. It does not guarantee that the parties will agree on the terms.",
+          "id": "u10l3-2"
+        },
+        {
+          "kind": "choice",
+          "title": "Ask about the format",
+          "teach": "Do not infer a person’s preferred accommodation or competence from a label. Offer practical ways to participate and ask what format works without demanding unnecessary personal details.",
+          "say": "Ask what helps participation, not for a diagnosis.",
+          "ethics": "Are you collecting private information you do not need?",
+          "sourceIds": [
+            "E1",
+            "E5"
+          ],
+          "prompt": "A buyer says the proposal format is difficult to use and asks for a text version. You can provide one immediately. What best supports the decision?",
+          "transfer": false,
+          "options": [
+            "Ask for medical documentation before providing the file.",
+            "Provide text and offer other useful formats.",
+            "Have a colleague decide on the buyer’s behalf."
+          ],
+          "answer": 1,
+          "why": [
+            "The stated request can be met without collecting that sensitive information.",
+            "This removes the identified barrier while leaving the decision with the buyer.",
+            "Difficulty with a format does not justify taking over the person’s choice."
+          ],
+          "id": "u10l3-3"
+        },
+        {
+          "kind": "choice",
+          "title": "Firm and accessible",
+          "teach": "Respectful access and firm boundaries can coexist. Explain a genuine limit, remove avoidable participation barriers, and let the person evaluate the remaining choice.",
+          "say": "A clear boundary can still leave a dignified choice.",
+          "ethics": "Can they understand the actual options without being pressured to accept?",
+          "sourceIds": [
+            "E1",
+            "E2"
+          ],
+          "prompt": "A fictional nonprofit cannot extend a fixed grant deadline. An applicant needs the instructions in an accessible text format, which staff can supply today. Which response best combines the real limit with meaningful participation?",
+          "transfer": true,
+          "options": [
+            "Refuse the format request because the deadline is fixed.",
+            "Promise an extension that staff cannot authorize.",
+            "Supply the text, explain the fixed deadline, and answer process questions."
+          ],
+          "answer": 2,
+          "why": [
+            "The deadline does not prevent improving access to the instructions.",
+            "An unauthorized promise creates a new problem.",
+            "This addresses the removable barrier and communicates the remaining constraint honestly."
+          ],
+          "id": "u10l3-4"
+        }
+      ],
+      "id": "u10l3"
+    }
+  ]
+}

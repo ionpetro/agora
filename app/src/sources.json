@@ -1,0 +1,205 @@
+[
+  {
+    "id": "S1",
+    "title": "Questions and responsiveness: a bounded experimental finding",
+    "url": "https://www.hbs.edu/ris/Publication%20Files/Huang%20et%20al%202017_6945bc5e-3b3e-4c0a-addd-254c9e603c60.pdf",
+    "publisher": "Harvard Business School · research paper",
+    "note": "Introductory conversations and speed dating are not sales-conversion experiments. The speed-dating analysis prompted a critique (S2), a correction to that critique (S10), and an author reply (S11). Do not infer a universal question quota or guaranteed outcome."
+  },
+  {
+    "id": "S2",
+    "title": "Question asking and listening: a methodological debate",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6857721/",
+    "publisher": "Kluger & Malloy · research reanalysis",
+    "note": "This reanalysis was later corrected for confusing date offers given and received; the error affected results and conclusions. The original authors also published a reply. Read this exchange with S10 and S11, not as settled evidence against question asking. None of these studies establishes a sales-conversion formula."
+  },
+  {
+    "id": "S3",
+    "title": "Listening skills: paraphrase, acknowledge, clarify",
+    "url": "https://hnmcp.law.harvard.edu/hnmcp/blog/remote-but-robust-having-difficult-conversations-virtually-using-best-practices-from-crisis-counseling/",
+    "publisher": "Harvard Negotiation & Mediation",
+    "note": "The context is difficult conversations, with lessons from crisis counseling, not a controlled test of selling. Do not medicalize ordinary objections, diagnose a buyer, or mechanically repeat their last words as a persuasion trick. "
+  },
+  {
+    "id": "S4",
+    "title": "Ethical obligations in marketing",
+    "url": "https://www.ama.org/ama-statement-of-ethics/",
+    "publisher": "American Marketing Association",
+    "note": "This is an aspirational professional code, not proof of business outcomes or a universal law. Agora can adopt stronger educational standards but should label them as its own design choices. “Legal” and “ethical” are different questions. "
+  },
+  {
+    "id": "S5",
+    "title": "Claims require a basis before they are made",
+    "url": "https://www.ftc.gov/legal-library/browse/ftc-policy-statement-regarding-advertising-substantiation",
+    "publisher": "US Federal Trade Commission",
+    "note": "This concerns US advertising policy. The course should teach evidential honesty, not promise jurisdiction-independent legal compliance. A hypothetical calculation, a limited pilot, and a guaranteed customer result are different kinds of claims. "
+  },
+  {
+    "id": "S6",
+    "title": "Testimonials and disclosures cannot rescue every claim",
+    "url": "https://www.ftc.gov/business-guidance/resources/advertising-faqs-guide-small-business",
+    "publisher": "US Federal Trade Commission",
+    "note": "This broad guide includes specialized and evolving legal subjects. Use its stable truth-and-evidence principles; do not reproduce penalty figures or represent the course as legal advice. Teach what an ordinary reader is likely to understand, not only literal sentence truth. "
+  },
+  {
+    "id": "S7",
+    "title": "Recognize manipulation at the decision point",
+    "url": "https://www.ftc.gov/news-events/news/press-releases/2022/09/ftc-report-shows-rise-sophisticated-dark-patterns-designed-trick-trap-consumers",
+    "publisher": "US Federal Trade Commission",
+    "note": "These are documented categories of potentially unlawful deceptive design, not a claim that all urgency or every awkward interface is illegal. An actual capacity constraint can be communicated truthfully; inventing one is different. "
+  },
+  {
+    "id": "S8",
+    "title": "Questions for information, not merely rapport",
+    "url": "https://www.pon.harvard.edu/daily/negotiation-skills-daily/ask-the-negotiation-coach-nb/",
+    "publisher": "Harvard Program on Negotiation",
+    "note": "Asking precisely does not guarantee an honest or complete reply. Appropriate specificity depends on the stage and relationship. Someone may legitimately decline to reveal confidential information; declining is not automatically evidence of wrongdoing. "
+  },
+  {
+    "id": "S9",
+    "title": "Design agreements for changing conditions",
+    "url": "https://daviscenter.fas.harvard.edu/insights/make-your-agreements-crisis-proof",
+    "publisher": "Harvard Davis Center",
+    "note": "This is practical guidance, not an experimentally established guarantee. An if–then provision needs understandable triggers and consequences; vague contingencies can create new conflict. Some failures require ending an arrangement rather than preserving it at any cost. "
+  },
+  {
+    "id": "N1",
+    "title": "MIT Sloan, Seven keys to effective negotiation",
+    "url": "https://mitsloan.mit.edu/ideas-made-to-matter/seven-keys-to-effective-negotiation",
+    "publisher": "MIT Sloan",
+    "note": "Preparation as seven interacting elements. Teaching principles have contextual limits; simulations and guidance do not guarantee outcomes."
+  },
+  {
+    "id": "N2",
+    "title": "Harvard Business School Online, Understanding ZOPA: The Zone of Possible Agreement",
+    "url": "https://online.hbs.edu/blog/post/understanding-zopa",
+    "publisher": "Harvard Business School Online",
+    "note": "BATNA and ZOPA. Teaching principles have contextual limits; simulations and guidance do not guarantee outcomes."
+  },
+  {
+    "id": "N3",
+    "title": "Harvard Program on Negotiation, When to Make the First Offer in Negotiations",
+    "url": "https://www.pon.harvard.edu/daily/dealmaking-daily/resolving-the-first-offer-dilemma-in-business-negotiations/",
+    "publisher": "Harvard Program on Negotiation",
+    "note": "First offers and anchoring. Teaching principles have contextual limits; simulations and guidance do not guarantee outcomes."
+  },
+  {
+    "id": "N4",
+    "title": "Stanford Report, How to be a better negotiator",
+    "url": "https://news.stanford.edu/stories/2024/10/lets-make-deal-negotiation-tips-experts",
+    "publisher": "Stanford Report",
+    "note": "Cooperation, competition, and power. Teaching principles have contextual limits; simulations and guidance do not guarantee outcomes."
+  },
+  {
+    "id": "N5",
+    "title": "Columbia Business School, Putting more on the table: How making multiple offers can increase the final value of the deal",
+    "url": "https://business.columbia.edu/faculty/research/putting-more-table-how-making-multiple-offers-can-increase-final-value-deal",
+    "publisher": "Columbia Business School",
+    "note": "Multiple equivalent simultaneous offers (MESOs). Teaching principles have contextual limits; simulations and guidance do not guarantee outcomes."
+  },
+  {
+    "id": "N6",
+    "title": "Harvard Program on Negotiation, The Negotiator's Dilemma: How MESOs Help You Create and Claim Value",
+    "url": "https://www.pon.harvard.edu/daily/negotiation-skills-daily/managing-the-negotiators-dilemma-nb/",
+    "publisher": "Harvard Program on Negotiation",
+    "note": "MESOs do not establish fairness. Teaching principles have contextual limits; simulations and guidance do not guarantee outcomes."
+  },
+  {
+    "id": "N7",
+    "title": "Harvard Program on Negotiation, Telling the Third Story",
+    "url": "https://www.pon.harvard.edu/daily/conflict-resolution/telling-the-third-story/",
+    "publisher": "Harvard Program on Negotiation",
+    "note": "Difficult conversations. Teaching principles have contextual limits; simulations and guidance do not guarantee outcomes."
+  },
+  {
+    "id": "N8",
+    "title": "Harvard Program on Negotiation, Set Your Contingent Contract Up for Success",
+    "url": "https://www.pon.harvard.edu/daily/dealmaking-daily/set-your-contingent-contract-up-for-success/",
+    "publisher": "Harvard Program on Negotiation",
+    "note": "Expert guidance on explicit future-dependent terms, measures, and owners. Agora does not adopt the stronger inference that refusing a contingency reveals insincerity: control, cash flow, risk tolerance, or an unacceptable burden can also explain refusal. A contingency does not guarantee enforceability or remove uncertainty."
+  },
+  {
+    "id": "N9",
+    "title": "Harvard Medical School Ombuds, Seven Elements of Effective Negotiations",
+    "url": "https://hms.harvard.edu/sites/default/files/assets/Sites/Ombuds/files/HMS.HSDM_.HSPH%20Ombuds%20Office.Seven%20Elements%20of%20Effective%20Negotiations.pdf",
+    "publisher": "Harvard Medical School Ombuds",
+    "note": "Listening and workable commitments. Teaching principles have contextual limits; simulations and guidance do not guarantee outcomes."
+  },
+  {
+    "id": "E1",
+    "title": "Markkula Center: A Framework for Ethical Decision Making",
+    "url": "https://www.scu.edu/ethics/ethics-resources/a-framework-for-ethical-decision-making/",
+    "publisher": "Santa Clara University · Markkula Center",
+    "note": "Examine facts, stakeholders, alternatives, action, and reflection through rights, justice, consequences, common good, virtue, and care. Ethical evaluation is broader than checking legality. This is a practical philosophical framework, not an effectiveness trial."
+  },
+  {
+    "id": "E2",
+    "title": "Kwan, McLean & Raicu: Introduction to the framework",
+    "url": "https://www.scu.edu/ethics/ethics-resources/ethical-decision-making/introduction-to-a-framework-for-ethical-decision-making/",
+    "publisher": "Santa Clara University · Markkula Center",
+    "note": "Ethical lenses can disagree; the framework is not an algorithm for the correct answer. Reconsider decisions when facts or affected parties change. Use this to justify contextual feedback and multiple defensible options, not a universal ranking of people."
+  },
+  {
+    "id": "E3",
+    "title": "Stanford Encyclopedia of Philosophy: The Ethics of Manipulation",
+    "url": "https://plato.stanford.edu/entries/ethics-manipulation/",
+    "publisher": "Stanford Encyclopedia of Philosophy",
+    "note": "The definition and moral status of manipulation remain contested. Accounts consider deception, pressure, reasoning, autonomy, harm, and vulnerability. Emotion alone is not a sufficient test: relevant human stories can support deliberation; shame or fear can undermine it. This is philosophical analysis, not a conversion experiment."
+  },
+  {
+    "id": "E4",
+    "title": "FTC: Bringing Dark Patterns to Light",
+    "url": "https://www.ftc.gov/system/files/ftc_gov/pdf/P214800%20Dark%20Patterns%20Report%209.14.2022%20-%20FINAL.pdf",
+    "publisher": "US Federal Trade Commission",
+    "note": "Concrete examples include false scarcity, obscured costs, disguised promotion, cancellation obstacles, and misleading data collection. The report emphasizes the overall impression, rather than technically accurate words alone. Use these dated examples for recognition exercises; do not convert the report into claims about current law in every jurisdiction."
+  },
+  {
+    "id": "E5",
+    "title": "OECD AI Principles",
+    "url": "https://www.oecd.org/en/topics/ai-principles.html",
+    "publisher": "OECD",
+    "note": "Human agency, privacy, fairness, transparency, robustness, and accountability matter throughout AI use. Apply these as design principles for human review, understandable AI involvement, and routes to challenge mistakes. They do not imply one universally sufficient disclosure script or identical legal duties everywhere."
+  },
+  {
+    "id": "E6",
+    "title": "NIST AI RMF: AI Risks and Trustworthiness",
+    "url": "https://airc.nist.gov/airmf-resources/airmf/3-sec-characteristics/",
+    "publisher": "NIST",
+    "note": "Reliability, accountability, transparency, privacy, and fairness must be considered in context. Improving one characteristic does not establish overall trustworthiness. Human judgment remains necessary for tradeoffs. In Agora, an AI draft is a proposal to verify, not evidence that its claims are true."
+  },
+  {
+    "id": "E7",
+    "title": "Pan & Rickard: Does retrieval practice enhance learning and transfer relative to restudy for term-definition facts?",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/28358548/",
+    "publisher": "Pan & Rickard · research paper",
+    "note": "Four experiments using term–definition facts found retrieval benefits relative to no practice, but direction-dependent benefits relative to restudy and limited transfer across retrieval directions. Design implication: definition quizzes alone cannot demonstrate conversational skill. This study did not test ethical sales training."
+  },
+  {
+    "id": "E8",
+    "title": "Butowska-Buczyńska et al.: The role of variable retrieval in effective learning",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11536137/",
+    "publisher": "Butowska-Buczyńska et al. · research paper",
+    "note": "Experiments with contextual vocabulary retrieval, plus lecture material, support varying retrieval cues with spaced practice. Learners' judgments did not always track learning. Use varied examples and delayed checks, while treating transfer to negotiation and ethical conduct as a hypothesis to test."
+  },
+  {
+    "id": "E9",
+    "title": "Stanford HAI: Walking the Walk of AI Ethics in Technology Companies",
+    "url": "https://hai.stanford.edu/policy/policy-brief-walking-walk-ai-ethics-technology-companies",
+    "publisher": "Stanford HAI",
+    "note": "Interviews with 25 AI ethics practitioners identified organizational barriers, including weak support and conflicting incentives. This supports including owners, escalation, and incentives in scenarios. A qualitative study does not establish prevalence across all organizations or guarantee that a particular repair process works."
+  },
+  {
+    "id": "S10",
+    "title": "Correction to Question Asking as a Dyadic Behavior",
+    "publisher": "Journal of Personality and Social Psychology",
+    "url": "https://doi.org/10.1037/pspi0000355",
+    "note": "Published correction to S2 concerning the outcome-variable error involving date offers given and received. This qualifies the earlier commentary; it is not new evidence about sales performance."
+  },
+  {
+    "id": "S11",
+    "title": "It Helps to Ask: The Cumulative Benefits of Asking Follow-Up Questions",
+    "publisher": "Yeomans et al. · author reply",
+    "url": "https://www.hbs.edu/ris/Publication%20Files/yeomans_huang_brooks_minson___gino_2019_.___6cf7b840-7ad0-4459-8931-81768f821854.pdf",
+    "note": "The original authors contest the reanalysis and defend their conversational findings. Read with the original paper, critique, and correction. Agora has not independently replicated these analyses."
+  }
+]

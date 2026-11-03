@@ -1,0 +1,358 @@
+{
+  "id": "u12",
+  "title": "Put it into practice",
+  "subtitle": "Change roles. Face the tradeoff. Choose a next step.",
+  "icon": "flag",
+  "color": "gold",
+  "skill": "judgment",
+  "description": "Integrate sales, negotiation, and ethical reasoning in realistic decisions. These fictional cases reward supported reasoning rather than a moral verdict on the learner.",
+  "lessons": [
+    {
+      "title": "On both sides of the table",
+      "objective": "Prepare a feasible agreement while understanding the other party’s constraints and freedom to decline.",
+      "takeaway": "A strong proposal explains both why it may help and when it will not fit.",
+      "fieldwork": "With a willing partner, roleplay a small fictional purchase, then switch roles. Name one assumption that changed after the switch.",
+      "items": [
+        {
+          "kind": "choice",
+          "title": "Find the decision that matters",
+          "teach": "Before proposing a package, separate the desired outcome from assumptions about how to reach it. Investigate a decisive uncertainty when it can change whether the offer fits at all.",
+          "say": "Find the uncertainty that could change the whole proposal.",
+          "ethics": "Are you selling a solution before understanding the required result?",
+          "sourceIds": [
+            "E1",
+            "E2"
+          ],
+          "prompt": "A small employer wants a training pilot to improve interviews. You can demonstrate skills practice but cannot promise job placement. The buyer says “success means hires.” Before drafting a package, what matters most to clarify?",
+          "transfer": false,
+          "options": [
+            "Whether a skills outcome would help.",
+            "Which discount makes the pilot easiest to approve.",
+            "Whether their logo may appear in your case study."
+          ],
+          "answer": 0,
+          "why": [
+            "This determines whether a feasible offer can serve the buyer’s actual objective.",
+            "Price does not resolve a mismatch about what the service can deliver.",
+            "A marketing benefit for the seller does not establish fit for the buyer."
+          ],
+          "id": "u12l1-1"
+        },
+        {
+          "kind": "match",
+          "title": "Build a checkable proposal",
+          "teach": "A useful proposal distinguishes the intended benefit, its evidence, the commitments required, and the conditions for review. Keeping these separate helps both parties evaluate uncertainty.",
+          "say": "Turn the pitch into claims and commitments people can inspect.",
+          "ethics": "Which part is evidence, and which part is still a promise?",
+          "sourceIds": [
+            "E1",
+            "E6"
+          ],
+          "prompt": "Match these parts of a fictional pilot to their role in the proposal.",
+          "transfer": false,
+          "pairs": [
+            [
+              "Improve interview practice",
+              "Intended benefit"
+            ],
+            [
+              "A sample exercise the buyer can inspect",
+              "Available evidence"
+            ],
+            [
+              "Two manager feedback sessions",
+              "Buyer’s required contribution"
+            ],
+            [
+              "A named review after the pilot",
+              "Checkpoint for the next decision"
+            ]
+          ],
+          "explain": "These parts make the proposal easier to examine. They do not prove the intended benefit will occur.",
+          "id": "u12l1-2"
+        },
+        {
+          "kind": "choice",
+          "title": "Now you are the buyer",
+          "teach": "Role switching can reveal information the other party needs without making them an opponent to defeat. Ask for the evidence and commitments needed for your decision, while respecting legitimate confidentiality.",
+          "say": "Ask for what your decision needs, not everything they know.",
+          "ethics": "Is your information request relevant to evaluating the offer?",
+          "sourceIds": [
+            "E1",
+            "E2"
+          ],
+          "prompt": "You now buy the pilot. Your concern is whether managers can support it within available time. The seller’s internal profit margin would not answer that. What request best tests feasibility?",
+          "transfer": false,
+          "options": [
+            "Ask for the seller’s lowest possible price before discussing workload.",
+            "Ask for the required manager tasks and expected time.",
+            "Ask the seller to guarantee that managers will enjoy it."
+          ],
+          "answer": 1,
+          "why": [
+            "The pricing question does not address the stated capacity concern.",
+            "Those commitments let you compare the pilot with actual manager capacity.",
+            "A guarantee of people’s reactions cannot establish operational feasibility."
+          ],
+          "id": "u12l1-3"
+        },
+        {
+          "kind": "choice",
+          "title": "When the smaller deal still fails",
+          "teach": "A narrower package helps only if it still serves a meaningful need. If a nonnegotiable requirement cannot be met, identify the mismatch instead of treating every concession as progress.",
+          "say": "A smaller deal is useful only if it still solves the problem.",
+          "ethics": "Would this compromise leave the other party’s essential need unmet?",
+          "sourceIds": [
+            "E1",
+            "E2"
+          ],
+          "prompt": "A community kitchen needs certified cold storage by Friday. Your team cannot provide it until Monday, and a partial Friday delivery cannot keep food safe. To support a workable outcome, what should you do?",
+          "transfer": true,
+          "options": [
+            "Offer a lower price for Monday and describe the timing as flexible.",
+            "Suggest signing now and discussing the essential deadline afterward.",
+            "Explain the mismatch and let them pursue another option."
+          ],
+          "answer": 2,
+          "why": [
+            "A discount does not satisfy the explicitly essential timing requirement.",
+            "Signing first would postpone a fact central to the decision.",
+            "No feasible offer meets the stated need; declining this deal preserves informed choice."
+          ],
+          "id": "u12l1-4"
+        }
+      ],
+      "id": "u12l1"
+    },
+    {
+      "title": "Repair the agreement",
+      "objective": "Respond to a consequential mistake with correction, feasible choices, and accountable follow-through.",
+      "takeaway": "Repair begins by restoring an accurate picture and a practical choice.",
+      "fieldwork": "Write a fictional correction in three sentences: what was wrong, what is now known, and who will help choose the next step.",
+      "items": [
+        {
+          "kind": "choice",
+          "title": "The error after signature",
+          "teach": "A signed agreement does not make a material mistake irrelevant. When the known error affects the other party’s next decision, notify them promptly and separate confirmed facts from what remains under review.",
+          "say": "Do not let a signature freeze a mistake in place.",
+          "ethics": "Is someone about to act on information you now know is wrong?",
+          "sourceIds": [
+            "E1",
+            "E5"
+          ],
+          "prompt": "A buyer signed based on an incorrect integration date. You discover it before they book a launch venue tomorrow; the exact revised date is still being checked. Which first response best protects their next decision?",
+          "transfer": false,
+          "options": [
+            "Wait for every delivery estimate to be confirmed before notifying the buyer.",
+            "Flag the error now and name an update time.",
+            "Quietly update the proposal and assume the buyer will notice the change."
+          ],
+          "answer": 1,
+          "why": [
+            "They may make another costly commitment while relying on a known error.",
+            "This corrects the immediate reliance risk without inventing a replacement promise.",
+            "A silent edit may leave them unaware that their plan needs review."
+          ],
+          "id": "u12l2-1"
+        },
+        {
+          "kind": "order",
+          "title": "A repair conversation",
+          "teach": "For a known service error with no urgent safety issue, try this repair conversation: acknowledge the specific error, explain confirmed impact and uncertainty, offer authorized options, then agree an owner and check-in. Adapt the sequence if immediate action is needed. A remedy for the error should not require another purchase or a positive review.",
+          "say": "Name the error, explain the impact, offer real options, follow through.",
+          "ethics": "Can every offered remedy actually be delivered?",
+          "sourceIds": [
+            "E1",
+            "E5"
+          ],
+          "prompt": "Order the repair conversation just taught for this nonurgent service error.",
+          "transfer": false,
+          "parts": [
+            "Acknowledge the specific error",
+            "Explain confirmed impact and uncertainty",
+            "Offer authorized options",
+            "Agree an owner and check-in"
+          ],
+          "explain": "This is one practical conversation sequence. An urgent risk may require protective action before the full explanation.",
+          "id": "u12l2-2"
+        },
+        {
+          "kind": "choice",
+          "title": "Options within your authority",
+          "teach": "A remedy should be meaningful and feasible. If you lack authority for a requested remedy, say what you can do and route the decision to someone who can authorize it.",
+          "say": "Do not repair one broken promise with another.",
+          "ethics": "Who can authorize the option the customer is being offered?",
+          "sourceIds": [
+            "E1",
+            "E9"
+          ],
+          "prompt": "A customer asks for a refund after a missed service milestone. You can pause future billing and arrange a manager review today, but cannot approve refunds. What can you responsibly offer now?",
+          "transfer": false,
+          "options": [
+            "Guarantee a full refund to reduce the customer’s frustration.",
+            "Decline to discuss the issue because refunds are outside your role.",
+            "Pause billing and arrange the authorized review today."
+          ],
+          "answer": 2,
+          "why": [
+            "The promise exceeds your authority and may create another disappointment.",
+            "You still have useful actions available and can connect them to an authorized decision.",
+            "This uses your actual authority and gives the customer a concrete route for the remaining request."
+          ],
+          "id": "u12l2-3"
+        },
+        {
+          "kind": "choice",
+          "title": "Repair is not forced forgiveness",
+          "teach": "A person can accept a practical remedy while remaining disappointed or choosing to leave. Treat their response as a choice to respect, not proof that the repair failed or that they owe renewed trust.",
+          "say": "Offer a remedy without demanding renewed trust.",
+          "ethics": "Are you making a correction conditional on praise, silence, or another purchase?",
+          "sourceIds": [
+            "E1",
+            "E3"
+          ],
+          "prompt": "A fictional tutor corrects an overcharge and offers a clear refund. The learner accepts it but chooses a different tutor. What best respects the completed repair and the learner’s choice?",
+          "transfer": true,
+          "options": [
+            "Refund without requiring further business.",
+            "Make the refund conditional on giving the tutor another chance.",
+            "Ask for a positive review before releasing the refund."
+          ],
+          "answer": 0,
+          "why": [
+            "The remedy addresses the error without making continued business the price of correction.",
+            "The learner’s freedom to leave should not depend on buying again.",
+            "That adds a new pressure unrelated to correcting the overcharge."
+          ],
+          "id": "u12l2-4"
+        }
+      ],
+      "id": "u12l2"
+    },
+    {
+      "title": "Judgment, not a verdict",
+      "objective": "Distinguish facts, constraints, and values; revise a decision when relevant information changes.",
+      "takeaway": "Explain your reasoning, name what could change it, and keep learning.",
+      "fieldwork": "After a low-stakes decision, write one fact, one value you prioritized, and one new fact that would make you reconsider. Keep any personal details private.",
+      "items": [
+        {
+          "kind": "choice",
+          "title": "Know what is unsettled",
+          "teach": "A factual uncertainty calls for information; a conflict of values calls for reasoning about priorities and tradeoffs. More data can inform a value choice without automatically deciding it.",
+          "say": "Find out whether you disagree about facts or priorities.",
+          "ethics": "Are you disguising a priority as an objective fact?",
+          "sourceIds": [
+            "E1",
+            "E2"
+          ],
+          "prompt": "Two partners agree on costs and expected benefits but disagree whether a discount should favor equal access or greatest need. What best describes what remains unsettled?",
+          "transfer": false,
+          "options": [
+            "The correct arithmetic must still be discovered.",
+            "They must weigh competing fairness priorities.",
+            "One partner must lack the facts already agreed."
+          ],
+          "answer": 1,
+          "why": [
+            "The stated disagreement remains after the calculations are shared.",
+            "The partners favor different defensible criteria for distributing a benefit.",
+            "The scenario explicitly establishes agreement about the facts."
+          ],
+          "id": "u12l3-1"
+        },
+        {
+          "kind": "sort",
+          "title": "Fact, constraint, or value?",
+          "teach": "Good reasoning keeps descriptions, limits, and priorities distinct. A stated operational limit may change, and a value may be defensible, but neither should be disguised as a different kind of claim.",
+          "say": "Separate what is, what is possible, and what matters.",
+          "ethics": "Which claim needs evidence, authority, or a reasoned defense?",
+          "sourceIds": [
+            "E1",
+            "E2"
+          ],
+          "prompt": "Classify the statements from a fictional workshop planning discussion.",
+          "transfer": false,
+          "buckets": [
+            "Observed fact",
+            "Stated operational constraint",
+            "Value priority"
+          ],
+          "entries": [
+            {
+              "text": "The confirmed attendance list contains twelve names.",
+              "bucket": 0,
+              "why": "This describes a count that can be checked."
+            },
+            {
+              "text": "For this event, the available room cannot hold more than twelve people.",
+              "bucket": 1,
+              "why": "This states a capacity limit on the plan."
+            },
+            {
+              "text": "We should give greater weight to applicants with fewer alternatives.",
+              "bucket": 2,
+              "why": "This recommends a priority for distributing access."
+            },
+            {
+              "text": "Three applicants asked for an accessible text schedule.",
+              "bucket": 0,
+              "why": "This reports requests that can be verified."
+            }
+          ],
+          "explain": "The categories describe how the statements function in this discussion. A constraint also needs factual support; the labels do not excuse it from scrutiny.",
+          "id": "u12l3-2"
+        },
+        {
+          "kind": "choice",
+          "title": "A changed fact earns a changed plan",
+          "teach": "Revising a view after relevant new information is a reasoning skill, not automatic inconsistency. Explain which fact changed and how it affects the decision rather than pretending the original judgment was timeless.",
+          "say": "Be steady about the reason, flexible about the conclusion.",
+          "ethics": "What new fact would make your original recommendation no longer fit?",
+          "sourceIds": [
+            "E2"
+          ],
+          "prompt": "You recommended a basic plan because the buyer needed only simple reports. They now reveal a mandatory audit requirement that only the premium plan meets; budget approval is uncertain. What is the strongest next step?",
+          "transfer": false,
+          "options": [
+            "Defend basic so your recommendation stays consistent.",
+            "Move them to premium without discussing the new cost.",
+            "Recheck fit and budget against the new requirement."
+          ],
+          "answer": 2,
+          "why": [
+            "The new requirement changes the basis of the original recommendation.",
+            "The added cost remains a consequential decision for the buyer.",
+            "This updates the reasoning while preserving the buyer’s control over the tradeoff."
+          ],
+          "id": "u12l3-3"
+        },
+        {
+          "kind": "choice",
+          "title": "Explain a choice you might revise",
+          "teach": "Strong judgment can state a reason without pretending every reasonable person must agree. Identify the priority, relevant facts, and a condition that would change the decision.",
+          "say": "Give a reason and leave a door open to new evidence.",
+          "ethics": "Could someone understand your decision without accepting your values as universal?",
+          "sourceIds": [
+            "E1",
+            "E2"
+          ],
+          "prompt": "A fictional team has chosen the slower supplier to prioritize verified accessibility after discussing the deadline tradeoff. Which explanation best makes that decision reviewable?",
+          "transfer": true,
+          "options": [
+            "“We prioritized verified access; we would revisit if the delay prevented the event.”",
+            "“The slower supplier is always the ethical choice.”",
+            "“Our choice proves that the other supplier is a bad organization.”"
+          ],
+          "answer": 0,
+          "why": [
+            "It names the priority, recognizes the tradeoff, and identifies a relevant reason to reconsider.",
+            "Speed alone does not determine the ethical merits of every choice.",
+            "The specific decision does not establish a sweeping verdict about an organization."
+          ],
+          "id": "u12l3-4"
+        }
+      ],
+      "id": "u12l3"
+    }
+  ]
+}

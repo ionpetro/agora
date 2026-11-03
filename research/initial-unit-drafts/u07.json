@@ -1,0 +1,219 @@
+{
+  "id": "u07",
+  "title": "Handle power responsibly",
+  "subtitle": "Be firm, stay curious, and notice who can choose.",
+  "icon": "shield",
+  "color": "clay",
+  "skill": "fair process",
+  "description": "Protect truthful boundaries, navigate difficult conversations, and improve the process for people with less power at the table.",
+  "lessons": [
+    {
+      "id": "u07l1",
+      "title": "Firm without a bluff",
+      "objective": "State honest limits while protecting confidential bargaining information.",
+      "takeaway": "You can decline to reveal private information without making a false claim.",
+      "fieldwork": "Write one truthful sentence that protects a private detail and one sentence that clearly states a real constraint.",
+      "items": [
+        {
+          "id": "u07l1-1",
+          "kind": "choice",
+          "title": "Private is not false",
+          "teach": "Honesty does not require automatically revealing your reservation point or confidential terms. You can decline to answer while discussing the proposal; inventing a false fact is a different action.",
+          "say": "Protect the information without inventing a story.",
+          "ethics": "Is this a truthful boundary, or a false explanation for the boundary?",
+          "sourceIds": ["N2", "E1", "E3"],
+          "prompt": "In a fictional supplier negotiation, a buyer asks for your private lowest acceptable price. You want to keep it private and continue discussing scope. Which response does that honestly?",
+          "options": ["This is my lowest price, even though it is not.", "I'll keep that private; let's discuss scope.", "Another buyer has offered more, even though none has."],
+          "answer": 1,
+          "why": ["It converts a private preference into a false factual statement.", "It protects the internal limit without misrepresenting facts and leaves room to discuss terms.", "It invents outside demand to influence the buyer's decision."],
+          "transfer": false
+        },
+        {
+          "id": "u07l1-2",
+          "kind": "sort",
+          "title": "Name the move",
+          "teach": "A real constraint, a preference, and a fabricated fact should not be presented as the same thing. Stating a preference firmly is compatible with leaving the other person free to disagree.",
+          "say": "Be clear about what is fixed, what you prefer, and what is private.",
+          "ethics": "Do not invent policy or authority to make a negotiable preference sound unavoidable.",
+          "sourceIds": ["N4", "E3"],
+          "prompt": "Classify these fictional statements using the facts supplied in each one.",
+          "buckets": ["Truthful constraint or boundary", "Clearly stated preference", "False claim"],
+          "entries": [
+            {"text": "'I cannot approve that discount.' The speaker truly lacks that authority.", "bucket": 0, "why": "The statement accurately describes the speaker's authority."},
+            {"text": "'I would prefer a twelve-month term, but can discuss a shorter one.'", "bucket": 1, "why": "It states a preference without pretending it is mandatory."},
+            {"text": "'Policy forbids monthly billing.' No such policy exists.", "bucket": 2, "why": "The speaker invents a rule to close discussion."},
+            {"text": "'I am keeping our internal budget private.' The speaker does not disclose or misstate it.", "bucket": 0, "why": "A truthful refusal to disclose does not make up a fact."}
+          ],
+          "explain": "A firm position can be stated as a position. False rules and false alternatives are not required to maintain a boundary.",
+          "transfer": false
+        },
+        {
+          "id": "u07l1-3",
+          "kind": "choice",
+          "title": "A real clock",
+          "teach": "A genuine deadline can be explained with its actual cause and consequence. If an extension is possible, distinguish what you can offer from what needs approval rather than pretending there is no flexibility.",
+          "say": "Explain the real clock and the real choices.",
+          "ethics": "Do not exaggerate the consequence of missing a deadline to force a quick yes.",
+          "sourceIds": ["E3", "E4"],
+          "prompt": "A fictional venue must release an unpaid room hold on Friday because another booking is pending. You cannot extend it, but the buyer can book a later date. What is the clearest accurate message?",
+          "options": ["Book Friday or you will never get another room.", "I can hold this indefinitely if you are serious.", "This hold ends Friday; later dates remain."],
+          "answer": 2,
+          "why": ["It expands a real deadline into a false claim about all future availability.", "It promises flexibility the speaker does not have.", "It states the actual consequence and preserves a real alternative without manufacturing pressure."],
+          "transfer": false
+        },
+        {
+          "id": "u07l1-4",
+          "kind": "choice",
+          "title": "Someone else's terms",
+          "teach": "Confidentiality can protect another party's information while you explain your own offer. Use relevant information you are permitted to share rather than fabricating a comparison.",
+          "say": "Explain your proposal without exposing someone else's private deal.",
+          "ethics": "Your counterpart's curiosity does not remove another customer's confidentiality.",
+          "sourceIds": ["E1", "E3", "N1"],
+          "prompt": "A fictional buyer asks what a named competitor pays you. Those terms are confidential. You can share public pricing and explain volume-based cost differences. What response best supports a useful comparison?",
+          "options": ["Explain public pricing; keep client terms private.", "Say the competitor pays more, without checking or permission.", "Reveal the competitor's terms to prove transparency."],
+          "answer": 0,
+          "why": ["It protects confidentiality and offers a relevant basis for evaluating this proposal.", "It asserts a potentially false and confidential comparison to influence the buyer.", "Transparency about this offer does not authorize disclosing another party's private agreement."],
+          "transfer": true
+        }
+      ]
+    },
+    {
+      "id": "u07l2",
+      "title": "The difficult conversation",
+      "objective": "Separate observations from interpretations and open a conversation without pretending away responsibility.",
+      "takeaway": "Name what happened and its impact, then check what you do not yet understand.",
+      "fieldwork": "For a minor disagreement, privately rewrite one accusation as an observation, an impact, and a question.",
+      "items": [
+        {
+          "id": "u07l2-1",
+          "kind": "choice",
+          "title": "Start with what you know",
+          "teach": "A useful opening can describe observable events, their impact, and the gap in understanding. This invites information without claiming to know intent; it does not guarantee agreement or erase responsibility.",
+          "say": "Describe the event before deciding what it says about the person.",
+          "ethics": "Curiosity about intent must not hide a documented impact.",
+          "sourceIds": ["N7", "N9"],
+          "prompt": "In a fictional team, two handoffs arrived a day after their agreed dates, forcing you to reschedule review. You want to understand the cause and improve the next handoff. Which opening best serves that goal?",
+          "options": ["You clearly do not care about our launch.", "Both handoffs were late. What changed?", "Let's forget the dates so nobody feels blamed."],
+          "answer": 1,
+          "why": ["It treats an unverified judgment about intent as a fact.", "It names the concrete issue and asks for information that can inform the next agreement.", "It avoids a relevant problem instead of helping both people understand and address it."],
+          "transfer": false
+        },
+        {
+          "id": "u07l2-2",
+          "kind": "sort",
+          "title": "Fact, interpretation, impact",
+          "teach": "Observations, interpretations, and impacts can all matter, but they are not interchangeable. Marking the distinction helps you ask useful questions and avoid turning a guess into an accusation.",
+          "say": "Keep the event, your interpretation, and the effect distinct.",
+          "ethics": "An interpretation needs checking even when the resulting inconvenience is real.",
+          "sourceIds": ["N7", "N9"],
+          "prompt": "In this fictional project, the agreed handoff was Monday; a shared record confirms Wednesday delivery, and review moved to Thursday. Sort the statements.",
+          "buckets": ["Observation", "Interpretation", "Impact"],
+          "entries": [
+            {"text": "Delivery happened Wednesday rather than the agreed Monday.", "bucket": 0, "why": "The supplied record establishes the timing."},
+            {"text": "The contributor thought our project did not matter.", "bucket": 1, "why": "The contributor's belief is not established by the delivery dates."},
+            {"text": "Our review had to move to Thursday.", "bucket": 2, "why": "This is the stated consequence for the review process."}
+          ],
+          "explain": "You can raise the real impact while staying uncertain about intent. Ask for the missing context rather than assuming it.",
+          "transfer": false
+        },
+        {
+          "id": "u07l2-3",
+          "kind": "choice",
+          "title": "Neutral does not mean equal fault",
+          "teach": "A shared description can make disagreement easier to examine. It should not force equal blame when evidence points elsewhere, or require a person to continue a conversation that includes threats.",
+          "say": "A workable conversation needs room for evidence and boundaries.",
+          "ethics": "Do not ask someone to accept equal responsibility merely to keep the tone calm.",
+          "sourceIds": ["N7", "E1"],
+          "prompt": "In a fictional project dispute, the shared log confirms that a manager added work after the deadline was agreed. Nobody is threatening anyone, and both can revise the plan. What should the next discussion focus on?",
+          "options": ["Say both sides caused the delay equally to sound neutral.", "Ignore the scope change and demand the original date.", "Acknowledge the added work and renegotiate scope or timing."],
+          "answer": 2,
+          "why": ["A calm tone does not justify inventing an equal distribution of responsibility.", "The established change is relevant to feasibility and needs to be addressed.", "It uses the evidence to repair the agreement without adding an unsupported judgment about intent."],
+          "transfer": false
+        },
+        {
+          "id": "u07l2-4",
+          "kind": "choice",
+          "title": "A new setting, the same distinction",
+          "teach": "A useful opening can combine a concrete event, its impact, and a request for perspective. The goal is to make the problem discussable, not to guarantee that the other person responds well.",
+          "say": "Name the problem and leave room for information you do not have.",
+          "ethics": "A need for cooperation does not justify assigning an unverified motive.",
+          "sourceIds": ["N7", "N9"],
+          "prompt": "In a fictional volunteer group, the equipment box was missing at two sessions and setup started late. You do not know why. You want a dependable arrangement for next week. Which opening best fits?",
+          "options": ["The box was missing twice and setup ran late; what happened?", "You are making us late because this is unpaid work.", "I will quietly bring everything forever so we avoid tension."],
+          "answer": 0,
+          "why": ["It describes the known issue and invites information before choosing a new arrangement.", "It assumes a motive that the facts do not establish.", "This may hide the problem and creates an indefinite commitment without checking its feasibility."],
+          "transfer": true
+        }
+      ]
+    },
+    {
+      "id": "u07l3",
+      "title": "Who gets a voice?",
+      "objective": "Recognize power differences and use relevant fairness criteria without assuming fairness means equal division.",
+      "takeaway": "Check who can understand, refuse, and bear the cost of an agreement.",
+      "fieldwork": "For a proposed agreement, name one affected person who is not at the table and one practical way to learn their needs.",
+      "items": [
+        {
+          "id": "u07l3-1",
+          "kind": "choice",
+          "title": "Make review possible",
+          "teach": "People can differ in information, authority, alternatives, and ability to wait. Improving the process can support informed choice without requiring every party to abandon a legitimate business limit.",
+          "say": "A firm offer can still leave room for an informed decision.",
+          "ethics": "Is a preventable process barrier keeping the other person from understanding the offer?",
+          "sourceIds": ["N4", "E1", "E3"],
+          "prompt": "A fictional agency has a genuine fixed budget and no deadline today. A first-time freelancer asks for the terms in writing and a day to review. The agency wants an informed decision without changing its budget. What best fits?",
+          "options": ["Require an immediate signature to test commitment.", "Automatically double the budget to equalize power.", "Provide the written terms and a day to review."],
+          "answer": 2,
+          "why": ["It adds avoidable pressure when no immediate deadline exists.", "The stated objective does not require changing the budget, and that may not be feasible.", "This removes a practical information and time barrier while preserving the real budget limit."],
+          "transfer": false
+        },
+        {
+          "id": "u07l3-2",
+          "kind": "choice",
+          "title": "Fair is not always half",
+          "teach": "Equal shares are one possible fairness criterion, not the only one. Relevant costs, needs, contributions, access, and consistent treatment may support different allocations; the criterion should be visible and open to challenge.",
+          "say": "Explain the fairness criterion, not just the final split.",
+          "ethics": "Would you apply the same relevant criterion when it favored the other party?",
+          "sourceIds": ["E1", "E2", "N1"],
+          "prompt": "In a fictional shared event, two teams agree in advance to split delivery costs by booked places. One books 30 places and the other 10; no other costs differ. Which statement accurately applies their chosen criterion?",
+          "options": ["An equal split is the only possible fair outcome.", "A 75%–25% split follows their agreed usage criterion.", "The team with 30 places must pay everything."],
+          "answer": 1,
+          "why": ["Equal division is a possible criterion, but it is not the one the parties chose here.", "Thirty of forty places is 75%; ten is 25%. This applies the criterion without claiming it is universally best.", "Using more places does not mean using all of them or assuming every cost."],
+          "transfer": false
+        },
+        {
+          "id": "u07l3-3",
+          "kind": "match",
+          "title": "Look outside the table",
+          "teach": "The people negotiating are not always the only people affected. A practical stakeholder check asks who approves, who delivers, who uses the result, and who carries a foreseeable burden.",
+          "say": "Ask whose work or choices this agreement changes.",
+          "ethics": "Do not let two signatures erase the needs of people who were absent.",
+          "sourceIds": ["N1", "E1"],
+          "prompt": "In a fictional college workshop, match each person with the question that most directly concerns their role.",
+          "pairs": [
+            ["Budget approver", "Can this spending commitment be authorized?"],
+            ["Workshop facilitators", "Can the promised sessions be delivered?"],
+            ["Student participants", "Can they use the format and choose whether to join?"],
+            ["Advisers assigned extra follow-up", "What workload will this agreement add?"]
+          ],
+          "explain": "Roles can overlap, and people can have several interests. The mapping is a prompt to check real effects rather than assume the signatories know every need.",
+          "transfer": false
+        },
+        {
+          "id": "u07l3-4",
+          "kind": "choice",
+          "title": "A convenient agreement for two",
+          "teach": "A proposal can suit both negotiators while shifting a burden to people outside the discussion. Before committing, check that burden and bring the affected people into the relevant decision.",
+          "say": "Two satisfied negotiators can still miss an affected group.",
+          "ethics": "Who has to make this work without having agreed to the added obligation?",
+          "sourceIds": ["N1", "E1"],
+          "prompt": "In a fictional partnership, a provider and college director agree that evening workshops are convenient. They require advisers to attend unpaid, but no one has checked advisers' availability or approval. What is the most useful step before commitment?",
+          "options": ["Check adviser workload, availability, and authorized staffing.", "Sign now because the two decision-makers agree.", "Assume an equal fee split makes every burden fair."],
+          "answer": 0,
+          "why": ["This examines the people and resources needed to make the proposal work before relying on their labor.", "Agreement between the signatories does not establish the feasibility or fairness of the staffing arrangement.", "How fees are split does not resolve an unexamined workload imposed on others."],
+          "transfer": true
+        }
+      ]
+    }
+  ]
+}
