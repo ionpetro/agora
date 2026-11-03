@@ -4,6 +4,21 @@ Sales and negotiation, with ethics throughout. Agora is a direct adaptation of t
 
 The app keeps the family's centered 560px frame, raised buttons, expressive mascot, daily goal ring, three bottom tabs, unit milestones, lesson stones, and final unit roundups. It uses the actual semantic learning engine and renderers rather than a separately designed dashboard.
 
+**Live:** https://agora-sales.vercel.app
+
+## Open source, and the family
+
+Agora is free and open source (MIT). **If it helps you, please [star the repo](https://github.com/ionpetro/agora)**: a star helps other people find it. Corrections and pull requests are welcome.
+
+Agora is one of six free, open-source learning apps built the same way (short daily lessons, spaced review, no account):
+
+- **Skepsis**: the Greek hiding in everyday English. [Play](https://skepsis-greek.vercel.app) · [GitHub](https://github.com/ionpetro/skepsis)
+- **Carpe**: Latin for Greece's national exams. [Play](https://carpe-latin.vercel.app) · [GitHub](https://github.com/ionpetro/carpe)
+- **Gnothi**: Ancient Greek for Greece's national exams. [Play](https://gnothi-greek.vercel.app) · [GitHub](https://github.com/ionpetro/gnothi)
+- **Objection**: prep for the US bar exam (MBE). [Play](https://objection-bar.vercel.app) · [GitHub](https://github.com/ionpetro/objection)
+- **Agora** (this one): sales and negotiation, with ethics. [Play](https://agora-sales.vercel.app) · [GitHub](https://github.com/ionpetro/agora)
+- **Oikos**: economics and incentives. [Play](https://oikos-azure-five.vercel.app) · [GitHub](https://github.com/ionpetro/oikos)
+
 ## Run
 
 No dependencies to install. Use a recent Node.js and Python 3:
@@ -63,7 +78,7 @@ The workflow follows the existing Claude recipe: research → curriculum → cop
 
 Progress, settings, mistake history, and reflections use browser-local storage. Export/import from Me provides a backup; there is no cross-device account sync. Sound is optional and off initially. System, light, and dark appearances are available. Fonts are fetched from Google Fonts, with local fallbacks. No app analytics or model service is loaded.
 
-The registered owner-private Site is configured by `.openai/hosting.json`; deployment packages only the built static files. The earlier custom-dashboard implementation was superseded following the user's design correction. Its review is clearly labeled as historical.
+Live on Vercel (project `agora-sales` in `ion-petropoulos-projects`): `vercel.json` builds with `node app/build.mjs` and serves only `dist/`; `.vercelignore` keeps research, tests and local work out of the upload. Deploy an update with `vercel deploy --prod --scope ion-petropoulos-projects`. The earlier custom-dashboard implementation was superseded following the user's design correction. Its review is clearly labeled as historical.
 
 ## Lineage
 
