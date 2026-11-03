@@ -4,7 +4,7 @@ Sales and negotiation, with ethics throughout. Agora is a direct adaptation of t
 
 The app keeps the family's centered 560px frame, raised buttons, expressive mascot, daily goal ring, three bottom tabs, unit milestones, lesson stones, and final unit roundups. It uses the actual semantic learning engine and renderers rather than a separately designed dashboard.
 
-**Live:** https://agora-sales.vercel.app
+**Live:** https://agora-sales-xi.vercel.app
 
 ## Open source, and the family
 
@@ -16,7 +16,7 @@ Agora is one of six free, open-source learning apps built the same way (short da
 - **Carpe**: Latin for Greece's national exams. [Play](https://carpe-latin.vercel.app) · [GitHub](https://github.com/ionpetro/carpe)
 - **Gnothi**: Ancient Greek for Greece's national exams. [Play](https://gnothi-greek.vercel.app) · [GitHub](https://github.com/ionpetro/gnothi)
 - **Objection**: prep for the US bar exam (MBE). [Play](https://objection-bar.vercel.app) · [GitHub](https://github.com/ionpetro/objection)
-- **Agora** (this one): sales and negotiation, with ethics. [Play](https://agora-sales.vercel.app) · [GitHub](https://github.com/ionpetro/agora)
+- **Agora** (this one): sales and negotiation, with ethics. [Play](https://agora-sales-xi.vercel.app) · [GitHub](https://github.com/ionpetro/agora)
 - **Oikos**: economics and incentives. [Play](https://oikos-azure-five.vercel.app) · [GitHub](https://github.com/ionpetro/oikos)
 
 ## Run
