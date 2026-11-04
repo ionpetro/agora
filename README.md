@@ -76,7 +76,7 @@ The workflow follows the existing Claude recipe: research → curriculum → cop
 
 ## Data and delivery
 
-Progress, settings, mistake history, and reflections use browser-local storage. Export/import from Me provides a backup; there is no cross-device account sync. Sound is optional and off initially. System, light, and dark appearances are available. Fonts are fetched from Google Fonts, with local fallbacks. No app analytics or model service is loaded.
+Progress, settings, mistake history, and reflections use browser-local storage. Export/import from Me provides a backup; there is no cross-device account sync. Sound is optional and off initially. System, light, and dark appearances are available. Fonts are fetched from Google Fonts, with local fallbacks. The production website sends visit and learning events to PostHog for Pulse. Names, reflections and typed answers are not sent; autocapture and session recordings are disabled. No model service is loaded.
 
 Live on Vercel (project `agora-sales` in `ion-petropoulos-projects`): `vercel.json` builds with `node app/build.mjs` and serves only `dist/`; `.vercelignore` keeps research, tests and local work out of the upload. Deploy an update with `vercel deploy --prod --scope ion-petropoulos-projects`. The earlier custom-dashboard implementation was superseded following the user's design correction. Its review is clearly labeled as historical.
 
